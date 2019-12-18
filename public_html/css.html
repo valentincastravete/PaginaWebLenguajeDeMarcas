@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Página Valentín</title>
+  <link rel="stylesheet" href="hoja_de_estilos.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  <ul id="menu">
+    <a id="paginaprincipalindex" href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a>
+    <a id="paginaprincipalhtml" href="html.html"><i class="fa fa-html5" aria-hidden="true"></i></a>
+    <a id="paginaprincipalcss" href="css.html"><i class="fa fa-css3" aria-hidden="true"></i></a>
+  </ul>
+  <br><br>
+
+  <h1 id="tituloprincipalcss">CSS</h1>
+  <br>
+
+
+  <h2>Estilo para HTML con CSS</h2>
+
+  <p class="textoExplicarCSS">HTML es utilizado para crear la estructura de una página web.</p>
+  <p class="textoExplicarCSS">Para darle formato, hay que usar CSS, hay varias formas de usarlo:</p>
+  <p class="textoExplicarCSS">Lo más recomendable es separar el archivo <q>html</q> y los estilos en un archivo <q>css</q> externo.</p>
+  <h4>Inline</h4>
+  <p>Usando el atributo "style" en elementos HTML.</p>
+  <p class="ejemplo">&lt;p style="color:red;">TEXTO&lt;p></p>
+  <h4>Internal</h4>
+  <p>Usando el elemento "style" dentro del elemento "head".</p>
+  <p class="ejemplo">&lt;head><br>&nbsp;&nbsp;&lt;style><br>&nbsp;&nbsp;p {color:red;}<br>&nbsp;&nbsp;&lt;/style><br>&lt;/head></p>
+  <h4>External</h4>
+  <p>Enlazando la página web a través del elemento "head" a un archivo <q>css</q> de donde se
+    aplicarán los estilos a nuestro archivo <q>html</q>.<br></p>
+  <p class="ejemplo">&lt;head><br>&lt;link rel="stylesheet" href="hoja_de_estilos.css"><br>&lt;/head></p>
+
+  <br>
+  <h2>Atributos</h2>
+
+  <p class="textoExplicarAtributosCSS">Usar siempre nombres de atributos en minúsculas.</p>
+  <p class="textoExplicarAtributosCSS">Se puede escribir un atributo sin englobarlos entre comillas, pero es recomendable usarlas siempre.</p>
+  <p class="textoExplicarAtributosCSS">Para poner comillas dobles ("") dentro de un atributo, se tiene que
+    englobar entre comillas simples(' ') y al revés igual; si queremos mostar
+    comillas simples, se engloba entre comillas dobles.</p>
+  <h4>id</h4>
+  <p>Identifica únicamente a un elemento.</p>
+  <p>Se usa para referirse a un elemento al cuál le das estilo tanto desde el elemento "head" o
+    desde un archivo externo <q>css</q>.</p>
+  <p class="ejemplo">&lt;p id="parrafoEjemplo1">TEXTO&lt;p></p><br>
+  <p class="ejemplo">#parrafoEjemplo1{<br>color:red;<br> }</p>
+  <p id="parrafoEjemplo1">Texto de ejemplo de "id"</p><br><br>
+
+  <h4>class</h4>
+  <p>Identifica de forma única a un conjunto de elementos que tengas este atributo.</p>
+  <p>Se usa para referirse a un conjunto de elementos a los cuales le das estilo tanto desde el elemento "head" o
+    desde un archivo externo <q>css</q>.</p>
+  <p class="ejemplo">&lt;p class="parrafoEjemplo2">TEXTO&lt;p></p><br>
+  <p class="ejemplo">&lt;p class="parrafoEjemplo2">OTRO TEXTO&lt;p></p><br>
+  <p class="ejemplo">.parrafoEjemplo2{<br>color:red;<br> }</p>
+  <p class="parrafoEjemplo2">Texto de ejemplo de "class"</p>
+  <p class="parrafoEjemplo2">Segundo texto de ejemplo de "class"</p><br><br>
+  <br>
+
+  <h2>style</h2>
+
+  <p>Se usa para dar dar estilos a un elemento HTML.<br>
+    <p class="ejemplo">&lt;p style="">&lt;p></p>
+    <br>
+
+
+    <h3>Atributos de style</h3>
+
+    <h4>background-color</h4>
+
+    <p>Utilizado para darle color de fondo a un elemento.</p>
+    <p class="ejemplo">&lt;p style="background-color:cyan;">TEXTO&lt;p></p>
+    <p id="elementoEjemploColorFondo">Soy un elemento con un fondo de
+      color azul.</p>
+    <br>
+
+    <h4>font-family</h4>
+    <p>Utilizado para asignar una fuente específica a un texto.</p>
+    <p class="ejemplo">&lt;p style="font-family:verdana;">TEXTO.&lt;/p></p>
+    <p id="textoEjemploFontFamily">Soy un texto con tipo de fuente verdana.</p>
+    <p>Para tener fuentes de Google Fonts en tu página web debes:</p>
+    <ul>
+      <li>Enlazar tu página desde el elemento &lt;head>, con la dirección de la fuente que quieras.</li>
+      <p class="ejemplo">&lt;link href="https://fonts.googleapis.com/css?family="TIPO FUENTE"&display=swap" rel="stylesheet"></p>
+      <li>Ponersela a un elemento con texto.</li>
+      <p class="ejemplo">&lt;p style="font-family: 'TIPO FUENTE', serif;">TEXTO.&lt;/p></p>
+    </ul>
+
+    <p id="ejemploGoogleFonts">Tengo una fuente diferente importada a través de un enlace a google fonts.</p>
+    <br>
+
+    <h4>font-size</h4>
+    <p>Utilizado para cambiar el tamaño del texto.</p>
+    <p class="ejemplo">&lt;p>style="font-size:200%;">Soy un texto ampliado a un 200%.&lt;/p></p>
+    <p id="textoEjemploTamaño">Soy un texto ampliado a un 200%.</p>
+    <br>
+
+    <h4>text-align</h4>
+    <p>Utilizado para alinear texto de un elemento.</p>
+    <p class="ejemplo">&lt;p style="text-align: center;">Soy un texto centrado.&lt;/p></p>
+    <p id="textoEjemploAlinear">Soy un párrafo centrado</p>
+    <br>
+
+    <h4>color</h4>
+
+    <p>Utilizado para darle color al texto de un elemento.</p>
+    <p class="ejemplo">&lt;p style="color: red">Texto rojo&lt;p></p>
+    <p id="ejemploColor">Soy un texto en rojo.</p>
+    <br>
+    <h3>Atributos de color</h3>
+
+    <h4>rgb(a)</h4>
+
+    <p>Da color a un texto o un fondo con el sistema RGB.</p>
+    <p class="ejemplo">&lt;p style="color: rgb(20, 170, 150);">Texto coloreado con rgb&lt;p></p>
+    <ul>
+      <li>El rango va de 0 a 255 en cada número.</li>
+    </ul>
+    <p id="textoEjemploColoreadoRGB">Soy un texto coloreado con rgb.</p>
+    <p class="ejemplo">&lt;p style="color: rgba(20, 170, 150, 1);">Texto coloreado con rgba&lt;p></p>
+    <ul>
+      <li>El cuarto número indica la transparencia del color. El rango va de 0 a 1.</li>
+    </ul>
+    <p id="textoEjemplo2ColoreadoRGB">Soy un texto coloreado con rgba.</p>
+    <br>
+
+
+    <h4>#</h4>
+
+    <p>Da color a un texto o un fondo con el sistema HEX.</p>
+    <p class="ejemplo">&lt;p style="color: #36F2C1";>Texto coloreado con #&lt;p></p>
+    <ul>
+      <li>El rango va de 00 a FF en cada par de números.</li>
+    </ul>
+    <p id="textoEjemploColoreadoHEX">Soy un texto coloreado por HEX.</p>
+    <br>
+
+
+    <h4>hsl(a)</h4>
+
+    <p>Da color a un texto o un fondo con el sistema HSL.</p>
+    <p class="ejemplo">&lt;p style="color: hsl:(150, 100%, 60%);">Texto coloreado con hsl&lt;p></p>
+    <ul>
+      <li>El rango va de 0 a 360 en el primer número, siendo 0, rojo, 120, verde y 240, azul.</li>
+      <br>
+      <li>De 0% a 100% en el segundo (indica la saturación del color).</li>
+      <br>
+      <li>El tercero va de 0% a 100% (indica el brillo del color).</li>
+    </ul>
+    <p id="textoEjemploColoreadoHSL">Soy un texto coloreado por hsl.</p>
+    <br>
+    <p class="ejemplo">&lt;p style="color: hsla(135, 100%, 60%, 0.9);">Texto coloreado con hsla&lt;p></p>
+    <ul>
+      <li>El cuarto va de 0 a 1 (indica la transparencia del color).</li>
+    </ul>
+    <br>
+    <p id="textoEjemploColoreadoHSLA">Soy un texto coloreado por hsla.</p>
+    <br>
+
+    <h3>Atributos de style</h3>
+
+    <h4>border</h4>
+
+    <p>Utilizado para crear un borde alrededor de un elemento.</p>
+    <p class="ejemplo">&lt;p style="border:5px solid aquamarine;">TEXTO&lt;p></p>
+    <p id="ejemploBorde">HTML</p>
+    <br>
+
+    <h4>padding</h4>
+
+    <p>Utilizado para el espacio entre el texto y el borde de un elemento.</p>
+    <p class="ejemplo">&lt;p style="border:5px solid aquamarine; padding: 30px;">TEXTO&lt;p></p>
+    <hr>
+    <p id="ejemploPadding">HTML</p>
+    <hr>
+    <br>
+
+    <h4>margin</h4>
+
+    <p>Utilizado para el espacio desde el borde hacia afuera del elemento.</p>
+    <p class="ejemplo">&lt;p style="border:5px solid aquamarine; margin: 60px;">TEXTO&lt;p></p>
+    <hr>
+    <p id="ejemploMargin">HTML</p>
+    <hr>
+    <br>
+
+    <h4>background-image</h4>
+    <p>Se usa en los elementos HTML para poner una imagen de fondo. En "url" indicas la ruta de la imagen.</p>
+    <p class="ejemplo">&lt;p style="background-image: url('img/fondo.png');">Imagen&lt;br><br>de&lt;br><br>Fondo&lt;br><br>con&lt;br><br>background-image&lt;/p> </p>
+    <p style="background-image: url('img/fondo.png');">Imagen<br>de<br>Fondo<br>con<br>background-image</p>
+
+    <h5>Atributos de background-image</h5>
+    <h6>background-repeat</h6>
+    <p>Decides si dejar que se repitan las imagenes de fondo, que es lo que hacen por defecto.</p>
+    <p class="ejemplo">&lt;p style="background-image: url('img/fondo.png'); background-repeat: no-repeat;">Imagen&lt;br><br>de&lt;br><br>Fondo&lt;br><br>con&lt;br><br>background-image&lt;/p> </p>
+    <p style="background-image: url('img/fondo.png'); background-repeat: no-repeat;">Imagen<br>de<br>Fondo<br>con<br>background-image</p>
+
+    <h6>background-size</h6>
+    <p>Indicas el tamaño de la imagen. En este apartado, si usas "cover" rellenará el elemento por completo.</p>
+    <p class="ejemplo">&lt;p style="background-image: url('img/fondo.png'); background-repeat: no-repeat; background-size: cover;">Imagen&lt;br><br>de&lt;br><br>Fondo&lt;br><br>con&lt;br><br>background-image&lt;/p> </p>
+    <p style="background-image: url('img/fondo.png'); background-repeat: no-repeat; background-size: cover;">Imagen<br>de<br>Fondo<br>con<br>background-image</p>
+
+    <h6>background stretch</h6>
+    <p>Para que ocupe lo visible del elemento, ponemos en "background-size": "100% 100%""</p>
+    <p class="ejemplo">&lt;p style="background-image: url('img/fondo.png'); background-repeat: no-repeat; background-size: 100% 100%;">Imagen&lt;br><br>de&lt;br><br>Fondo&lt;br><br>con&lt;br><br>background-image&lt;/p> </p>
+    <p style="background-image: url('img/fondo.png'); background-repeat: no-repeat; background-size: 100% 100%;">Imagen<br>de<br>Fondo<br>con<br>background-image</p>
+
+
+    <h2>Font Awesome</h2>
+    <p>Se inserta un icono de Font Awesome con &lt;i class=" fa nombreicono" aria-hidden="true"></i></p>
+    <p>Pero primero hay que enlazarlo a la carpeta descargada desde
+      <a href="https://fontawesome.com/v4.7.0/get-started/?utm_source=fontawesome4.7#modal-download" target="_blank">Descargar Font Awesome</a>
+      y escribir en el head de tu documento html &lt;link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css"></p>
+    <i class="fa fa-firefox" id="iconofirefox" aria-hidden="true"></i>
+</body>
+
+</html>
