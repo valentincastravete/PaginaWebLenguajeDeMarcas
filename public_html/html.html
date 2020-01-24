@@ -10,14 +10,11 @@
 </head>
 
 <body>
-  <ul id="menu">
-    <a id="paginaprincipalindex" href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a>
-    <a id="paginaprincipalhtml" href="html.html"><i class="fa fa-html5" aria-hidden="true"></i></a>
-    <a id="paginaprincipalcss" href="css.html"><i class="fa fa-css3" aria-hidden="true"></i></a>
-  </ul>
-  <br><br>
+  <iframe src="menu.html" name="menu" id="topIframe"></iframe>
+  <div id="separacion"></div>
   <h1 id="tituloprincipalhtml">HTML</h1><br>
 
+<div class="contenido">
   <h2>!DOCTYPE html</h2>
 
   <p>Esta etiqueta representa el tipo de documento y ayuda a los navegadores
@@ -191,7 +188,7 @@
   <p>Se puede ir mediante un link a un elemento específico de la página o de otras.</p>
   <ul>
     <li><b>Misma Página</b>:</li>
-    <p class="ejemplo">&lt;a href="#menu">IR AL MENÚ</a></p><br>
+    <p class="ejemplo">&lt;a href="#menu">IR AL MENÚ&lt;/a></p><br>
     <a href="#menu">IR AL MENÚ</a><br><br>
     <li><b>Página Diferente</b>:</li>
     <p class="ejemplo">&lt;a href="css.html/#elementoEjemploColorFondo">IR A BACKGROUND-COLOR del CSS&lt;/a></p><br>
@@ -307,359 +304,360 @@
     <area shape="rect" coords="34,44,270,350" alt="Ordenador" href="https://www.w3schools.com/html/computer.htm" target="_blank">
     <area shape="rect" coords="290,172,333,250" alt="Móvil" href="https://www.w3schools.com/html/phone.htm" target="_blank">
     <area shape="default" coords="337,300,44" alt="Taza de Café" href="https://www.w3schools.com/html/coffee.htm" target="_blank">
+  </map>
     <br>
 
-    <h2>button</h2>
+  <h2>button</h2>
 
-    <p>Una etiqueta para insertar botones.</p>
-    <p class="ejemplo">&lt;button>BOTÓN&lt;/button></p>
-    <br>
-    <button>BOTÓN </button>
-    <br>
+  <p>Una etiqueta para insertar botones.</p>
+  <p class="ejemplo">&lt;button>BOTÓN&lt;/button></p>
+  <br>
+  <button>BOTÓN </button>
+  <br>
 
 
 
-    <h2>ul y ol</h2>
+  <h2>ul y ol</h2>
 
-      <h3>ul</h3>
+  <h3>ul</h3>
 
-        <p>Una etiqueta para crear listas con viñetas desordenadas.</p>
-        <p class="ejemplo">&lt;ul><br>...<br>&lt;/ul></p>
-        <br>
-        <h4>list-style-type</h4>
-          <p>Se puede cambiar o quitar los marcadores de las listas desordenadas.</p>
-            <h5>disc</h5>
-              <p>Círculo relleno de color negro, usado por defecto.</p>
-              <pre class="ejemploPre">
+  <p>Una etiqueta para crear listas con viñetas desordenadas.</p>
+  <p class="ejemplo">&lt;ul><br>...<br>&lt;/ul></p>
+  <br>
+  <h4>list-style-type</h4>
+  <p>Se puede cambiar o quitar los marcadores de las listas desordenadas.</p>
+  <h5>disc</h5>
+  <p>Círculo relleno de color negro, usado por defecto.</p>
+  <pre class="ejemploPre">
 &lt;ul style="list-style-type:disc;">
   &lt;li>Café&lt;/li>
   &lt;li>Té&lt;/li>
   &lt;li>Leche&lt;/li>
 &lt;/ul>
               </pre>
-              <ul style="list-style-type:disc;">
-                <li>Café</li>
-                <li>Té</li>
-                <li>Leche</li>
-              </ul>
+  <ul style="list-style-type:disc;">
+    <li>Café</li>
+    <li>Té</li>
+    <li>Leche</li>
+  </ul>
 
 
-            <h5>circle</h5>
-              <p>Círculo negro vacío.</p>
-              <pre class="ejemploPre">
+  <h5>circle</h5>
+  <p>Círculo negro vacío.</p>
+  <pre class="ejemploPre">
 &lt;ul style="list-style-type:circle;">
   &lt;li>Café&lt;/li>
   &lt;li>Té&lt;/li>
   &lt;li>Leche&lt;/li>
 &lt;/ul>
               </pre>
-              <ul style="list-style-type:circle;">
-                <li>Café</li>
-                <li>Té</li>
-                <li>Leche</li>
-              </ul>
+  <ul style="list-style-type:circle;">
+    <li>Café</li>
+    <li>Té</li>
+    <li>Leche</li>
+  </ul>
 
 
-            <h5>square</h5>
-              <p>Cuadrados rellenos negros.</p>
-              <pre class="ejemploPre">
+  <h5>square</h5>
+  <p>Cuadrados rellenos negros.</p>
+  <pre class="ejemploPre">
 &lt;ul style="list-style-type:square;">
   &lt;li>Café&lt;/li>
   &lt;li>Té&lt;/li>
   &lt;li>Leche&lt;/li>
 &lt;/ul>
               </pre>
-              <ul style="list-style-type:square;">
-                <li>Café</li>
-                <li>Té</li>
-                <li>Leche</li>
-              </ul>
+  <ul style="list-style-type:square;">
+    <li>Café</li>
+    <li>Té</li>
+    <li>Leche</li>
+  </ul>
 
 
-            <h5>none</h5>
-              <p>No pone nada.</p>
-              <pre class="ejemploPre">
+  <h5>none</h5>
+  <p>No pone nada.</p>
+  <pre class="ejemploPre">
 &lt;ul style="list-style-type:none;">
   &lt;li>Café&lt;/li>
   &lt;li>Té&lt;/li>
   &lt;li>Leche&lt;/li>
 &lt;/ul>
               </pre>
-              <ul style="list-style-type:none;">
-                <li>Café</li>
-                <li>Té</li>
-                <li>Leche</li>
-              </ul>
+  <ul style="list-style-type:none;">
+    <li>Café</li>
+    <li>Té</li>
+    <li>Leche</li>
+  </ul>
 
 
 
-    <h3>ol</h3>
+  <h3>ol</h3>
 
-    <p>Una etiqueta para crear listas con viñetas ordenadas.</p>
-    <p class="ejemplo">&lt;ol><br>...<br>&lt;/ol></p>
-    <br>
-
-
-    <h3>Elementos de ul y ol</h3>
-    <h4>li</h4>
-
-    <p>Se usa para crear un elemento de una lista.</p>
-    <p class="ejemplo">&lt;ul>
-      <br>&nbsp;&nbsp;&lt;li>HTML&lt;/li>
-      <br>&nbsp;&nbsp;&lt;li>CSS&lt;/li>
-      <br>&lt;/ul></p>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-    </ul>
-    <p class="ejemplo">&lt;ol>
-      <br>&nbsp;&nbsp;&lt;/li>Primero&lt;/li>
-      <br>&nbsp;&nbsp;&lt;/li>Segundo&lt;/li>
-      <br>&lt;/ol></p>
-    <ol>
-      <li>Primero</li>
-      <li>Segundo</li>
-    </ol>
-    <br>
+  <p>Una etiqueta para crear listas con viñetas ordenadas.</p>
+  <p class="ejemplo">&lt;ol><br>...<br>&lt;/ol></p>
+  <br>
 
 
-    <h2>br</h2>
+  <h3>Elementos de ul y ol</h3>
+  <h4>li</h4>
 
-    <p>Esta etiqueta sirve para introducir un salto de línea.</p>
-    <p>Puede ser insertado dentro de un párrafo.</p>
-    <p class="ejemplo">&lt;br></p>
-    <br>
-
-
-    <h2>hr</h2>
-
-    <p>Coloca una línea en esa línea de página.</p>
-    <p class="ejemplo">&lt;hr></p>
-    <hr>
-    <br>
-
-
-    <h2>Comentarios</h2>
-
-    <p>Los comentarios se ocultan al mostrar la página web.</p>
-    <p class="ejemplo">&lt;!--Comentarios--></p>
-    <!--Esto es un comentario-->
-    <br>
-
-
-    <h2>head</h2>
-
-    <p>Una etiqueta que se utiliza para incluir un título para el
-      documento, scripts, estilos, meta-información, etc.</p>
-    <p class="ejemplo">&lt;head><br>...<br>&lt;/head></p>
-    <h3>Atributos de head</h3>
-    <h4>meta charset</h4>
-    <p>Indica la codificación del documento.</p>
-    <p class="ejemplo">&lt;head><br>&lt;meta charset="utf-8"><br>&lt;/head></p>
-    <h4>title</h4>
-    <p>Con esta etiqueta pondremos un título a la pestaña de la página web.</p>
-    <p class="ejemplo">&lt;head><br>&lt;title>Página Valentín&lt;/title><br>&lt;/head></p>
-    <h4>link</h4>
-    <p>Enlace a un archivo externo.</p>
-    <p class="ejemplo">&lt;head><br>&lt;link rel="stylesheet" href="hoja_de_estilos.css"><br>&lt;/head></p>
-    <p class="ejemplo">&lt;head><br>&lt;link href="https://fonts.googleapis.com/css?family="TIPO FUENTE"&display=swap" rel="stylesheet"><br>&lt;/head></p>
-    <p class="ejemplo">&lt;head><br>&lt;link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css"><br>&lt;/head></p>
+  <p>Se usa para crear un elemento de una lista.</p>
+  <p class="ejemplo">&lt;ul>
+    <br>&nbsp;&nbsp;&lt;li>HTML&lt;/li>
+    <br>&nbsp;&nbsp;&lt;li>CSS&lt;/li>
+    <br>&lt;/ul></p>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+  </ul>
+  <p class="ejemplo">&lt;ol>
+    <br>&nbsp;&nbsp;&lt;/li>Primero&lt;/li>
+    <br>&nbsp;&nbsp;&lt;/li>Segundo&lt;/li>
+    <br>&lt;/ol></p>
+  <ol>
+    <li>Primero</li>
+    <li>Segundo</li>
+  </ol>
+  <br>
 
 
-    <h2>Formato de Texto</h2>
+  <h2>br</h2>
 
-    <h3>pre</h3>
+  <p>Esta etiqueta sirve para introducir un salto de línea.</p>
+  <p>Puede ser insertado dentro de un párrafo.</p>
+  <p class="ejemplo">&lt;br></p>
+  <br>
 
-    <p>Se utiliza para mostar texto en una fuente de anchura fija y mantiene los
-      espacios y los saltos de línea."</p>
-    <p>Se puede utilizar en un archivo json para formatear la información si
-      esta estuviera desordenada."</p>
-    <p class="ejemplo">&lt;pre><br>...<br>&lt;/pre></p>
-    <pre>     Esto      está escrito
+
+  <h2>hr</h2>
+
+  <p>Coloca una línea en esa línea de página.</p>
+  <p class="ejemplo">&lt;hr></p>
+  <hr>
+  <br>
+
+
+  <h2>Comentarios</h2>
+
+  <p>Los comentarios se ocultan al mostrar la página web.</p>
+  <p class="ejemplo">&lt;!--Comentarios--></p>
+  <!--Esto es un comentario-->
+  <br>
+
+
+  <h2>head</h2>
+
+  <p>Una etiqueta que se utiliza para incluir un título para el
+    documento, scripts, estilos, meta-información, etc.</p>
+  <p class="ejemplo">&lt;head><br>...<br>&lt;/head></p>
+  <h3>Atributos de head</h3>
+  <h4>meta charset</h4>
+  <p>Indica la codificación del documento.</p>
+  <p class="ejemplo">&lt;head><br>&lt;meta charset="utf-8"><br>&lt;/head></p>
+  <h4>title</h4>
+  <p>Con esta etiqueta pondremos un título a la pestaña de la página web.</p>
+  <p class="ejemplo">&lt;head><br>&lt;title>Página Valentín&lt;/title><br>&lt;/head></p>
+  <h4>link</h4>
+  <p>Enlace a un archivo externo.</p>
+  <p class="ejemplo">&lt;head><br>&lt;link rel="stylesheet" href="hoja_de_estilos.css"><br>&lt;/head></p>
+  <p class="ejemplo">&lt;head><br>&lt;link href="https://fonts.googleapis.com/css?family="TIPO FUENTE"&display=swap" rel="stylesheet"><br>&lt;/head></p>
+  <p class="ejemplo">&lt;head><br>&lt;link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css"><br>&lt;/head></p>
+
+
+  <h2>Formato de Texto</h2>
+
+  <h3>pre</h3>
+
+  <p>Se utiliza para mostar texto en una fuente de anchura fija y mantiene los
+    espacios y los saltos de línea."</p>
+  <p>Se puede utilizar en un archivo json para formatear la información si
+    esta estuviera desordenada."</p>
+  <p class="ejemplo">&lt;pre><br>...<br>&lt;/pre></p>
+  <pre>     Esto      está escrito
                    de forma muy    desordenada gracias al elemento pre.
                  </pre>
-    <br>
+  <br>
 
-    <h3>b</h3>
-    <p>Usado para poner un texto en negrita.</p>
-    <p class="ejemplo">&lt;p>&lt;b>TEXTO&lt;/b>&lt;/p></p>
-    <p><b>Texto en negrita</b></p>
-    <br>
-
-
-    <h3>strong</h3>
-
-    <p>Usado para poner un texto en negrita, pero tiene mayor importancia que b.</p>
-    <p class="ejemplo">&lt;p>&lt;strong>TEXTO&lt;/strong>&lt;/p></p>
-    <p><strong>Texto en negrita con strong</strong></p>
-    <br>
+  <h3>b</h3>
+  <p>Usado para poner un texto en negrita.</p>
+  <p class="ejemplo">&lt;p>&lt;b>TEXTO&lt;/b>&lt;/p></p>
+  <p><b>Texto en negrita</b></p>
+  <br>
 
 
-    <h3>i</h3>
+  <h3>strong</h3>
 
-    <p>Usado para poner un texto en cursiva.</p>
-    <p class="ejemplo">&lt;p>&lt;i>TEXTO&lt;/i>&lt;/p></p>
-    <p><i>Texto en cursiva</i></p>
-    <br>
-
-
-    <h3>em</h3>
-
-    <p>Usado para poner un texto en cursiva, con importancia semántica.</p>
-    <p class="ejemplo">&lt;p>&lt;em>TEXTO&lt;/em>&lt;/p></p>
-    <p><em>Texto en cursiva con importancia semántica</em></p>
-    <br>
+  <p>Usado para poner un texto en negrita, pero tiene mayor importancia que b.</p>
+  <p class="ejemplo">&lt;p>&lt;strong>TEXTO&lt;/strong>&lt;/p></p>
+  <p><strong>Texto en negrita con strong</strong></p>
+  <br>
 
 
-    <h3>small</h3>
+  <h3>i</h3>
 
-    <p>Usado para poner un texto en pequeño respecto al demás texto.</p>
-    <p class="ejemplo">&lt;p>&lt;small>TEXTO&lt;/small>&lt;/p></p>
-    <p>Soy un <small>texto pequeño</small></p>
-    <br>
-
-
-    <h3>mark</h3>
-
-    <p>Usado para poner un texto en fosforito, es decir, marcarlo.</p>
-    <p class="ejemplo">&lt;p>&lt;mark>TEXTO&lt;/mark>&lt;/p></p>
-    <p>Texto <mark>MARCADO</mark></p>
-    <br>
+  <p>Usado para poner un texto en cursiva.</p>
+  <p class="ejemplo">&lt;p>&lt;i>TEXTO&lt;/i>&lt;/p></p>
+  <p><i>Texto en cursiva</i></p>
+  <br>
 
 
-    <h3>del</h3>
+  <h3>em</h3>
 
-    <p>Con este elemento se tacha un texto.</p>
-    <p class="ejemplo">&lt;p>&lt;del>TEXTO&lt;/del>&lt;/p></p>
-    <p><del>Texto tachado</del></p>
-    <br>
-
-
-    <h3>ins</h3>
-
-    <p>Usado para subarayan un texto.</p>
-    <p class="ejemplo">&lt;p>&lt;ins>TEXTO&lt;/ins>&lt;/p></p>
-    <p><ins>Texto subrayado</ins></p>
-    <br>
+  <p>Usado para poner un texto en cursiva, con importancia semántica.</p>
+  <p class="ejemplo">&lt;p>&lt;em>TEXTO&lt;/em>&lt;/p></p>
+  <p><em>Texto en cursiva con importancia semántica</em></p>
+  <br>
 
 
-    <h3>sub</h3>
+  <h3>small</h3>
 
-    <p>Usado para poner un texto en formato subíndice.</p>
-    <p class="ejemplo">&lt;p>&lt;sub>TEXTO&lt;/sub>&lt;/p></p>
-    <p>El texto de la derecha está en: <sub>subíndice</sub></p>
-    <br>
-
-
-    <h3>sup</h3>
-
-    <p>Usado para poner un texto en formato superíndice.</p>
-    <p class="ejemplo">&lt;p>&lt;sup>TEXTO&lt;/sup>&lt;/p></p>
-    <p>El texto de la derecha está en: <sup>superíndice</sup></p>
-    <br>
+  <p>Usado para poner un texto en pequeño respecto al demás texto.</p>
+  <p class="ejemplo">&lt;p>&lt;small>TEXTO&lt;/small>&lt;/p></p>
+  <p>Soy un <small>texto pequeño</small></p>
+  <br>
 
 
-    <h3>q</h3>
+  <h3>mark</h3>
 
-    <p>Con este elemento se cita un texto.</p>
-    <p class="ejemplo">&lt;p>&lt;q>TEXTO&lt;/q>&lt;/p></p>
-    <p>El texto de la derecha está citado: <q>CITA</q></p>
-    <br>
-
-
-    <h3>blockquote</h3>
-
-    <p>Elemento utilizado para citar en bloque, los navegadores le ponen sangría
-      a los elementos blockquote.</p>
-    <p class="ejemplo">&lt;p>&lt;blockquote>TEXTO&lt;/blockquote>&lt;/p></p>
-    <p>El texto a continuación es una citación en bloque: <blockquote>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae
-        risus eget dolor bibendum mattis in bibendum dui. Praesent faucibus justo
-        vel aliquam dapibus. Nunc facilisis venenatis egestas. Maecenas elit
-        dolor, pharetra vitae euismod ac, tempor id nisl. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus. Lorem ipsum dolor sit amet,
-        consectetur adipiscing elit. Pellentesque quis sem arcu. In eros tortor,
-        tincidunt eget mauris ac, placerat egestas lectus. Phasellus fermentum
-        ligula sit amet magna gravida commodo. Phasellus suscipit vestibulum
-        orci, consectetur pulvinar odio elementum et. Vivamus laoreet
-        faucibus lacus vel tristique. Etiam faucibus eu arcu eget iaculis.
-
-        Vivamus luctus bibendum volutpat. Mauris at tellus eget enim semper
-        faucibus at tempus purus. Proin et lectus ut nisi suscipit sagittis non
-        ac turpis.Pellentesque et orci enim. Morbi tempus dapibus bibendum. Sed
-        hendrerit sit amet purus quis ullamcorper. Curabitur et dolor ut libero
-        dignissim sollicitudin at sed felis. Sed gravida eget est a luctus. Ut
-        gravida mi id accumsan viverra.
-      </blockquote>
-    </p>
-    <br>
+  <p>Usado para poner un texto en fosforito, es decir, marcarlo.</p>
+  <p class="ejemplo">&lt;p>&lt;mark>TEXTO&lt;/mark>&lt;/p></p>
+  <p>Texto <mark>MARCADO</mark></p>
+  <br>
 
 
-    <h3>abbr</h3>
+  <h3>del</h3>
 
-    <p>Este elemento abrevia una palabra en otra. Si dejas el ratón encima
-      de la abreviación, podrás ver el texto completo de la abreviación ya que
-      se utiliza un "title" para este poder usar este elemento.</p>
-    <p class="ejemplo">&lt;p>&lt;abbr title="Título">TEXTO&lt;/abbr>&lt;/p></p>
-    <p>Deja tu ratón encima del texto rojo para saber el significado de sus
-      siglas: <abbr id="abreviaturaEjemploabbr" title="Hyper-Text Markup Language">HTML
-      </abbr></p>
-    <br>
+  <p>Con este elemento se tacha un texto.</p>
+  <p class="ejemplo">&lt;p>&lt;del>TEXTO&lt;/del>&lt;/p></p>
+  <p><del>Texto tachado</del></p>
+  <br>
 
 
-    <h3>address</h3>
+  <h3>ins</h3>
 
-    <p>Con este elemento se muestra información sobre el autor de un artíuclo
-      o documento. Se suele mostrar en cursiva y la mayoría de los navegadores
-      añaden un salto de línea antes y después de este elemento.</p>
-    <p class="ejemplo">&lt;p><br>&nbsp;&nbsp;&lt;address><br>&nbsp;&nbsp;TEXTO<br>&nbsp;&nbsp;&lt;/address><br>&lt;/p></p>
-    <address>
-      Escrito por <q>Valentín Castravete.</q><br><br>
-      Visita mi página web:<br> <q>valentincastravete.tk</q><br><br>
-      Si necesitas contactar conmigo, escribe a este correo: <br>
-      <q>valentincastravete@gmail.com</q><br>
-    </address>
-    <br>
+  <p>Usado para subarayan un texto.</p>
+  <p class="ejemplo">&lt;p>&lt;ins>TEXTO&lt;/ins>&lt;/p></p>
+  <p><ins>Texto subrayado</ins></p>
+  <br>
 
 
-    <h3>cite</h3>
+  <h3>sub</h3>
 
-    <p>Hace referencia a una fuente o al autor de un texto citado.
-      Los navegadores muestran estos elementos
-      en cursiva.</p>
-    <p class="ejemplo">&lt;p>&lt;cite>TEXTO&lt;/cite>&lt;/p></p>
-    <p>Este documento está escrito por <cite>Valentín Castravete</cite>.</p>
-    <br>
+  <p>Usado para poner un texto en formato subíndice.</p>
+  <p class="ejemplo">&lt;p>&lt;sub>TEXTO&lt;/sub>&lt;/p></p>
+  <p>El texto de la derecha está en: <sub>subíndice</sub></p>
+  <br>
 
 
-    <h3>bdo</h3>
+  <h3>sup</h3>
 
-    <p>Este elemento indica la orientación del texto, izquierda a derecha o al
-      revés.</p>
-    <p class="ejemplo">&lt;p>&lt;bdo dir="ltr">TEXTO&lt;/bdo>&lt;/p></p>
-    <p><bdo dir="ltr">Este texto curiosamente es igual escrito de izquierda a derecha que al
-        revés: <b><q>luz azul</q></b></bdo></p>
-    <p><bdo dir="rtl">Este texto curiosamente es igual escrito de izquierda a derecha que al
-        revés: <b><q>luz azul</q></b></bdo></p>
-    <br>
+  <p>Usado para poner un texto en formato superíndice.</p>
+  <p class="ejemplo">&lt;p>&lt;sup>TEXTO&lt;/sup>&lt;/p></p>
+  <p>El texto de la derecha está en: <sup>superíndice</sup></p>
+  <br>
 
-    <h2>table</h2>
-    <p>Elemento para crear tablas con celdas.</p>
 
-    <h3>Elementos de table</h3>
+  <h3>q</h3>
 
-    <h4>tr</h4>
-    <p>Elemento que representa una fila de la tabla.</p>
-    <pre class="ejemploPre">
+  <p>Con este elemento se cita un texto.</p>
+  <p class="ejemplo">&lt;p>&lt;q>TEXTO&lt;/q>&lt;/p></p>
+  <p>El texto de la derecha está citado: <q>CITA</q></p>
+  <br>
+
+
+  <h3>blockquote</h3>
+
+  <p>Elemento utilizado para citar en bloque, los navegadores le ponen sangría
+    a los elementos blockquote.</p>
+  <p class="ejemplo">&lt;p>&lt;blockquote>TEXTO&lt;/blockquote>&lt;/p></p>
+  <p>El texto a continuación es una citación en bloque: <blockquote>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae
+      risus eget dolor bibendum mattis in bibendum dui. Praesent faucibus justo
+      vel aliquam dapibus. Nunc facilisis venenatis egestas. Maecenas elit
+      dolor, pharetra vitae euismod ac, tempor id nisl. Interdum et malesuada
+      fames ac ante ipsum primis in faucibus. Lorem ipsum dolor sit amet,
+      consectetur adipiscing elit. Pellentesque quis sem arcu. In eros tortor,
+      tincidunt eget mauris ac, placerat egestas lectus. Phasellus fermentum
+      ligula sit amet magna gravida commodo. Phasellus suscipit vestibulum
+      orci, consectetur pulvinar odio elementum et. Vivamus laoreet
+      faucibus lacus vel tristique. Etiam faucibus eu arcu eget iaculis.
+
+      Vivamus luctus bibendum volutpat. Mauris at tellus eget enim semper
+      faucibus at tempus purus. Proin et lectus ut nisi suscipit sagittis non
+      ac turpis.Pellentesque et orci enim. Morbi tempus dapibus bibendum. Sed
+      hendrerit sit amet purus quis ullamcorper. Curabitur et dolor ut libero
+      dignissim sollicitudin at sed felis. Sed gravida eget est a luctus. Ut
+      gravida mi id accumsan viverra.
+    </blockquote>
+  </p>
+  <br>
+
+
+  <h3>abbr</h3>
+
+  <p>Este elemento abrevia una palabra en otra. Si dejas el ratón encima
+    de la abreviación, podrás ver el texto completo de la abreviación ya que
+    se utiliza un "title" para este poder usar este elemento.</p>
+  <p class="ejemplo">&lt;p>&lt;abbr title="Título">TEXTO&lt;/abbr>&lt;/p></p>
+  <p>Deja tu ratón encima del texto rojo para saber el significado de sus
+    siglas: <abbr id="abreviaturaEjemploabbr" title="Hyper-Text Markup Language">HTML
+    </abbr></p>
+  <br>
+
+
+  <h3>address</h3>
+
+  <p>Con este elemento se muestra información sobre el autor de un artíuclo
+    o documento. Se suele mostrar en cursiva y la mayoría de los navegadores
+    añaden un salto de línea antes y después de este elemento.</p>
+  <p class="ejemplo">&lt;p><br>&nbsp;&nbsp;&lt;address><br>&nbsp;&nbsp;TEXTO<br>&nbsp;&nbsp;&lt;/address><br>&lt;/p></p>
+  <address>
+    Escrito por <q>Valentín Castravete.</q><br><br>
+    Visita mi página web:<br> <q>valentincastravete.tk</q><br><br>
+    Si necesitas contactar conmigo, escribe a este correo: <br>
+    <q>valentincastravete@gmail.com</q><br>
+  </address>
+  <br>
+
+
+  <h3>cite</h3>
+
+  <p>Hace referencia a una fuente o al autor de un texto citado.
+    Los navegadores muestran estos elementos
+    en cursiva.</p>
+  <p class="ejemplo">&lt;p>&lt;cite>TEXTO&lt;/cite>&lt;/p></p>
+  <p>Este documento está escrito por <cite>Valentín Castravete</cite>.</p>
+  <br>
+
+
+  <h3>bdo</h3>
+
+  <p>Este elemento indica la orientación del texto, izquierda a derecha o al
+    revés.</p>
+  <p class="ejemplo">&lt;p>&lt;bdo dir="ltr">TEXTO&lt;/bdo>&lt;/p></p>
+  <p><bdo dir="ltr">Este texto curiosamente es igual escrito de izquierda a derecha que al
+      revés: <b><q>luz azul</q></b></bdo></p>
+  <p><bdo dir="rtl">Este texto curiosamente es igual escrito de izquierda a derecha que al
+      revés: <b><q>luz azul</q></b></bdo></p>
+  <br>
+
+  <h2>table</h2>
+  <p>Elemento para crear tablas con celdas.</p>
+
+  <h3>Elementos de table</h3>
+
+  <h4>tr</h4>
+  <p>Elemento que representa una fila de la tabla.</p>
+  <pre class="ejemploPre">
 &lt;table>
   &lt;tr>
   &lt;/tr>
 &lt;/table></pre>
 
 
-    <h4>th</h4>
-    <p>Elemento que representa una celda de encabezado de la tabla.</p>
-    <pre class="ejemploPre">
+  <h4>th</h4>
+  <p>Elemento que representa una celda de encabezado de la tabla.</p>
+  <pre class="ejemploPre">
 &lt;table>
   &lt;tr>
     &lt;th>...&lt;/h>
@@ -667,19 +665,19 @@
 &lt;/table></pre>
 
 
-    <h4>td</h4>
-    <p>Elemento que representa una celda en una columna de la tabla.</p>
-    <pre class="ejemploPre">
+  <h4>td</h4>
+  <p>Elemento que representa una celda en una columna de la tabla.</p>
+  <pre class="ejemploPre">
 &lt;table>
   &lt;tr>
     &lt;td>...&lt;/td>
   &lt;/tr>
 &lt;/table></pre>
 
-    <h4>caption</h4>
-    <p>Título de la tabla</p>
-    <h6>HTML</h6>
-    <pre class="ejemploPre">
+  <h4>caption</h4>
+  <p>Título de la tabla</p>
+  <h6>HTML</h6>
+  <pre class="ejemploPre">
 &lt;table>
   &lt;caption>Título&lt;/caption>
   &lt;tr>
@@ -691,8 +689,8 @@
     &lt;td>No&lt;/td>
   &lt;/tr>
 &lt;/table></pre>
-    <h6>CSS</h6>
-    <pre class="ejemploPre">
+  <h6>CSS</h6>
+  <pre class="ejemploPre">
 #ejemploTabla{
   border-collapse: collapse;
 }
@@ -702,25 +700,25 @@
   border-collapse: collapse;
   width: 100px;
 }</pre>
-    <table id="ejemploTabla">
-      <caption>Título</caption>
-      <tr>
-        <th>Hola</th>
-        <th>Adiós</th>
-      </tr>
-      <tr>
-        <td>Sí</td>
-        <td>No</td>
-      </tr>
-    </table>
-    <br><br>
+  <table id="ejemploTabla">
+    <caption>Título</caption>
+    <tr>
+      <th>Hola</th>
+      <th>Adiós</th>
+    </tr>
+    <tr>
+      <td>Sí</td>
+      <td>No</td>
+    </tr>
+  </table>
+  <br><br>
 
-    <h3>Atributos de th y td</h3>
+  <h3>Atributos de th y td</h3>
 
-    <h4>colspan</h4>
-    <p>Junta varias celdas en 1 en horizontal.</p>
-    <h6>HTML</h6>
-    <pre class="ejemploPre">
+  <h4>colspan</h4>
+  <p>Junta varias celdas en 1 en horizontal.</p>
+  <h6>HTML</h6>
+  <pre class="ejemploPre">
 &lt;table>
   &lt;tr>
     &lt;th colspan="2">Hola&lt;/th>
@@ -730,8 +728,8 @@
     &lt;td>No&lt;/td>
   &lt;/tr>
 &lt;/table></pre>
-    <h6>CSS</h6>
-    <pre class="ejemploPre">
+  <h6>CSS</h6>
+  <pre class="ejemploPre">
 #ejemploTablaColspan{
   border-collapse: collapse;
 }
@@ -741,21 +739,21 @@
   border-collapse: collapse;
   width: 100px;
 }</pre>
-    <table id="ejemploTablaColspan">
-      <caption>Título</caption>
-      <tr>
-        <th colspan="2">Hola</th>
-      </tr>
-      <tr>
-        <td>Sí</td>
-        <td>No</td>
-      </tr>
-    </table>
+  <table id="ejemploTablaColspan">
+    <caption>Título</caption>
+    <tr>
+      <th colspan="2">Hola</th>
+    </tr>
+    <tr>
+      <td>Sí</td>
+      <td>No</td>
+    </tr>
+  </table>
 
-    <h4>rowspan</h4>
-    <p>Junta varias celdas en 1 en vertical.</p>
-    <h6>HTML</h6>
-    <pre class="ejemploPre">
+  <h4>rowspan</h4>
+  <p>Junta varias celdas en 1 en vertical.</p>
+  <h6>HTML</h6>
+  <pre class="ejemploPre">
 &lt;table>
   &lt;caption>Título&lt;/caption>
   &lt;tr>
@@ -766,8 +764,8 @@
     &lt;td>No&lt;/td>
   &lt;/tr>
 &lt;/table></pre>
-    <h6>CSS</h6>
-    <pre class="ejemploPre">
+  <h6>CSS</h6>
+  <pre class="ejemploPre">
 #ejemploTablaRowspan{
   border-collapse: collapse;
 }
@@ -777,25 +775,25 @@
   border-collapse: collapse;
   width: 100px;
 }</pre>
-    <table id="ejemploTablaRowspan">
-      <caption>Título</caption>
-      <tr>
-        <th rowspan="2">Hola</th>
-        <th>Adiós</th>
-      </tr>
-      <tr>
-        <td>No</td>
-      </tr>
-    </table>
-    <br><br>
+  <table id="ejemploTablaRowspan">
+    <caption>Título</caption>
+    <tr>
+      <th rowspan="2">Hola</th>
+      <th>Adiós</th>
+    </tr>
+    <tr>
+      <td>No</td>
+    </tr>
+  </table>
+  <br><br>
 
 
-    <h3>Atributos de table</h3>
+  <h3>Atributos de table</h3>
 
-    <h4>border</h4>
-    <p>Sirve para modificar los bordes de las celdas o de la tabla, por defecto no tienen borde.</p>
-    <h6>HTML</h6>
-    <pre class="ejemploPre">
+  <h4>border</h4>
+  <p>Sirve para modificar los bordes de las celdas o de la tabla, por defecto no tienen borde.</p>
+  <h6>HTML</h6>
+  <pre class="ejemploPre">
 &lt;table>
   &lt;tr>
     &lt;th>Tabla&lt;/h>
@@ -803,8 +801,8 @@
     &lt;th>Borde&lt;/h>
   &lt;/tr>
 &lt;/table></pre>
-    <h6>CSS</h6>
-    <pre class="ejemploPre">
+  <h6>CSS</h6>
+  <pre class="ejemploPre">
 #ejemploTablaBorde{
   border: 1px solid black;
 }
@@ -813,18 +811,18 @@
   border: 1px solid red;
 }</pre>
 
-    <table id="ejemploTablaBorde">
-      <tr>
-        <td>Tabla</td>
-        <td>Ejemplo</td>
-        <td>Borde</td>
-      </tr>
-    </table>
+  <table id="ejemploTablaBorde">
+    <tr>
+      <td>Tabla</td>
+      <td>Ejemplo</td>
+      <td>Borde</td>
+    </tr>
+  </table>
 
-    <h4>border-collapse</h4>
-    <p>Sirve para que se superpongan los bordes y no creen un espacio entre ellos.</p>
-    <h6>HTML</h6>
-    <pre class="ejemploPre">
+  <h4>border-collapse</h4>
+  <p>Sirve para que se superpongan los bordes y no creen un espacio entre ellos.</p>
+  <h6>HTML</h6>
+  <pre class="ejemploPre">
 &lt;table>
   &lt;tr>
     &lt;th>Tabla&lt;/h>
@@ -832,8 +830,8 @@
     &lt;th>Borde&lt;/h>
   &lt;/tr>
 &lt;/table></pre>
-    <h6>CSS</h6>
-    <pre class="ejemploPre">
+  <h6>CSS</h6>
+  <pre class="ejemploPre">
 #ejemploTablaBorde{
   border: 1px solid black;
   border-collapse: collapse;
@@ -843,27 +841,27 @@
   border: 1px solid red;
 }</pre>
 
-    <table id="ejemploTablaBordeCollapse">
-      <tr>
-        <td>Tabla</td>
-        <td>Ejemplo</td>
-        <td>Borde</td>
-      </tr>
-    </table>
+  <table id="ejemploTablaBordeCollapse">
+    <tr>
+      <td>Tabla</td>
+      <td>Ejemplo</td>
+      <td>Borde</td>
+    </tr>
+  </table>
 
-    <h4>padding</h4>
-    <p>Añade espacio entre los bordes y el texto de cada celda.</p>
+  <h4>padding</h4>
+  <p>Añade espacio entre los bordes y el texto de cada celda.</p>
 
-    <h4>border-spacing</h4>
-    <p>Añade espacio entre los bordes.</p>
-    <br><br>
+  <h4>border-spacing</h4>
+  <p>Añade espacio entre los bordes.</p>
+  <br><br>
 
 
-    <h3>Estilos para table</h3>
-    <p>Asignandole una id única a la tabla, puedes editar su estilo de la siguiente manera.</p>
-    <p>Con tr:nth-chile(even) y tr:nth-chile(odd) puedes editar los estilos de las filas pares e impares por separado.</p>
-    <h6>HTML</h6>
-    <pre class="ejemploPre">
+  <h3>Estilos para table</h3>
+  <p>Asignandole una id única a la tabla, puedes editar su estilo de la siguiente manera.</p>
+  <p>Con tr:nth-chile(even) y tr:nth-chile(odd) puedes editar los estilos de las filas pares e impares por separado.</p>
+  <h6>HTML</h6>
+  <pre class="ejemploPre">
 &lt;table id="ejemploTablaEstilo">
   &lt;caption>Título&lt;/caption>
   &lt;tr>
@@ -883,8 +881,8 @@
     &lt;td>Impar&lt;/td>
   &lt;/tr>
 &lt;/table></pre>
-    <h6>CSS</h6>
-    <pre class="ejemploPre">
+  <h6>CSS</h6>
+  <pre class="ejemploPre">
 #ejemploTablaEstilo tr:nth-child(even){
     background-color: #ddd;
 }
@@ -909,238 +907,245 @@
     text-align: center;
 }</pre>
 
-    <table id="ejemploTablaEstilo">
-      <caption>Título</caption>
-      <tr>
-        <th>Hola</th>
-        <th>Adiós</th>
-      </tr>
-      <tr>
-        <td>Sí</td>
-        <td>No</td>
-      </tr>
-      <tr>
-        <td>Uno</td>
-        <td>Dos</td>
-      </tr>
-      <tr>
-        <td>Par</td>
-        <td>Impar</td>
-      </tr>
-    </table>
+  <table id="ejemploTablaEstilo">
+    <caption>Título</caption>
+    <tr>
+      <th>Hola</th>
+      <th>Adiós</th>
+    </tr>
+    <tr>
+      <td>Sí</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Uno</td>
+      <td>Dos</td>
+    </tr>
+    <tr>
+      <td>Par</td>
+      <td>Impar</td>
+    </tr>
+  </table>
 
 
-    <h3>Mi Horario</h3>
-    <table id="MiHorario">
-      <tr>
-        <th class="MiHorarioHoras">Horas</th>
-        <th class="MiHorarioDiaSemana">Lunes</th>
-        <th class="MiHorarioDiaSemana">Martes</th>
-        <th class="MiHorarioDiaSemana">Miércoles</th>
-        <th class="MiHorarioDiaSemana">Jueves</th>
-        <th class="MiHorarioDiaSemana">Viernes</th>
-      </tr>
-      <tr>
-        <td class="MiHorarioHoras">16:15<br>17:05</td>
-        <td rowspan="2" class="MiHorarioBasDat">Bases de Datos</td>
-        <td rowspan="2" class="MiHorarioProgr">Programación</td>
-        <td rowspan="2" class="MiHorarioSisInf">Sistemas Informáticos</td>
-        <td rowspan="2" class="MiHorarioProgr">Programación</td>
-        <td rowspan="2" class="MiHorarioProgr">Programación</td>
-      </tr>
-      <tr>
-        <td class="MiHorarioHoras">17:10<br>18:00</td>
-      </tr>
-      <tr>
-        <td class="MiHorarioHoras">18:05<br>18:55</td>
-        <td class="MiHorarioProgr">Programación</td>
-        <td class="MiHorarioBasDat">Bases de Datos</td>
-        <td class="MiHorarioLengMar">Lenguaje de Marcas</td>
-        <td class="MiHorarioSisInf">Sistemas Informáticos</td>
-        <td class="MiHorarioForOriLab">Formación y Orientación Laboral</td>
-      </tr>
-      <tr>
-        <td class="MiHorarioHoras">18:55<br>19:15</td>
-        <td id="recreo" colspan="5">RECREO</td>
-      </tr>
-      <tr>
-        <td class="MiHorarioHoras">19:20<br>20:10</td>
-        <td class="MiHorarioProgr">Programación</td>
-        <td class="MiHorarioBasDat">Bases de Datos</td>
-        <td rowspan="2" class="MiHorarioBasDat">Bases de Datos</td>
-        <td class="MiHorarioSisInf">Sistemas Informáticos</td>
-        <td class="MiHorarioForOriLab">Formación y Orientación Laboral</td>
-      </tr>
-      <tr>
-        <td class="MiHorarioHoras">20:15<br>21:05</td>
-        <td class="MiHorarioForOriLab">Formación y Orientación Laboral</td>
-        <td class="MiHorarioSisInf">Sistemas Informáticos</td>
-        <td rowspan="2" class="MiHorarioEntDes">Entornos de Desarrollo</td>
-        <td rowspan="2" class="MiHorarioLengMar">Lenguaje de Marcas</td>
-      </tr>
-      <tr>
-        <td class="MiHorarioHoras">21:10<br>22:00</td>
-        <td class="MiHorarioIng">Inglés Técnico</td>
-        <td class="MiHorarioIng">Inglés Técnico</td>
-        <td class="MiHorarioEntDes">Entornos de Desarrollo</td>
-      </tr>
-    </table>
+  <h3>Mi Horario</h3>
+  <table id="MiHorario">
+    <tr>
+      <th class="MiHorarioHoras">Horas</th>
+      <th class="MiHorarioDiaSemana">Lunes</th>
+      <th class="MiHorarioDiaSemana">Martes</th>
+      <th class="MiHorarioDiaSemana">Miércoles</th>
+      <th class="MiHorarioDiaSemana">Jueves</th>
+      <th class="MiHorarioDiaSemana">Viernes</th>
+    </tr>
+    <tr>
+      <td class="MiHorarioHoras">16:15<br>17:05</td>
+      <td rowspan="2" class="MiHorarioBasDat">Bases de Datos</td>
+      <td rowspan="2" class="MiHorarioProgr">Programación</td>
+      <td rowspan="2" class="MiHorarioSisInf">Sistemas Informáticos</td>
+      <td rowspan="2" class="MiHorarioProgr">Programación</td>
+      <td rowspan="2" class="MiHorarioProgr">Programación</td>
+    </tr>
+    <tr>
+      <td class="MiHorarioHoras">17:10<br>18:00</td>
+    </tr>
+    <tr>
+      <td class="MiHorarioHoras">18:05<br>18:55</td>
+      <td class="MiHorarioProgr">Programación</td>
+      <td class="MiHorarioBasDat">Bases de Datos</td>
+      <td class="MiHorarioLengMar">Lenguaje de Marcas</td>
+      <td class="MiHorarioSisInf">Sistemas Informáticos</td>
+      <td class="MiHorarioForOriLab">Formación y Orientación Laboral</td>
+    </tr>
+    <tr>
+      <td class="MiHorarioHoras">18:55<br>19:15</td>
+      <td id="recreo" colspan="5">RECREO</td>
+    </tr>
+    <tr>
+      <td class="MiHorarioHoras">19:20<br>20:10</td>
+      <td class="MiHorarioProgr">Programación</td>
+      <td class="MiHorarioBasDat">Bases de Datos</td>
+      <td rowspan="2" class="MiHorarioBasDat">Bases de Datos</td>
+      <td class="MiHorarioSisInf">Sistemas Informáticos</td>
+      <td class="MiHorarioForOriLab">Formación y Orientación Laboral</td>
+    </tr>
+    <tr>
+      <td class="MiHorarioHoras">20:15<br>21:05</td>
+      <td class="MiHorarioForOriLab">Formación y Orientación Laboral</td>
+      <td class="MiHorarioSisInf">Sistemas Informáticos</td>
+      <td rowspan="2" class="MiHorarioEntDes">Entornos de Desarrollo</td>
+      <td rowspan="2" class="MiHorarioLengMar">Lenguaje de Marcas</td>
+    </tr>
+    <tr>
+      <td class="MiHorarioHoras">21:10<br>22:00</td>
+      <td class="MiHorarioIng">Inglés Técnico</td>
+      <td class="MiHorarioIng">Inglés Técnico</td>
+      <td class="MiHorarioEntDes">Entornos de Desarrollo</td>
+    </tr>
+  </table>
 
-    <h3>Ejercicio de Tabla</h3>
-    <table id="EjercicioTabla1">
-      <tr>
-        <td></td>
-        <td rowspan="2" id="Parte1EjercicioTabla1">HOLA
-        <td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td id="Parte2EjercicioTabla1"><bdo dir="rtl">ADIÓS</bdo></td>
-        <td rowspan="2">
-          <p id="Parte3Texto1EjercicioTabla1">PEDRO EL GUAPO</p>
-        </td>
-        <td id="Parte4EjercicioTabla1">CARACOLA</td>
-        <td></td>
-        <td id="Parte5EjercicioTabla1">
-          <p id="Parte5Texto1EjercicioTabla1">R</p>
-        </td>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td colspan="3" id="Parte6EjercicioTabla1">HTML</td>
-      </tr>
-      <tr>
-        <td colspan="2" rowspan="2" id="Parte7EjercicioTabla1"> <img src="img/logoLOL.png" alt="Logo de League Of Legends" id="Parte7Imagen1EjercicioTabla1"></td>
-        <td></td>
-        <td rowspan="3" id="Parte8EjercicioTabla1">
-          <i class="fa-stack fa-lg">
-            <i class="fa fa-trash-o fa-stack-2x" id="basuraIcono" aria-hidden="true"></i>
-            <i class="fa fa-instagram fa-stack-1x" id="instagramIcono" aria-hidden="true"></i>
-          </i>
-        </td>
-        <td></td>
-        <td id="Parte9EjercicioTabla1"></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-    </table>
-    <br><br><br><br><br><br><br><br><br><br><br>
-    <table id="EjercicioTabla2">
-      <tr>
-        <td rowspan="9" id="Celda1EjercicioTabla2"></td>
-        <td id="Celda2EjercicioTabla2">
-          <h1 id="titulo1Celda2EjercicioTabla2">CUANDO EL GRAJO...</h1>
-        </td>
-        <td rowspan="9" id="Celda3EjercicioTabla2"></td>
-      </tr>
-      <tr>
-        <td id="separadorCeldasEjercicioTabla2"></td>
-      </tr>
-      <tr>
-        <td>
-          <p id="texto1Celda2EjercicioTabla2">&emsp;&emsp;&emsp;
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum
-            lorem in ligula euismod dignissim. Suspendisse nec dapibus orci. Proin aliquam
-            nunc quis vehicula placerat. Pellentesque dapibus est eu est mattis, eu rhoncus
-            arcu tincidunt. Suspendisse fermentum eros non risus interdum, eu sagittis velit
-            commodo. Nulla tempus id diam eu scelerisque. Proin cursus ullamcorper nisi,
-            non posuere turpis tempor ut. Orci varius natoque penatibus et magnis dis
-            parturient montes, nascetur ridiculus mus. Nunc commodo libero ac suscipit
-            aliquet. Morbi nunc elit, placerat id ipsum eget, consectetur ultricies leo.
-            Nulla at aliquam nunc. Nullam tristique ipsum maximus massa tincidunt euismod.
-            Proin auctor suscipit rhoncus.
+  <h3>Ejercicio de Tabla</h3>
+  <table id="EjercicioTabla1">
+    <tr>
+      <td></td>
+      <td rowspan="2" id="Parte1EjercicioTabla1">HOLA
+      <td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td id="Parte2EjercicioTabla1"><bdo dir="rtl">ADIÓS</bdo></td>
+      <td rowspan="2">
+        <p id="Parte3Texto1EjercicioTabla1">PEDRO EL GUAPO</p>
+      </td>
+      <td id="Parte4EjercicioTabla1">CARACOLA</td>
+      <td></td>
+      <td id="Parte5EjercicioTabla1">
+        <p id="Parte5Texto1EjercicioTabla1">R</p>
+      </td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td colspan="3" id="Parte6EjercicioTabla1">HTML</td>
+    </tr>
+    <tr>
+      <td colspan="2" rowspan="2" id="Parte7EjercicioTabla1"> <img src="img/logoLOL.png" alt="Logo de League Of Legends" id="Parte7Imagen1EjercicioTabla1"></td>
+      <td></td>
+      <td rowspan="3" id="Parte8EjercicioTabla1">
+        <i class="fa-stack fa-lg">
+          <i class="fa fa-trash-o fa-stack-2x" id="basuraIcono" aria-hidden="true"></i>
+          <i class="fa fa-instagram fa-stack-1x" id="instagramIcono" aria-hidden="true"></i>
+        </i>
+      </td>
+      <td></td>
+      <td id="Parte9EjercicioTabla1"></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+  <br><br><br><br><br><br><br><br><br><br><br>
+  <table id="EjercicioTabla2">
+    <tr>
+      <td rowspan="9" id="Celda1EjercicioTabla2"></td>
+      <td id="Celda2EjercicioTabla2">
+        <h1 id="titulo1Celda2EjercicioTabla2">CUANDO EL GRAJO...</h1>
+      </td>
+      <td rowspan="9" id="Celda3EjercicioTabla2"></td>
+    </tr>
+    <tr>
+      <td id="separadorCeldasEjercicioTabla2"></td>
+    </tr>
+    <tr>
+      <td>
+        <p id="texto1Celda2EjercicioTabla2">&emsp;&emsp;&emsp;
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum
+          lorem in ligula euismod dignissim. Suspendisse nec dapibus orci. Proin aliquam
+          nunc quis vehicula placerat. Pellentesque dapibus est eu est mattis, eu rhoncus
+          arcu tincidunt. Suspendisse fermentum eros non risus interdum, eu sagittis velit
+          commodo. Nulla tempus id diam eu scelerisque. Proin cursus ullamcorper nisi,
+          non posuere turpis tempor ut. Orci varius natoque penatibus et magnis dis
+          parturient montes, nascetur ridiculus mus. Nunc commodo libero ac suscipit
+          aliquet. Morbi nunc elit, placerat id ipsum eget, consectetur ultricies leo.
+          Nulla at aliquam nunc. Nullam tristique ipsum maximus massa tincidunt euismod.
+          Proin auctor suscipit rhoncus.
 
-            Mauris semper nunc nec orci malesuada, in porta erat porttitor. Praesent nec
-            pretium erat. In sodales egestas turpis a convallis. Proin varius, mi ac efficitur
-            tempor, turpis ex vestibulum erat, vel semper justo ipsum in arcu. Nulla vitae
-            dolor vehicula, sodales orci vel, vulputate orci. Sed eleifend dui urna, a maximus
-            velit efficitur vel. Donec cursus massa ac turpis porttitor ornare sit amet in
-            risus. Integer vestibulum ligula arcu, id euismod urna tincidunt at. </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="separadorCeldasEjercicioTabla2"></td>
-      </tr>
-      <tr>
-        <td>
-          <p id="texto1Celda2EjercicioTabla2">&emsp;&emsp;&emsp;Vuela bajo...
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum
-            lorem in ligula euismod dignissim. Suspendisse nec dapibus orci. Proin aliquam
-            nunc quis vehicula placerat. Pellentesque dapibus est eu est mattis, eu rhoncus
-            arcu tincidunt. Suspendisse fermentum eros non risus interdum, eu sagittis velit
-            commodo. Nulla tempus id diam eu scelerisque. Proin cursus ullamcorper nisi,
-            non posuere turpis tempor ut. Orci varius natoque penatibus et magnis dis
-            parturient montes, nascetur ridiculus mus. Nunc commodo libero ac suscipit
-            aliquet. Morbi nunc elit, placerat id ipsum eget, consectetur ultricies leo.
-            Nulla at aliquam nunc. Nullam tristique ipsum maximus massa tincidunt euismod.
-            Proin auctor suscipit rhoncus.
+          Mauris semper nunc nec orci malesuada, in porta erat porttitor. Praesent nec
+          pretium erat. In sodales egestas turpis a convallis. Proin varius, mi ac efficitur
+          tempor, turpis ex vestibulum erat, vel semper justo ipsum in arcu. Nulla vitae
+          dolor vehicula, sodales orci vel, vulputate orci. Sed eleifend dui urna, a maximus
+          velit efficitur vel. Donec cursus massa ac turpis porttitor ornare sit amet in
+          risus. Integer vestibulum ligula arcu, id euismod urna tincidunt at. </p>
+      </td>
+    </tr>
+    <tr>
+      <td id="separadorCeldasEjercicioTabla2"></td>
+    </tr>
+    <tr>
+      <td>
+        <p id="texto1Celda2EjercicioTabla2">&emsp;&emsp;&emsp;Vuela bajo...
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum
+          lorem in ligula euismod dignissim. Suspendisse nec dapibus orci. Proin aliquam
+          nunc quis vehicula placerat. Pellentesque dapibus est eu est mattis, eu rhoncus
+          arcu tincidunt. Suspendisse fermentum eros non risus interdum, eu sagittis velit
+          commodo. Nulla tempus id diam eu scelerisque. Proin cursus ullamcorper nisi,
+          non posuere turpis tempor ut. Orci varius natoque penatibus et magnis dis
+          parturient montes, nascetur ridiculus mus. Nunc commodo libero ac suscipit
+          aliquet. Morbi nunc elit, placerat id ipsum eget, consectetur ultricies leo.
+          Nulla at aliquam nunc. Nullam tristique ipsum maximus massa tincidunt euismod.
+          Proin auctor suscipit rhoncus.
 
-            Mauris semper nunc nec orci malesuada, in porta erat porttitor. Praesent nec
-            pretium erat. In sodales egestas turpis a convallis. Proin varius, mi ac efficitur
-            tempor, turpis ex vestibulum erat, vel semper justo ipsum in arcu. Nulla vitae
-            dolor vehicula, sodales orci vel, vulputate orci. Sed eleifend dui urna, a maximus
-            velit efficitur vel. Donec cursus massa ac turpis porttitor ornare sit amet in
-            risus. Integer vestibulum ligula arcu, id euismod urna tincidunt at. </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="separadorCeldasEjercicioTabla2"></td>
-      </tr>
-      <tr>
-        <td><img src="img/paisaje1.webp" alt="Paisaje" id="imagen1Celda2EjercicioTabla2">
-          <p id="texto2Celda2EjercicioTabla2">Un paisaje vectorial dibujado.</p>
-        </td>
-      </tr>
-      <tr>
-        <td id="separadorCeldasEjercicioTabla2"></td>
-      </tr>
-      <tr>
-        <td>
-          <p id="texto1Celda2EjercicioTabla2">&emsp;&emsp;&emsp;
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum
-            lorem in ligula euismod dignissim. Suspendisse nec dapibus orci. Proin aliquam
-            nunc quis vehicula placerat. Pellentesque dapibus est eu est mattis, eu rhoncus
-            arcu tincidunt. Suspendisse fermentum eros non risus interdum, eu sagittis velit
-            commodo. Nulla tempus id diam eu scelerisque. Proin cursus ullamcorper nisi,
-            non posuere turpis tempor ut. Orci varius natoque penatibus et magnis dis
-            parturient montes, nascetur ridiculus mus. Nunc commodo libero ac suscipit
-            aliquet. Morbi nunc elit, placerat id ipsum eget, consectetur ultricies leo.
-            Nulla at aliquam nunc. Nullam tristique ipsum maximus massa tincidunt euismod.
-            Proin auctor suscipit rhoncus.
+          Mauris semper nunc nec orci malesuada, in porta erat porttitor. Praesent nec
+          pretium erat. In sodales egestas turpis a convallis. Proin varius, mi ac efficitur
+          tempor, turpis ex vestibulum erat, vel semper justo ipsum in arcu. Nulla vitae
+          dolor vehicula, sodales orci vel, vulputate orci. Sed eleifend dui urna, a maximus
+          velit efficitur vel. Donec cursus massa ac turpis porttitor ornare sit amet in
+          risus. Integer vestibulum ligula arcu, id euismod urna tincidunt at. </p>
+      </td>
+    </tr>
+    <tr>
+      <td id="separadorCeldasEjercicioTabla2"></td>
+    </tr>
+    <tr>
+      <td><img src="img/paisaje1.webp" alt="Paisaje" id="imagen1Celda2EjercicioTabla2">
+        <p id="texto2Celda2EjercicioTabla2">Un paisaje vectorial dibujado.</p>
+      </td>
+    </tr>
+    <tr>
+      <td id="separadorCeldasEjercicioTabla2"></td>
+    </tr>
+    <tr>
+      <td>
+        <p id="texto1Celda2EjercicioTabla2">&emsp;&emsp;&emsp;
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum
+          lorem in ligula euismod dignissim. Suspendisse nec dapibus orci. Proin aliquam
+          nunc quis vehicula placerat. Pellentesque dapibus est eu est mattis, eu rhoncus
+          arcu tincidunt. Suspendisse fermentum eros non risus interdum, eu sagittis velit
+          commodo. Nulla tempus id diam eu scelerisque. Proin cursus ullamcorper nisi,
+          non posuere turpis tempor ut. Orci varius natoque penatibus et magnis dis
+          parturient montes, nascetur ridiculus mus. Nunc commodo libero ac suscipit
+          aliquet. Morbi nunc elit, placerat id ipsum eget, consectetur ultricies leo.
+          Nulla at aliquam nunc. Nullam tristique ipsum maximus massa tincidunt euismod.
+          Proin auctor suscipit rhoncus.
 
-            Mauris semper nunc nec orci malesuada, in porta erat porttitor. Praesent nec
-            pretium erat. In sodales egestas turpis a convallis. Proin varius, mi ac efficitur
-            tempor, turpis ex vestibulum erat, vel semper justo ipsum in arcu. Nulla vitae
-            dolor vehicula, sodales orci vel, vulputate orci. Sed eleifend dui urna, a maximus
-            velit efficitur vel. Donec cursus massa ac turpis porttitor ornare sit amet in
-            risus. Integer vestibulum ligula arcu, id euismod urna tincidunt at. </p>
-        </td>
-      </tr>
-    </table>
-    <br><br><br>
-    <h2>Exámen 1ª Evaluación</h2>
-    <div class="examenes">
-      <a class="linkexamen" href="examen1_valentin_castravete\index_1_examen.html" target="_blank"><i class="fa fa-file-text" aria-hidden="true"></i> Sin Corregir</a>
-      <a class="linkexamen" href="examen1_valentin_castravete\index_1_examen_corregido.html" target="_blank"><i class="fa fa-file-text" aria-hidden="true"></i> Corregido</a>
+          Mauris semper nunc nec orci malesuada, in porta erat porttitor. Praesent nec
+          pretium erat. In sodales egestas turpis a convallis. Proin varius, mi ac efficitur
+          tempor, turpis ex vestibulum erat, vel semper justo ipsum in arcu. Nulla vitae
+          dolor vehicula, sodales orci vel, vulputate orci. Sed eleifend dui urna, a maximus
+          velit efficitur vel. Donec cursus massa ac turpis porttitor ornare sit amet in
+          risus. Integer vestibulum ligula arcu, id euismod urna tincidunt at. </p>
+      </td>
+    </tr>
+  </table>
+  <br><br><br>
+  <h2>Exámen 1ª Evaluación</h2>
+  <div class="examenes">
+    <a class="linkexamen" href="examen1_valentin_castravete\index_1_examen.html" target="_blank"><i class="fa fa-file-text" aria-hidden="true"></i> Sin Corregir</a>
+    <a class="linkexamen" href="examen1_valentin_castravete\index_1_examen_corregido.html" target="_blank"><i class="fa fa-file-text" aria-hidden="true"></i> Corregido</a>
+  </div>
+  </div>
+  <br><br><br>
+  <div id="footer">
+    <p id="textoFooter">Página Web de Valentín Castravete</p>
+  <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_top">
+    <img alt="Licencia Creative Commons" id="imagenCC"
+    src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />
+    Esta obra está bajo una <a rel="license"
+    href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_top">
+    Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional</a>.
     </div>
     <br><br><br>
-
-
-
-
-
+    <script src="nospam.js"></script>
   </body>
 </html>
