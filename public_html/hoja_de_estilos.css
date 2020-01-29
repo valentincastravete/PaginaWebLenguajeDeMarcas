@@ -59,6 +59,10 @@ a:visited, a:link{
   color:black;
 }
 
+a:hover{
+  color:white;
+}
+
 .centrarTexto{
   text-align: center;
 }
