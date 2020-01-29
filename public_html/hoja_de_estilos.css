@@ -1,7 +1,7 @@
 #menu{
   height: 110px;
   width: 100%;
-  background-color: #FFE6D5;
+  background-color: #FFC999;
   padding: 0;
   margin: 0;
 }
@@ -88,7 +88,6 @@ iframe[name="menu"]{
 .linkexamen:link, .linkexamen{
   font-size: 30px;
   text-decoration: none;
-  background-color: black;
   padding: 10px;
   margin-left: 100px;
   margin-right: 100px;
