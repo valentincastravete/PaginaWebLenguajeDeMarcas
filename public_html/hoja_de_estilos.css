@@ -92,9 +92,6 @@ iframe[name="menu"]{
 .linkexamen:link, .linkexamen{
   font-size: 30px;
   text-decoration: none;
-  padding: 10px;
-  margin-left: 100px;
-  margin-right: 100px;
 }
 
 .linkexamen:hover{
@@ -104,10 +101,19 @@ iframe[name="menu"]{
   padding: 10px;
 }
 
-.examenes{
-  text-align: center;
+#linkSinCorregir{
+  position: absolute;
+  margin-left: 35%;
 }
 
+#linkCorregido{
+  position: absolute;
+  margin-left: 55%;
+}
+
+.examenes{
+  height: 60px;
+}
 
 h1{
   font-family: 'Roboto Slab', serif;
