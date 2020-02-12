@@ -11,118 +11,122 @@
 
 <body>
   <iframe src="menu.html" name="menu" id="topIframe"></iframe>
-  <div id="separacion"></div>
-  <h1 id="tituloprincipalhtml">HTML</h1><br>
+  <div class="separacion"></div>
+  <h1 id="tituloprincipalhtml">HTML</h1>
 
 <div class="contenido">
+  <section>
   <h2>!DOCTYPE html</h2>
 
   <p>Esta etiqueta representa el tipo de documento y ayuda a los navegadores
-    a visualizar páginas web correctamente. <br>Se debe escribir al principio
+    a visualizar páginas web correctamente. Se debe escribir al principio
     del documento html.</p>
-  <p class="ejemplo">&lt;!DOCTYPE html></p>
-  <br>
+  <div class="ejemplo"><p>&lt;!DOCTYPE html></p></div>
+  </section>
 
 
+  <section>
   <h2>html</h2>
 
   <p>Esta etiqueta se introduce después de la tag !DOCTYPE html y se
     cierra al final documento html.</p>
-  <p class="ejemplo">&lt;html><br>...<br>&lt;/html></p>
+  <div class="ejemplo"><p>&lt;html>...&lt;/html></p></div>
 
   <h3>Atributos de html</h3>
   <h4>lang</h4>
 
   <p>Sirve para identificar una página html con un idioma específico.</p>
-  <p class="ejemplo">&lt;html lang="es"><br>...<br>&lt;/html></p>
+  <div class="ejemplo"><p>&lt;html lang="es">...&lt;/html></p></div>
 
 
   <h4>dir</h4>
 
   <p>Indica la dirección del texto. ltr, de izquierda a derecha y rtl, de derecha a izquierda.</p>
-  <p class="ejemplo">&lt;html dir="ltr"><br>...<br>&lt;/html></p>
-  <br>
+  <div class="ejemplo"><p>&lt;html dir="ltr">...&lt;/html></p></div>
+  </section>
 
 
+  <section>
   <h2>body</h2>
 
   <p>Esta etiqueta se utiliza para la parte visible del documento html.</p>
-  <p class="ejemplo">&lt;body><br>...<br>&lt;/body></p>
-  <br>
+  <div class="ejemplo"><p>&lt;body>...&lt;/body></p></div>
+  </section>
 
 
+  <section>
   <h2>h</h2>
 
-  <p>Una etiqueta utilizada para convertir texto en título de cabezera.<br>
-    <br>Los tamaños van de h1-h6.<br>Dependiendo del número, cuando más cerca del "h6", más pequeño.</p>
-  <p class="ejemplo">&lt;h1>...&lt;/h1></p>
-  <br>
+  <p>Una etiqueta utilizada para convertir texto en título de cabezera.
+    Los tamaños van de h1-h6.Dependiendo del número, cuando más cerca del "h6", más pequeño.</p>
+  <div class="ejemplo"><p>&lt;h1>...&lt;/h1></p></div>
+  </section>
 
 
+  <section>
   <h2>p</h2>
 
   <p>Una etiqueta utilizada para escribir un párrafo.</p>
-  <p class="ejemplo">&lt;p>..<br>...<br>..&lt;/p></p>
+  <div class="ejemplo"><p>&lt;p>.......&lt;/p></p></div>
 
   <h3>Atributos de p</h3>
   <h4>title</h4>
 
   <p>Si dejas el ratón encima del texto, te saldrá una pequeña descripción.</p>
-  <p class="ejemplo">&lt;p title="World Wide Web">WWW&lt;/p></p>
+  <div class="ejemplo"><p>&lt;p title="World Wide Web">WWW&lt;/p></p></div>
   <p title="World Wide Web">WWW</p>
-  <br>
+  </section>
 
 
+  <section>
   <h2>a</h2>
 
   <p>Es una etiqueta utilizada para vínculos a otras páginas web.</p>
-  <p class="ejemplo">&lt;a>...&lt;/a></p>
+  <div class="ejemplo"><p>&lt;a>...&lt;/a></p></div>
 
   <h3>Atributos de a</h3>
   <h4>href</h4>
   <p>Indica la dirección de la página web.</p>
-  <p class="ejemplo">&lt;a href="https://www.google.com"> Google &lt;/a></p>
+  <div class="ejemplo"><p>&lt;a href="https://www.google.com"> Google &lt;/a></p></div>
   <p>Esto es un enlace: <a href="https://google.com">Google</a>.</p>
   <h4>target</h4>
-  <p>Las atributos target especifican dónde abrir el documento vinculado.<br><br>
-
-    El atributo <q>target</q> puede tener uno de los siguientes valores:<br><br>
-    <ul>
-      <li>
-        <p><b>_blank</b> - Abre el documento vinculado en una nueva ventana o pestaña.</p>
-      </li>
-      <li>
-        <p><b>_self</b> - Abre el documento vinculado en la misma ventana/pestaña en la que se ha hecho clic (predeterminado para los links).</p>
-      </li>
-      <li>
-        <p><b>_parent</b> - Abre el documento vinculado en el marco padre.</p>
-      </li>
-      <li>
-        <p><b>_top</b> - Abre el documento vinculado en el cuerpo completo de la ventana.</p>
-      </li>
-      <li>
-        <p><b>framename</b> - Abre el documento vinculado en un marco con nombre.</p>
-      </li>
-    </ul>
-  </p>
+  <p>Las atributos target especifican dónde abrir el documento vinculado.</p>
+  <p>El atributo <q>target</q> puede tener uno de los siguientes valores:</p>
+  <ul>
+    <li>
+      <p><b>_blank</b> - Abre el documento vinculado en una nueva ventana o pestaña.</p>
+    </li>
+    <li>
+      <p><b>_self</b> - Abre el documento vinculado en la misma ventana/pestaña en la que se ha hecho clic (predeterminado para los links).</p>
+    </li>
+    <li>
+      <p><b>_parent</b> - Abre el documento vinculado en el marco padre.</p>
+    </li>
+    <li>
+      <p><b>_top</b> - Abre el documento vinculado en el cuerpo completo de la ventana.</p>
+    </li>
+    <li>
+      <p><b>framename</b> - Abre el documento vinculado en un marco con nombre.</p>
+    </li>
+  </ul>
 
   <h4>Image as Link</h4>
   <p>Se usa una imagen como link.</p>
-  <p class="ejemplo">&lt;a href="https://es.wikipedia.org/wiki/HTML5" target="_blank"><br>&nbsp;&nbsp;&lt;img src="img/html5.png" style="width:100px;"><br>&lt;/a></p><br>
+  <div class="ejemplo"><p>&lt;a href="https://es.wikipedia.org/wiki/HTML5" target="_blank">&nbsp;&nbsp;&lt;img src="img/html5.png" style="width:100px;">&lt;/a></p></div>
   <a href="https://es.wikipedia.org/wiki/HTML5" target="_blank">
-    <img src="img/html5.png" id="ejemploImagenLink">
+    <img src="img/html5.png" id="ejemploImagenLink" alt="HTML5">
   </a>
-  <br>
+
 
 
   <h4>Color link</h4>
   <p>Por defecto, aparecerá un enlace como este (en todos los navegadores):</p>
   <p>Un enlace no visitado está subrayado y azul.</p>
-  <p class="ejemplo"><a href="https://www.outlook.com">Outlook</a></p>
+  <div class="ejemplo"><p><a href="https://www.outlook.com">Outlook</a></p></div>
   <p>Un enlace visitado es subrayado y morado.</p>
-  <p class="ejemplo"><a href="https://www.google.com">Google</a></p>
+  <div class="ejemplo"><p><a href="https://www.google.com">Google</a></p></div>
   <p>Un vínculo activo es subrayado y rojo.</p>
-  <p class="ejemplo">Haz click en este <q><a href="html.html">link</a></q> sin soltarlo</p><br>
+  <div class="ejemplo"><p>Haz click en este <q><a href="html.html">link</a></q> sin soltarlo</p></div>
   <p>Para cambiar estos estilos y otro más, cambiaremos los apartados link, visited, hover y active.</p>
   <ul>
     <li><b>link</b>: como se muestra el link sin haberse visitado y sin tocarlo.</li>
@@ -130,7 +134,8 @@
     <li><b>active</b>: como se muestra el link cuando se está haciendo click sobre él.</li>
     <li><b>hover</b>: como se muestra el link cuando está el ratón encima de él pero sin hacer click. </li>
   </ul>
-  <pre class="ejemploPre">
+  <div class="ejemploPre">
+  <pre>
 &lt;style>
     a:link {
        color: green;
@@ -155,9 +160,9 @@
        background-color: transparent;
        text-decoration: none;
     }
- &lt;/style> </pre><br>
+ &lt;/style> </pre></div>
   <a href="https://www.microsoft.com" target="_blank" id="ejemploEstiloLink">Microsoft</a>
-  <br>
+
 
 
 
@@ -165,9 +170,10 @@
 
   <p>Una manera de que un link parezca un botón.</p>
   <p class="tituloBotonLink">HTML:</p>
-  <p class="ejemplo">&lt;a href="index.html" target="_blank" id="ejemploBotonLink">HOME&lt;/a></p>
+  <div class="ejemplo"><p>&lt;a href="index.html" target="_blank" id="ejemploBotonLink">HOME&lt;/a></p></div>
   <p class="tituloBotonLink">CSS:</p>
-  <pre class="ejemploPre">
+  <div class="ejemploPre">
+  <pre>
 #ejemploBotonLink:link, #ejemploBotonLink:visited {
   background-color: red;
   color: white;
@@ -179,8 +185,9 @@
 #ejemploBotonLink:hover, #ejemploBotonLink:active{
   background-color: aqua;
   color: black;
-}</pre>
-  <br><br><br>
+}</pre></div>
+
+
   <a href="index.html" target="_blank" id="ejemploBotonLink">HOME</a>
 
 
@@ -188,61 +195,66 @@
   <p>Se puede ir mediante un link a un elemento específico de la página o de otras.</p>
   <ul>
     <li><b>Misma Página</b>:</li>
-    <p class="ejemplo">&lt;a href="#menu">IR AL MENÚ&lt;/a></p><br>
-    <a href="#menu">IR AL MENÚ</a><br><br>
-    <li><b>Página Diferente</b>:</li>
-    <p class="ejemplo">&lt;a href="css.html/#elementoEjemploColorFondo">IR A BACKGROUND-COLOR del CSS&lt;/a></p><br>
-    <a href="css.html/#elementoEjemploColorFondo">IR A BACKGROUND-COLOR del CSS</a>
   </ul>
+    <div class="ejemplo"><p>&lt;a href="#menu">IR AL MENÚ&lt;/a></p></div>
+    <a href="#menu">IR AL MENÚ</a>
+  <ul>
+    <li><b>Página Diferente</b>:</li>
+  </ul>
+    <div class="ejemplo"><p>&lt;a href="css.html/#elementoEjemploColorFondo">IR A BACKGROUND-COLOR del CSS&lt;/a></p></div>
+    <a href="css.html/#elementoEjemploColorFondo">IR A BACKGROUND-COLOR del CSS</a>
+  </section>
 
-
+  <section>
   <h2>img</h2>
 
   <p>Una etiqueta para mostrar imágenes.</p>
-  <p class="ejemplo">&lt;img></p>
+  <div class="ejemplo"><p>&lt;img></p></div>
 
 
   <h3>Atributos de img</h3>
   <h4>src</h4>
 
   <p>Indica la ruta de la imagen.</p>
-  <p class="ejemplo">&lt;img src="img/html5.png"></p>
+  <div class="ejemplo"><p>&lt;img src="img/html5.png"></p></div>
 
   <h4>alt</h4>
 
-  <p>Texto alternativo si no se ve la imagen.<br><br>También los lectores de pantalla lo leen para gente sin visión.</p>
-  <p class="ejemplo">&lt;img alt="Imagen de HTML5"></p>
+  <p>Texto alternativo si no se ve la imagen.También los lectores de pantalla lo leen para gente sin visión.</p>
+  <div class="ejemplo"><p>&lt;img alt="Imagen de HTML5"></p></div>
 
   <h4>width</h4>
 
   <p>Anchura de la imagen.</p>
-  <p class="ejemplo">&lt;img width="180px"></p>
+  <div class="ejemplo"><p>&lt;img width="180px"></p></div>
 
   <h4>height</h4>
 
   <p>Altura de la imagen.</p>
-  <p class="ejemplo">&lt;img height="180px"></p>
+  <div class="ejemplo"><p>&lt;img height="180px"></p></div>
 
   <h4>float</h4>
   <p>Utilizar la propiedad CSS float para dejar flotar la imagen a la derecha o a la izquierda de un texto</p>
   <p>Se puede usar con bloques como div y span</p>
-  <br>
+
   <div class="ejemplo" id="ejemploDivFloat1">
-    <img src="img/html5.png" width="180px" height="180px" id="ejemploFloat1imagen">
+    <img src="img/html5.png" id="ejemploFloat1imagen" alt="HTML5">
     <p id="ejemploFloat1texto">Un texto de ejemplo</p>
-  </div><br>
+  </div>
   <h5>HTML</h5>
-  <pre class="ejemploPre">&lt;div class="ejemplo" id="ejemploDivFloat2">
+  <div class="ejemploPre">
+  <pre>&lt;div class="ejemplo" id="ejemploDivFloat2">
     &lt;p>Texto ejemplo&lt;/p>
     &lt;div id="ejemploFloat2">&lt;/div>
     &lt;p>Texto ejemplo&lt;/p>
     &lt;div id="ejemploFloat3">&lt;/div>
     &lt;p>Texto ejemplo&lt;/p>
     &lt;div id="ejemploFloat4">&lt;/div>
-  &lt;/div></pre>
-  <br>
+  &lt;/div></pre></div>
+
   <h5>CSS</h5>
-  <pre class="ejemploPre">#ejemploDivFloat2{
+  <div class="ejemploPre">
+  <pre class="">#ejemploDivFloat2{
     width: 500px;
   }
 
@@ -265,9 +277,10 @@
     width: 100px;
     height:100px;
     float:right;
-  }</pre>
-  <br>
-  <div class="ejemplo" id="ejemploDivFloat2">
+  }</pre></div>
+
+
+  <div id="ejemploDivFloat2">
     <p>Texto ejemplo</p>
     <div id="ejemploFloat2"></div>
     <p>Texto ejemplo</p>
@@ -278,11 +291,11 @@
 
   <h4>map</h4>
   <p>Se utiliza para, con unas coordenadas, crear un link a una página o lugar de la misma.</p>
-  <br>
+
   <p>Declaramos un mapa con:</p>
-  <p class="ejemplo">&lt;map name="workmap"></p><br><br>
+  <div class="ejemplo"><p>&lt;map name="workmap"></p></div>
   <p>Se le asigna a una imagen:</p>
-  <p class="ejemplo">&lt;img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379"></p><br>
+  <div class="ejemplo"><p>&lt;img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379"></p></div>
   <h5>area</h5>
   <h6>shape</h6>
   <p>Hay diferentes formas:</p>
@@ -294,47 +307,51 @@
   </ul>
   <h6>coords</h6>
   <p>Con las coordenadas indicamos el área que ocupa cada forma.</p>
-  <pre class="ejemploPre">&lt;img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+  <div class="ejemploPre">
+  <pre>&lt;img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
     &lt;map name="workmap">
     &lt;area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
     &lt;area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
-    &lt;area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm"></pre><br><br><br>
+    &lt;area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm"></pre></div>
   <img src="img/workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
   <map name="workmap">
     <area shape="rect" coords="34,44,270,350" alt="Ordenador" href="https://www.w3schools.com/html/computer.htm" target="_blank">
     <area shape="rect" coords="290,172,333,250" alt="Móvil" href="https://www.w3schools.com/html/phone.htm" target="_blank">
-    <area shape="default" coords="337,300,44" alt="Taza de Café" href="https://www.w3schools.com/html/coffee.htm" target="_blank">
+    <area shape="circle" coords="337,300,44" alt="Taza de Café" href="https://www.w3schools.com/html/coffee.htm" target="_blank">
   </map>
-  <br>
+  </section>
 
+
+  <section>
   <h2>button</h2>
 
   <p>Una etiqueta para insertar botones.</p>
-  <p class="ejemplo">&lt;button>BOTÓN&lt;/button></p>
-  <br>
+  <div class="ejemplo"><p>&lt;button>BOTÓN&lt;/button></p></div>
+
   <button>BOTÓN </button>
-  <br>
+  </section>
 
 
 
+  <section>
   <h2>ul y ol</h2>
 
   <h3>ul</h3>
 
   <p>Una etiqueta para crear listas con viñetas desordenadas.</p>
-  <p class="ejemplo">&lt;ul><br>...<br>&lt;/ul></p>
-  <br>
+  <div class="ejemplo"><p>&lt;ul>...&lt;/ul></p></div>
+
   <h4>list-style-type</h4>
   <p>Se puede cambiar o quitar los marcadores de las listas desordenadas.</p>
   <h5>disc</h5>
   <p>Círculo relleno de color negro, usado por defecto.</p>
-  <pre class="ejemploPre">
+  <div class="ejemploPre">
+  <pre>
 &lt;ul style="list-style-type:disc;">
   &lt;li>Café&lt;/li>
   &lt;li>Té&lt;/li>
   &lt;li>Leche&lt;/li>
-&lt;/ul>
-              </pre>
+&lt;/ul></pre></div>
   <ul style="list-style-type:disc;">
     <li>Café</li>
     <li>Té</li>
@@ -344,13 +361,14 @@
 
   <h5>circle</h5>
   <p>Círculo negro vacío.</p>
-  <pre class="ejemploPre">
+  <div class="ejemploPre">
+  <pre>
 &lt;ul style="list-style-type:circle;">
   &lt;li>Café&lt;/li>
   &lt;li>Té&lt;/li>
   &lt;li>Leche&lt;/li>
 &lt;/ul>
-              </pre>
+</pre></div>
   <ul style="list-style-type:circle;">
     <li>Café</li>
     <li>Té</li>
@@ -360,13 +378,14 @@
 
   <h5>square</h5>
   <p>Cuadrados rellenos negros.</p>
-  <pre class="ejemploPre">
+  <div class="ejemploPre">
+  <pre>
 &lt;ul style="list-style-type:square;">
   &lt;li>Café&lt;/li>
   &lt;li>Té&lt;/li>
   &lt;li>Leche&lt;/li>
 &lt;/ul>
-              </pre>
+</pre></div>
   <ul style="list-style-type:square;">
     <li>Café</li>
     <li>Té</li>
@@ -376,13 +395,14 @@
 
   <h5>none</h5>
   <p>No pone nada.</p>
-  <pre class="ejemploPre">
+  <div class="ejemploPre">
+  <pre class="">
 &lt;ul style="list-style-type:none;">
   &lt;li>Café&lt;/li>
   &lt;li>Té&lt;/li>
   &lt;li>Leche&lt;/li>
 &lt;/ul>
-              </pre>
+</pre></div>
   <ul style="list-style-type:none;">
     <li>Café</li>
     <li>Té</li>
@@ -394,76 +414,81 @@
   <h3>ol</h3>
 
   <p>Una etiqueta para crear listas con viñetas ordenadas.</p>
-  <p class="ejemplo">&lt;ol><br>...<br>&lt;/ol></p>
-  <br>
+  <div class="ejemplo"><p>&lt;ol>...&lt;/ol></p></div>
+
 
 
   <h3>Elementos de ul y ol</h3>
   <h4>li</h4>
 
   <p>Se usa para crear un elemento de una lista.</p>
-  <p class="ejemplo">&lt;ul>
-    <br>&nbsp;&nbsp;&lt;li>HTML&lt;/li>
-    <br>&nbsp;&nbsp;&lt;li>CSS&lt;/li>
-    <br>&lt;/ul></p>
+  <div class="ejemplo"><p>&lt;ul>
+    &nbsp;&nbsp;&lt;li>HTML&lt;/li>
+    &nbsp;&nbsp;&lt;li>CSS&lt;/li>
+    &lt;/ul></p></div>
   <ul>
     <li>HTML</li>
     <li>CSS</li>
   </ul>
-  <p class="ejemplo">&lt;ol>
-    <br>&nbsp;&nbsp;&lt;/li>Primero&lt;/li>
-    <br>&nbsp;&nbsp;&lt;/li>Segundo&lt;/li>
-    <br>&lt;/ol></p>
+  <div class="ejemplo"><p>&lt;ol>
+    &nbsp;&nbsp;&lt;/li>Primero&lt;/li>
+    &nbsp;&nbsp;&lt;/li>Segundo&lt;/li>
+    &lt;/ol></p></div>
   <ol>
     <li>Primero</li>
     <li>Segundo</li>
   </ol>
-  <br>
+  </section>
 
 
+  <section>
   <h2>br</h2>
 
   <p>Esta etiqueta sirve para introducir un salto de línea.</p>
   <p>Puede ser insertado dentro de un párrafo.</p>
-  <p class="ejemplo">&lt;br></p>
-  <br>
+  <div class="ejemplo"><p>&lt;br></p></div>
+  </section>
 
 
+  <section>
   <h2>hr</h2>
 
   <p>Coloca una línea en esa línea de página.</p>
-  <p class="ejemplo">&lt;hr></p>
+  <div class="ejemplo"><p>&lt;hr></p></div>
   <hr>
-  <br>
+  </section>
 
 
+  <section>
   <h2>Comentarios</h2>
 
   <p>Los comentarios se ocultan al mostrar la página web.</p>
-  <p class="ejemplo">&lt;!--Comentarios--></p>
+  <div class="ejemplo"><p>&lt;!--Comentarios--></p></div>
   <!--Esto es un comentario-->
-  <br>
+  </section>
 
 
+  <section>
   <h2>head</h2>
 
   <p>Una etiqueta que se utiliza para incluir un título para el
     documento, scripts, estilos, meta-información, etc.</p>
-  <p class="ejemplo">&lt;head><br>...<br>&lt;/head></p>
+  <div class="ejemplo"><p>&lt;head>...&lt;/head></p></div>
   <h3>Atributos de head</h3>
   <h4>meta charset</h4>
   <p>Indica la codificación del documento.</p>
-  <p class="ejemplo">&lt;head><br>&lt;meta charset="utf-8"><br>&lt;/head></p>
+  <div class="ejemplo"><p>&lt;head>&lt;meta charset="utf-8">&lt;/head></p></div>
   <h4>title</h4>
   <p>Con esta etiqueta pondremos un título a la pestaña de la página web.</p>
-  <p class="ejemplo">&lt;head><br>&lt;title>Página Valentín&lt;/title><br>&lt;/head></p>
+  <div class="ejemplo"><p>&lt;head>&lt;title>Página Valentín&lt;/title>&lt;/head></p></div>
   <h4>link</h4>
   <p>Enlace a un archivo externo.</p>
-  <p class="ejemplo">&lt;head><br>&lt;link rel="stylesheet" href="hoja_de_estilos.css"><br>&lt;/head></p>
-  <p class="ejemplo">&lt;head><br>&lt;link href="https://fonts.googleapis.com/css?family="TIPO FUENTE"&display=swap" rel="stylesheet"><br>&lt;/head></p>
-  <p class="ejemplo">&lt;head><br>&lt;link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css"><br>&lt;/head></p>
+  <div class="ejemplo"><p>&lt;head>&lt;link rel="stylesheet" href="hoja_de_estilos.css">&lt;/head></p></div>
+  <div class="ejemplo"><p>&lt;head>&lt;link href="https://fonts.googleapis.com/css?family="TIPO FUENTE"&display=swap" rel="stylesheet">&lt;/head></p></div>
+  <div class="ejemplo"><p>&lt;head>&lt;link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">&lt;/head></p></div>
+  </section>
 
-
+  <section>
   <h2>Formato de Texto</h2>
 
   <h3>pre</h3>
@@ -472,105 +497,105 @@
     espacios y los saltos de línea."</p>
   <p>Se puede utilizar en un archivo json para formatear la información si
     esta estuviera desordenada."</p>
-  <p class="ejemplo">&lt;pre><br>...<br>&lt;/pre></p>
+  <div class="ejemplo"><p>&lt;pre>...&lt;/pre></p></div>
   <pre>     Esto      está escrito
                    de forma muy    desordenada gracias al elemento pre.
                  </pre>
-  <br>
+
 
   <h3>b</h3>
   <p>Usado para poner un texto en negrita.</p>
-  <p class="ejemplo">&lt;p>&lt;b>TEXTO&lt;/b>&lt;/p></p>
+  <div class="ejemplo"><p>&lt;p>&lt;b>TEXTO&lt;/b>&lt;/p></p></div>
   <p><b>Texto en negrita</b></p>
-  <br>
+
 
 
   <h3>strong</h3>
 
   <p>Usado para poner un texto en negrita, pero tiene mayor importancia que b.</p>
-  <p class="ejemplo">&lt;p>&lt;strong>TEXTO&lt;/strong>&lt;/p></p>
+  <div class="ejemplo"><p>&lt;p>&lt;strong>TEXTO&lt;/strong>&lt;/p></p></div>
   <p><strong>Texto en negrita con strong</strong></p>
-  <br>
+
 
 
   <h3>i</h3>
 
   <p>Usado para poner un texto en cursiva.</p>
-  <p class="ejemplo">&lt;p>&lt;i>TEXTO&lt;/i>&lt;/p></p>
+  <div class="ejemplo"><p>&lt;p>&lt;i>TEXTO&lt;/i>&lt;/p></p></div>
   <p><i>Texto en cursiva</i></p>
-  <br>
+
 
 
   <h3>em</h3>
 
   <p>Usado para poner un texto en cursiva, con importancia semántica.</p>
-  <p class="ejemplo">&lt;p>&lt;em>TEXTO&lt;/em>&lt;/p></p>
+  <div class="ejemplo"><p>&lt;p>&lt;em>TEXTO&lt;/em>&lt;/p></p></div>
   <p><em>Texto en cursiva con importancia semántica</em></p>
-  <br>
+
 
 
   <h3>small</h3>
 
   <p>Usado para poner un texto en pequeño respecto al demás texto.</p>
-  <p class="ejemplo">&lt;p>&lt;small>TEXTO&lt;/small>&lt;/p></p>
+  <div class="ejemplo"><p>&lt;p>&lt;small>TEXTO&lt;/small>&lt;/p></p></div>
   <p>Soy un <small>texto pequeño</small></p>
-  <br>
+
 
 
   <h3>mark</h3>
 
   <p>Usado para poner un texto en fosforito, es decir, marcarlo.</p>
-  <p class="ejemplo">&lt;p>&lt;mark>TEXTO&lt;/mark>&lt;/p></p>
+  <div class="ejemplo"><p>&lt;p>&lt;mark>TEXTO&lt;/mark>&lt;/p></p></div>
   <p>Texto <mark>MARCADO</mark></p>
-  <br>
+
 
 
   <h3>del</h3>
 
   <p>Con este elemento se tacha un texto.</p>
-  <p class="ejemplo">&lt;p>&lt;del>TEXTO&lt;/del>&lt;/p></p>
+  <div class="ejemplo"><p>&lt;p>&lt;del>TEXTO&lt;/del>&lt;/p></p></div>
   <p><del>Texto tachado</del></p>
-  <br>
+
 
 
   <h3>ins</h3>
 
   <p>Usado para subarayan un texto.</p>
-  <p class="ejemplo">&lt;p>&lt;ins>TEXTO&lt;/ins>&lt;/p></p>
+  <div class="ejemplo"><p>&lt;p>&lt;ins>TEXTO&lt;/ins>&lt;/p></p></div>
   <p><ins>Texto subrayado</ins></p>
-  <br>
+
 
 
   <h3>sub</h3>
 
   <p>Usado para poner un texto en formato subíndice.</p>
-  <p class="ejemplo">&lt;p>&lt;sub>TEXTO&lt;/sub>&lt;/p></p>
+  <div class="ejemplo"><p>&lt;p>&lt;sub>TEXTO&lt;/sub>&lt;/p></p></div>
   <p>El texto de la derecha está en: <sub>subíndice</sub></p>
-  <br>
+
 
 
   <h3>sup</h3>
 
   <p>Usado para poner un texto en formato superíndice.</p>
-  <p class="ejemplo">&lt;p>&lt;sup>TEXTO&lt;/sup>&lt;/p></p>
+  <div class="ejemplo"><p>&lt;p>&lt;sup>TEXTO&lt;/sup>&lt;/p></p></div>
   <p>El texto de la derecha está en: <sup>superíndice</sup></p>
-  <br>
+
 
 
   <h3>q</h3>
 
   <p>Con este elemento se cita un texto.</p>
-  <p class="ejemplo">&lt;p>&lt;q>TEXTO&lt;/q>&lt;/p></p>
+  <div class="ejemplo"><p>&lt;p>&lt;q>TEXTO&lt;/q>&lt;/p></p></div>
   <p>El texto de la derecha está citado: <q>CITA</q></p>
-  <br>
+
 
 
   <h3>blockquote</h3>
 
   <p>Elemento utilizado para citar en bloque, los navegadores le ponen sangría
     a los elementos blockquote.</p>
-  <p class="ejemplo">&lt;p>&lt;blockquote>TEXTO&lt;/blockquote>&lt;/p></p>
-  <p>El texto a continuación es una citación en bloque: <blockquote>
+  <div class="ejemplo"><p>&lt;p>&lt;blockquote>TEXTO&lt;/blockquote>&lt;/p></p></div>
+  <p>El texto a continuación es una citación en bloque:</p><blockquote>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae
       risus eget dolor bibendum mattis in bibendum dui. Praesent faucibus justo
       vel aliquam dapibus. Nunc facilisis venenatis egestas. Maecenas elit
@@ -589,8 +614,6 @@
       dignissim sollicitudin at sed felis. Sed gravida eget est a luctus. Ut
       gravida mi id accumsan viverra.
     </blockquote>
-  </p>
-  <br>
 
 
   <h3>abbr</h3>
@@ -598,11 +621,11 @@
   <p>Este elemento abrevia una palabra en otra. Si dejas el ratón encima
     de la abreviación, podrás ver el texto completo de la abreviación ya que
     se utiliza un "title" para este poder usar este elemento.</p>
-  <p class="ejemplo">&lt;p>&lt;abbr title="Título">TEXTO&lt;/abbr>&lt;/p></p>
+  <div class="ejemplo"><p>&lt;p>&lt;abbr title="Título">TEXTO&lt;/abbr>&lt;/p></p></div>
   <p>Deja tu ratón encima del texto rojo para saber el significado de sus
     siglas: <abbr id="abreviaturaEjemploabbr" title="Hyper-Text Markup Language">HTML
     </abbr></p>
-  <br>
+
 
 
   <h3>address</h3>
@@ -610,14 +633,14 @@
   <p>Con este elemento se muestra información sobre el autor de un artíuclo
     o documento. Se suele mostrar en cursiva y la mayoría de los navegadores
     añaden un salto de línea antes y después de este elemento.</p>
-  <p class="ejemplo">&lt;p><br>&nbsp;&nbsp;&lt;address><br>&nbsp;&nbsp;TEXTO<br>&nbsp;&nbsp;&lt;/address><br>&lt;/p></p>
+  <div class="ejemplo"><p>&lt;p>&nbsp;&nbsp;&lt;address>&nbsp;&nbsp;TEXTO&nbsp;&nbsp;&lt;/address>&lt;/p></p></div>
   <address>
-    Escrito por <q>Valentín Castravete.</q><br><br>
-    Visita mi página web:<br> <q>valentincastravete.tk</q><br><br>
-    Si necesitas contactar conmigo, escribe a este correo: <br>
-    <q>valentincastravete@gmail.com</q><br>
+    Escrito por <q>Valentín Castravete.</q>
+    Visita mi página web: <q>valentincastravete.tk</q>
+    Si necesitas contactar conmigo, escribe a este correo:
+    <q>valentincastravete@gmail.com</q>
   </address>
-  <br>
+
 
 
   <h3>cite</h3>
@@ -625,22 +648,24 @@
   <p>Hace referencia a una fuente o al autor de un texto citado.
     Los navegadores muestran estos elementos
     en cursiva.</p>
-  <p class="ejemplo">&lt;p>&lt;cite>TEXTO&lt;/cite>&lt;/p></p>
+  <div class="ejemplo"><p>&lt;p>&lt;cite>TEXTO&lt;/cite>&lt;/p></p></div>
   <p>Este documento está escrito por <cite>Valentín Castravete</cite>.</p>
-  <br>
+
 
 
   <h3>bdo</h3>
 
   <p>Este elemento indica la orientación del texto, izquierda a derecha o al
     revés.</p>
-  <p class="ejemplo">&lt;p>&lt;bdo dir="ltr">TEXTO&lt;/bdo>&lt;/p></p>
+  <div class="ejemplo"><p>&lt;p>&lt;bdo dir="ltr">TEXTO&lt;/bdo>&lt;/p></p></div>
   <p><bdo dir="ltr">Este texto curiosamente es igual escrito de izquierda a derecha que al
       revés: <b><q>luz azul</q></b></bdo></p>
   <p><bdo dir="rtl">Este texto curiosamente es igual escrito de izquierda a derecha que al
       revés: <b><q>luz azul</q></b></bdo></p>
-  <br>
+      </section>
 
+
+  <section>
   <h2>table</h2>
   <p>Elemento para crear tablas con celdas.</p>
 
@@ -648,36 +673,40 @@
 
   <h4>tr</h4>
   <p>Elemento que representa una fila de la tabla.</p>
-  <pre class="ejemploPre">
+  <div class="ejemploPre">
+  <pre class="">
 &lt;table>
   &lt;tr>
   &lt;/tr>
-&lt;/table></pre>
+&lt;/table></pre></div>
 
 
   <h4>th</h4>
   <p>Elemento que representa una celda de encabezado de la tabla.</p>
-  <pre class="ejemploPre">
+  <div class="ejemploPre">
+  <pre>
 &lt;table>
   &lt;tr>
     &lt;th>...&lt;/h>
   &lt;/tr>
-&lt;/table></pre>
+&lt;/table></pre></div>
 
 
   <h4>td</h4>
   <p>Elemento que representa una celda en una columna de la tabla.</p>
-  <pre class="ejemploPre">
+  <div class="ejemploPre">
+  <pre>
 &lt;table>
   &lt;tr>
     &lt;td>...&lt;/td>
   &lt;/tr>
-&lt;/table></pre>
+&lt;/table></pre></div>
 
   <h4>caption</h4>
   <p>Título de la tabla</p>
   <h6>HTML</h6>
-  <pre class="ejemploPre">
+  <div class="ejemploPre">
+  <pre>
 &lt;table>
   &lt;caption>Título&lt;/caption>
   &lt;tr>
@@ -688,9 +717,10 @@
     &lt;td>Sí&lt;/td>
     &lt;td>No&lt;/td>
   &lt;/tr>
-&lt;/table></pre>
+&lt;/table></pre></div>
   <h6>CSS</h6>
-  <pre class="ejemploPre">
+  <div class="ejemploPre">
+  <pre>
 #ejemploTabla{
   border-collapse: collapse;
 }
@@ -699,7 +729,7 @@
   border: 1px solid black;
   border-collapse: collapse;
   width: 100px;
-}</pre>
+}</pre></div>
   <table id="ejemploTabla">
     <caption>Título</caption>
     <tr>
@@ -711,14 +741,15 @@
       <td>No</td>
     </tr>
   </table>
-  <br><br>
+
 
   <h3>Atributos de th y td</h3>
 
   <h4>colspan</h4>
   <p>Junta varias celdas en 1 en horizontal.</p>
   <h6>HTML</h6>
-  <pre class="ejemploPre">
+  <div class="ejemploPre">
+  <pre>
 &lt;table>
   &lt;tr>
     &lt;th colspan="2">Hola&lt;/th>
@@ -727,9 +758,10 @@
     &lt;td>Sí&lt;/td>
     &lt;td>No&lt;/td>
   &lt;/tr>
-&lt;/table></pre>
+&lt;/table></pre></div>
   <h6>CSS</h6>
-  <pre class="ejemploPre">
+  <div class="ejemploPre">
+  <pre>
 #ejemploTablaColspan{
   border-collapse: collapse;
 }
@@ -738,7 +770,7 @@
   border: 1px solid black;
   border-collapse: collapse;
   width: 100px;
-}</pre>
+}</pre></div>
   <table id="ejemploTablaColspan">
     <caption>Título</caption>
     <tr>
@@ -753,19 +785,21 @@
   <h4>rowspan</h4>
   <p>Junta varias celdas en 1 en vertical.</p>
   <h6>HTML</h6>
-  <pre class="ejemploPre">
+  <div class="ejemploPre">
+  <pre>
 &lt;table>
   &lt;caption>Título&lt;/caption>
   &lt;tr>
     &lt;th rowspan="2">Hola&lt;/th>
-    &lt;th>Adiós&tl;/th>
+    &lt;th>Adiós&lt;/th>
   &lt;/tr>
   &lt;tr>
     &lt;td>No&lt;/td>
   &lt;/tr>
-&lt;/table></pre>
+&lt;/table></pre></div>
   <h6>CSS</h6>
-  <pre class="ejemploPre">
+  <div class="ejemploPre">
+  <pre>
 #ejemploTablaRowspan{
   border-collapse: collapse;
 }
@@ -774,7 +808,7 @@
   border: 1px solid black;
   border-collapse: collapse;
   width: 100px;
-}</pre>
+}</pre></div>
   <table id="ejemploTablaRowspan">
     <caption>Título</caption>
     <tr>
@@ -785,7 +819,7 @@
       <td>No</td>
     </tr>
   </table>
-  <br><br>
+
 
 
   <h3>Atributos de table</h3>
@@ -793,23 +827,25 @@
   <h4>border</h4>
   <p>Sirve para modificar los bordes de las celdas o de la tabla, por defecto no tienen borde.</p>
   <h6>HTML</h6>
-  <pre class="ejemploPre">
+  <div class="ejemploPre">
+  <pre>
 &lt;table>
   &lt;tr>
     &lt;th>Tabla&lt;/h>
     &lt;th>Ejemplo&lt;/h>
     &lt;th>Borde&lt;/h>
   &lt;/tr>
-&lt;/table></pre>
+&lt;/table></pre></div>
   <h6>CSS</h6>
-  <pre class="ejemploPre">
+  <div class="ejemploPre">
+  <pre>
 #ejemploTablaBorde{
   border: 1px solid black;
 }
 
 #ejemploTablaBorde td{
   border: 1px solid red;
-}</pre>
+}</pre></div>
 
   <table id="ejemploTablaBorde">
     <tr>
@@ -822,16 +858,18 @@
   <h4>border-collapse</h4>
   <p>Sirve para que se superpongan los bordes y no creen un espacio entre ellos.</p>
   <h6>HTML</h6>
-  <pre class="ejemploPre">
+  <div class="ejemploPre">
+  <pre>
 &lt;table>
   &lt;tr>
     &lt;th>Tabla&lt;/h>
     &lt;th>Ejemplo&lt;/h>
     &lt;th>Borde&lt;/h>
   &lt;/tr>
-&lt;/table></pre>
+&lt;/table></pre></div>
   <h6>CSS</h6>
-  <pre class="ejemploPre">
+  <div class="ejemploPre">
+  <pre>
 #ejemploTablaBorde{
   border: 1px solid black;
   border-collapse: collapse;
@@ -839,7 +877,7 @@
 
 #ejemploTablaBorde td{
   border: 1px solid red;
-}</pre>
+}</pre></div>
 
   <table id="ejemploTablaBordeCollapse">
     <tr>
@@ -854,14 +892,15 @@
 
   <h4>border-spacing</h4>
   <p>Añade espacio entre los bordes.</p>
-  <br><br>
+
 
 
   <h3>Estilos para table</h3>
   <p>Asignandole una id única a la tabla, puedes editar su estilo de la siguiente manera.</p>
   <p>Con tr:nth-chile(even) y tr:nth-chile(odd) puedes editar los estilos de las filas pares e impares por separado.</p>
   <h6>HTML</h6>
-  <pre class="ejemploPre">
+  <div class="ejemploPre">
+  <pre>
 &lt;table id="ejemploTablaEstilo">
   &lt;caption>Título&lt;/caption>
   &lt;tr>
@@ -880,9 +919,10 @@
     &lt;td>Par&lt;/td>
     &lt;td>Impar&lt;/td>
   &lt;/tr>
-&lt;/table></pre>
+&lt;/table></pre></div>
   <h6>CSS</h6>
-  <pre class="ejemploPre">
+  <div class="ejemploPre">
+  <pre>
 #ejemploTablaEstilo tr:nth-child(even){
     background-color: #ddd;
 }
@@ -905,7 +945,7 @@
     border-collapse: collapse;
     width: 100px;
     text-align: center;
-}</pre>
+}</pre></div>
 
   <table id="ejemploTablaEstilo">
     <caption>Título</caption>
@@ -926,8 +966,9 @@
       <td>Impar</td>
     </tr>
   </table>
+  </section>
 
-
+<div class="separacion"></div>
   <h3>Mi Horario</h3>
   <table id="MiHorario">
     <tr>
@@ -939,7 +980,7 @@
       <th class="MiHorarioDiaSemana">Viernes</th>
     </tr>
     <tr>
-      <td class="MiHorarioHoras">16:15<br>17:05</td>
+      <td class="MiHorarioHoras">16:1517:05</td>
       <td rowspan="2" class="MiHorarioBasDat">Bases de Datos</td>
       <td rowspan="2" class="MiHorarioProgr">Programación</td>
       <td rowspan="2" class="MiHorarioSisInf">Sistemas Informáticos</td>
@@ -947,10 +988,10 @@
       <td rowspan="2" class="MiHorarioProgr">Programación</td>
     </tr>
     <tr>
-      <td class="MiHorarioHoras">17:10<br>18:00</td>
+      <td class="MiHorarioHoras">17:1018:00</td>
     </tr>
     <tr>
-      <td class="MiHorarioHoras">18:05<br>18:55</td>
+      <td class="MiHorarioHoras">18:0518:55</td>
       <td class="MiHorarioProgr">Programación</td>
       <td class="MiHorarioBasDat">Bases de Datos</td>
       <td class="MiHorarioLengMar">Lenguaje de Marcas</td>
@@ -958,11 +999,11 @@
       <td class="MiHorarioForOriLab">Formación y Orientación Laboral</td>
     </tr>
     <tr>
-      <td class="MiHorarioHoras">18:55<br>19:15</td>
+      <td class="MiHorarioHoras">18:5519:15</td>
       <td id="recreo" colspan="5">RECREO</td>
     </tr>
     <tr>
-      <td class="MiHorarioHoras">19:20<br>20:10</td>
+      <td class="MiHorarioHoras">19:2020:10</td>
       <td class="MiHorarioProgr">Programación</td>
       <td class="MiHorarioBasDat">Bases de Datos</td>
       <td rowspan="2" class="MiHorarioBasDat">Bases de Datos</td>
@@ -970,20 +1011,20 @@
       <td class="MiHorarioForOriLab">Formación y Orientación Laboral</td>
     </tr>
     <tr>
-      <td class="MiHorarioHoras">20:15<br>21:05</td>
+      <td class="MiHorarioHoras">20:1521:05</td>
       <td class="MiHorarioForOriLab">Formación y Orientación Laboral</td>
       <td class="MiHorarioSisInf">Sistemas Informáticos</td>
       <td rowspan="2" class="MiHorarioEntDes">Entornos de Desarrollo</td>
       <td rowspan="2" class="MiHorarioLengMar">Lenguaje de Marcas</td>
     </tr>
     <tr>
-      <td class="MiHorarioHoras">21:10<br>22:00</td>
+      <td class="MiHorarioHoras">21:1022:00</td>
       <td class="MiHorarioIng">Inglés Técnico</td>
       <td class="MiHorarioIng">Inglés Técnico</td>
       <td class="MiHorarioEntDes">Entornos de Desarrollo</td>
     </tr>
   </table>
-
+<div class="separacion"></div>
   <h3>Ejercicio de Tabla</h3>
   <table id="EjercicioTabla1">
     <tr>
@@ -1035,7 +1076,7 @@
       <td></td>
     </tr>
   </table>
-  <br><br><br><br><br><br><br><br><br><br><br>
+  <div class="separacion"></div>
   <table id="EjercicioTabla2">
     <tr>
       <td rowspan="9" id="Celda1EjercicioTabla2"></td>
@@ -1045,11 +1086,11 @@
       <td rowspan="9" id="Celda3EjercicioTabla2"></td>
     </tr>
     <tr>
-      <td id="separadorCeldasEjercicioTabla2"></td>
+      <td class="separadorCeldasEjercicioTabla2"></td>
     </tr>
     <tr>
       <td>
-        <p id="texto1Celda2EjercicioTabla2">&emsp;&emsp;&emsp;
+        <p class="texto1Celda2EjercicioTabla2">&emsp;&emsp;&emsp;
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum
           lorem in ligula euismod dignissim. Suspendisse nec dapibus orci. Proin aliquam
           nunc quis vehicula placerat. Pellentesque dapibus est eu est mattis, eu rhoncus
@@ -1070,11 +1111,11 @@
       </td>
     </tr>
     <tr>
-      <td id="separadorCeldasEjercicioTabla2"></td>
+      <td class="separadorCeldasEjercicioTabla2"></td>
     </tr>
     <tr>
       <td>
-        <p id="texto1Celda2EjercicioTabla2">&emsp;&emsp;&emsp;Vuela bajo...
+        <p class="texto1Celda2EjercicioTabla2">&emsp;&emsp;&emsp;Vuela bajo...
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum
           lorem in ligula euismod dignissim. Suspendisse nec dapibus orci. Proin aliquam
           nunc quis vehicula placerat. Pellentesque dapibus est eu est mattis, eu rhoncus
@@ -1095,7 +1136,7 @@
       </td>
     </tr>
     <tr>
-      <td id="separadorCeldasEjercicioTabla2"></td>
+      <td class="separadorCeldasEjercicioTabla2"></td>
     </tr>
     <tr>
       <td><img src="img/paisaje1.webp" alt="Paisaje" id="imagen1Celda2EjercicioTabla2">
@@ -1103,11 +1144,11 @@
       </td>
     </tr>
     <tr>
-      <td id="separadorCeldasEjercicioTabla2"></td>
+      <td class="separadorCeldasEjercicioTabla2"></td>
     </tr>
     <tr>
       <td>
-        <p id="texto1Celda2EjercicioTabla2">&emsp;&emsp;&emsp;
+        <p class="texto1Celda2EjercicioTabla2">&emsp;&emsp;&emsp;
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum
           lorem in ligula euismod dignissim. Suspendisse nec dapibus orci. Proin aliquam
           nunc quis vehicula placerat. Pellentesque dapibus est eu est mattis, eu rhoncus
@@ -1128,23 +1169,26 @@
       </td>
     </tr>
   </table>
-  <br><br><br>
+<div class="separacion"></div>
   <h2>Exámen 1ª Evaluación</h2>
   <div class="examenes">
-    <a class="linkexamen"  id="linkSinCorregir" href="examen1_valentin_castravete\index_1_examen.html" target="_blank"><i class="fa fa-file-text" aria-hidden="true"></i> Sin Corregir</a>
-    <a class="linkexamen" id="linkCorregido" href="examen1_valentin_castravete\index_1_examen_corregido.html" target="_blank"><i class="fa fa-file-text" aria-hidden="true"></i> Corregido</a>
+    <a class="linkexamen"  id="linkSinCorregir" href="examen1_valentin_castravete/index_1_examen.html" target="_blank"><i class="fa fa-file-text" aria-hidden="true"></i> Sin Corregir</a>
+    <a class="linkexamen" id="linkCorregido" href="examen1_valentin_castravete/index_1_examen_corregido.html" target="_blank"><i class="fa fa-file-text" aria-hidden="true"></i> Corregido</a>
   </div>
+
+  <h2>Block and Inline Elements</h2>
+  <h3>div</h3>
+  <p>Un elemento el cuál ocupa todo el ancho de una nueva línea por defecto.</p>
+  <p class="ejemplo">&lt;div>&lt;/div></p>
+
+  <h3>span</h3>
+  <p>Un elemento el cuál ocupa el ancho necesario dependindo del contenido y en la misma línea en la que se ponga.</p>
+  <p class="ejemplo">&lt;span>&lt;/span></p>
   </div>
-  <br><br><br>
-  <div id="footer">
-    <p id="textoFooter">Página Web de Valentín Castravete</p>
-  <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_top">
-    <img alt="Licencia Creative Commons" id="imagenCC"
-    src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />
-    Esta obra está bajo una <a rel="license"
-    href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_top">
-    Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional</a>.
-    </div>
+
+  <footer>
+    <iframe src="footer.html" name="footer" class="botIframe"></iframe>
+  </footer>
   <script src="nospam.js"></script>
 </body>
 
