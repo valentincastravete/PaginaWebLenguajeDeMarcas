@@ -1,4 +1,4 @@
-#menu{
+#menu {
   height: 110px;
   width: 100%;
   background-color: #FFC999;
@@ -6,13 +6,13 @@
   margin: 0;
 }
 
-#topIframe{
+#topIframe {
   margin: 0;
   padding: 0;
   position: fixed;
 }
 
-#botIframeIndex{
+#botIframeIndex {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -22,7 +22,7 @@
   bottom: 0%;
 }
 
-.botIframe{
+.botIframe {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -34,19 +34,19 @@
   margin-bottom: -3px;
 }
 
-.separacion{
+.separacion {
   height: 100px;
 }
 
-body{
+body {
   margin: 0;
 }
 
-#imagenCC{
+#imagenCC {
   border: 0;
 }
 
-#textoFooter{
+#textoFooter {
   font-size: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -55,208 +55,210 @@ body{
   background-color: inherit;
 }
 
-#footer{
+#footer {
   width: 100%;
   background-color: #FFE6D5;
   text-align: center;
   height: 120px;
 }
 
-.iconosMenu{
+.iconosMenu {
   float: left;
   width: 33.3%;
 }
 
-a:visited, a:link{
-  color:black;
+a:visited, a:link {
+  color: black;
 }
 
-a:hover{
-  color:orange;
+a:hover {
+  color: orange;
 }
 
-.centrarTexto{
+.centrarTexto {
   text-align: center;
 }
 
-#paginaprincipalindex:link, #paginaprincipalindex{
+#paginaprincipalindex:link, #paginaprincipalindex {
   font-size: 100px;
   text-decoration: none;
 }
 
-#paginaprincipalhtml:link, #paginaprincipalhtml{
+#paginaprincipalhtml:link, #paginaprincipalhtml {
   font-size: 100px;
   text-decoration: none;
 }
 
-#paginaprincipalcss:link, #paginaprincipalcss{
-  font-size: 100px;
-  text-decoration: none;
-  float: right;
-}
-
-#paginaprincipalindex:hover{
-  font-size: 100px;
-  text-decoration: none;
-  color: white;
-}
-
-#paginaprincipalhtml:hover{
-  font-size: 100px;
-  text-decoration: none;
-  color: white;
-}
-
-#paginaprincipalcss:hover{
+#paginaprincipalcss:link, #paginaprincipalcss {
   font-size: 100px;
   text-decoration: none;
   float: right;
+}
+
+#paginaprincipalindex:hover {
+  font-size: 100px;
+  text-decoration: none;
   color: white;
 }
 
-iframe[name="menu"]{
+#paginaprincipalhtml:hover {
+  font-size: 100px;
+  text-decoration: none;
+  color: white;
+}
+
+#paginaprincipalcss:hover {
+  font-size: 100px;
+  text-decoration: none;
+  float: right;
+  color: white;
+}
+
+iframe[name="menu"] {
   border: none;
   width: 100%;
 }
 
-
-.linkexamen:link, .linkexamen{
+.linkexamen:link, .linkexamen {
   font-size: 30px;
   text-decoration: none;
   padding: 10px;
 }
 
-.linkexamen:hover{
+.linkexamen:hover {
   text-decoration: none;
   background-color: #FF9448;
   padding: 10px;
 }
 
-#linkSinCorregir{
+#linkSinCorregir {
   color: black;
   float: left;
   margin-left: 30%;
 }
 
-#linkSinCorregir:hover{
+#linkSinCorregir:hover {
   color: white;
   float: left;
   margin-left: 30%;
 }
 
-#linkCorregido{
+#linkCorregido {
   color: black;
   float: right;
   margin-right: 30%;
 }
 
-#linkCorregido:hover{
+#linkCorregido:hover {
   color: white;
   float: right;
   margin-right: 30%;
 }
 
-.examenes{
+.examenes {
   height: 60px;
 }
 
-h1{
+h1 {
   font-family: 'Roboto Slab', serif;
   text-align: center;
   background-color: #FFE6D5;
 }
-h2{
+
+h2 {
   background-color: #D3FEF8;
   font-size: 50px;
   text-align: center;
 }
-h3{
+
+h3 {
   border-bottom: 3px solid black;
   font-size: 35px;
 }
-h4{
+
+h4 {
   font-size: 30px;
 }
 
-h5{
+h5 {
   font-size: 25px;
 }
 
-h6{
+h6 {
   font-size: 18px;
 }
 
-p{
+p {
   font-size: 20px;
 }
 
-li{
+li {
   font-size: 20px;
 }
 
-#ejemploGoogleFonts{
+#ejemploGoogleFonts {
   font-family: 'Roboto Slab', serif;
   background-color: inherit;
 }
 
-#textoEjemploFontFamily{
+#textoEjemploFontFamily {
   font-family: verdana;
   background-color: inherit;
 }
 
-#ejemploColor{
+#ejemploColor {
   color: red;
   background-color: inherit;
 }
 
-#textoEjemploColoreadoRGB{
+#textoEjemploColoreadoRGB {
   color: rgb(20, 150, 170);
   background-color: inherit;
 }
 
-#textoEjemplo2ColoreadoRGB{
+#textoEjemplo2ColoreadoRGB {
   color: rgba(220, 50, 170, 1);
   background-color: inherit;
 }
 
-#textoEjemploColoreadoHEX{
+#textoEjemploColoreadoHEX {
   color: #36F2C1;
   background-color: inherit;
 }
 
-#textoEjemploColoreadoHSL{
+#textoEjemploColoreadoHSL {
   color: hsl(135, 100%, 60%);
   background-color: inherit;
 }
 
-#textoEjemploColoreadoHSLA{
+#textoEjemploColoreadoHSLA {
   color: hsla(250, 100%, 16%, 0.7);
   background-color: inherit;
 }
 
-#abreviaturaEjemploabbr{
+#abreviaturaEjemploabbr {
   color: red;
 }
 
-.textoExplicarCSS{
+.textoExplicarCSS {
   font-size: 25px;
   font-family: 'Roboto Slab', serif;
   background-color: inherit;
 }
 
-.textoExplicarAtributosCSS{
+.textoExplicarAtributosCSS {
   font-size: 20px;
   font-family: 'Roboto Slab', serif;
   background-color: inherit;
 }
 
-#tituloIndex{
+#tituloIndex {
   margin-top: 15%;
   font-size: 100px;
   font-family: 'Roboto Slab', serif;
 }
 
-#tituloprincipalhtml{
+#tituloprincipalhtml {
   font-size: 150px;
   background-color: #FFE6D5;
   background-image: url(img/html5.png);
@@ -264,7 +266,7 @@ li{
   background-size: 200px;
 }
 
-#tituloprincipalcss{
+#tituloprincipalcss {
   font-size: 150px;
   background-color: #FFE6D5;
   background-image: url(img/css3.png);
@@ -272,7 +274,7 @@ li{
   background-size: 200px;
 }
 
-.ejemplo p{
+.ejemplo p {
   display: inline-block;
   padding: 13px;
   background-color: #f4f4f4;
@@ -282,8 +284,7 @@ li{
   border-radius: 20px;
 }
 
-
-.ejemploPre pre{
+.ejemploPre pre {
   font-family: times;
   display: inline-block;
   border-radius: 20px;
@@ -295,48 +296,45 @@ li{
   margin-bottom: 20px;
 }
 
-#ejemploEstiloLink{
+#ejemploEstiloLink {
   font-size: 35px;
 }
 
-#ejemploEstiloLink:link{
-    color: green;
-    background-color: transparent;
-    text-decoration: none;
+#ejemploEstiloLink:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
 }
 
-#ejemploEstiloLink:visited{
-    color: aqua;
-    background-color: transparent;
-    text-decoration: none;
+#ejemploEstiloLink:visited {
+  color: aqua;
+  background-color: transparent;
+  text-decoration: none;
 }
 
-#ejemploEstiloLink:active{
-    color: yellow;
-    background-color: transparent;
-    text-decoration: none;
+#ejemploEstiloLink:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: none;
 }
 
-#ejemploEstiloLink:hover{
-    color: red;
-    background-color: transparent;
-    text-decoration: none;
+#ejemploEstiloLink:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
 }
 
-#iconofirefox{
+#iconofirefox {
   font-size: 100px;
 }
 
-
-
-#MiHorario{
+#MiHorario {
   border: 3px solid black;
   border-collapse: collapse;
   font-family: arial;
 }
 
-
-.MiHorarioHoras{
+.MiHorarioHoras {
   width: 100px;
   border: 3px solid black;
   text-align: center;
@@ -345,7 +343,7 @@ li{
   color: white;
 }
 
-.MiHorarioDiaSemana{
+.MiHorarioDiaSemana {
   border: 3px solid black;
   height: 50px;
   width: 300px;
@@ -354,14 +352,14 @@ li{
   color: white;
 }
 
-#recreo{
+#recreo {
   text-align: center;
   background-color: black;
   color: white;
   font-size: 40px;
 }
 
-.MiHorarioBasDat{
+.MiHorarioBasDat {
   width: 300px;
   border: 3px solid black;
   background-color: #FF4C5B;
@@ -370,7 +368,7 @@ li{
   font-weight: bolder;
 }
 
-.MiHorarioProgr{
+.MiHorarioProgr {
   width: 300px;
   border: 3px solid black;
   background-color: #98FB84;
@@ -379,7 +377,7 @@ li{
   font-weight: bolder;
 }
 
-.MiHorarioLengMar{
+.MiHorarioLengMar {
   width: 300px;
   border: 3px solid black;
   background-color: #98FBFF;
@@ -388,7 +386,7 @@ li{
   font-weight: bolder;
 }
 
-.MiHorarioIng{
+.MiHorarioIng {
   width: 300px;
   border: 3px solid black;
   background-color: #ffff43;
@@ -397,7 +395,7 @@ li{
   font-weight: bolder;
 }
 
-.MiHorarioSisInf{
+.MiHorarioSisInf {
   width: 300px;
   border: 3px solid black;
   background-color: #fdb228;
@@ -406,7 +404,7 @@ li{
   font-weight: bolder;
 }
 
-.MiHorarioEntDes{
+.MiHorarioEntDes {
   width: 300px;
   border: 3px solid black;
   background-color: orchid;
@@ -415,7 +413,7 @@ li{
   font-weight: bolder;
 }
 
-.MiHorarioForOriLab{
+.MiHorarioForOriLab {
   width: 300px;
   border: 3px solid black;
   background-color: #975;
@@ -424,10 +422,7 @@ li{
   font-weight: bolder;
 }
 
-
-
-
-#EjercicioTabla1 td{
+#EjercicioTabla1 td {
   border: 1px solid black;
   height: 150px;
   width: 150px;
@@ -435,12 +430,12 @@ li{
   padding: 0px;
 }
 
-#EjercicioTabla1{
+#EjercicioTabla1 {
   border-collapse: collapse;
   border: 5px solid #ccc;
 }
 
-#Parte1EjercicioTabla1{
+#Parte1EjercicioTabla1 {
   text-align: center;
   padding-bottom: 150px !important;
 }
@@ -451,7 +446,7 @@ li{
   padding: 0px;
 }
 
-#Parte3Texto1EjercicioTabla1{
+#Parte3Texto1EjercicioTabla1 {
   font-family: Times;
   font-size: 34px;
   background-color: inherit;
@@ -459,16 +454,16 @@ li{
   padding-left: 20px;
 }
 
-#Parte4EjercicioTabla1{
+#Parte4EjercicioTabla1 {
   text-align: center;
-  background-color: rgb(61,224,5);
+  background-color: rgb(61, 224, 5);
 }
 
-#Parte5EjercicioTabla1{
+#Parte5EjercicioTabla1 {
   background-color: red;
 }
 
-#Parte5Texto1EjercicioTabla1{
+#Parte5Texto1EjercicioTabla1 {
   text-align: center;
   transform: rotate(45deg);
   text-decoration: underline;
@@ -477,108 +472,104 @@ li{
   font-size: 30px;
 }
 
-#Parte6EjercicioTabla1{
+#Parte6EjercicioTabla1 {
   transform: translate(50px);
   text-decoration: underline;
   font-size: 50px !important;
 }
 
-#Parte7EjercicioTabla1{
+#Parte7EjercicioTabla1 {
   background-color: purple;
 }
 
-#Parte8EjercicioTabla1{
+#Parte8EjercicioTabla1 {
   padding-bottom: 120px;
 }
 
-#basuraIcono{
+#basuraIcono {
   font-size: 190px;
   margin-top: -74px;
 }
 
-#instagramIcono{
+#instagramIcono {
   font-size: 80px;
   width: 150px;
-  color:aquamarine;
+  color: aquamarine;
 }
 
-#Parte7Imagen1EjercicioTabla1{
+#Parte7Imagen1EjercicioTabla1 {
   width: 100%;
 }
 
-#Parte8Imagen1EjercicioTabla1{
+#Parte8Imagen1EjercicioTabla1 {
   width: 45%;
   padding-top: 30px;
   padding-left: 42px;
 }
 
-#Parte9EjercicioTabla1{
+#Parte9EjercicioTabla1 {
   background-color: cyan;
 }
 
-
-
-
-
-#EjercicioTabla2{
+#EjercicioTabla2 {
   border-collapse: collapse;
   width: 100%;
 }
 
-#EjercicioTabla2 td{
+#EjercicioTabla2 td {
   border: 0px solid transparent;
   padding: 0px;
 }
 
-#Celda2EjercicioTabla2{
+#Celda2EjercicioTabla2 {
   width: 80%;
 }
 
-#titulo1Celda2EjercicioTabla2{
-    text-align: center;
-    background-color: inherit;
-    color: black;
-    font-size: 70px;
+#titulo1Celda2EjercicioTabla2 {
+  text-align: center;
+  background-color: inherit;
+  color: black;
+  font-size: 70px;
 }
 
-.texto1Celda2EjercicioTabla2{
+.texto1Celda2EjercicioTabla2 {
   background-color: inherit;
   text-align: justify;
 }
 
-#texto2Celda2EjercicioTabla2{
+#texto2Celda2EjercicioTabla2 {
   background-color: inherit;
   padding-left: 17%;
   margin-top: -5px;
 }
 
-#imagen1Celda2EjercicioTabla2{
+#imagen1Celda2EjercicioTabla2 {
   padding-left: 17%;
 }
 
-.separadorCeldasEjercicioTabla2{
-    height: 30px;
+.separadorCeldasEjercicioTabla2 {
+  height: 30px;
 }
 
-#ejemploTabla{
+#ejemploTabla {
   border-collapse: collapse;
 }
 
-#ejemploTabla td, th{
+#ejemploTabla td, th {
   border: 1px solid black;
   border-collapse: collapse;
   width: 100px;
 }
 
-#ejemploTablaEstilo tr:nth-child(even){
+#ejemploTablaEstilo tr:nth-child(even) {
   background-color: #ddd;
 }
 
-#ejemploTablaEstilo tr:nth-child(odd){
+#ejemploTablaEstilo tr:nth-child(odd) {
   background-color: #aaa;
 }
 
-#ejemploTablaEstilo{
+#ejemploTablaEstilo {
   border-collapse: collapse;
 }
 
@@ -587,58 +578,58 @@ li{
   color: white;
 }
 
-#ejemploTablaEstilo td, th{
+#ejemploTablaEstilo td, th {
   border: 1px solid black;
   border-collapse: collapse;
   width: 100px;
   text-align: center;
 }
 
-#ejemploTablaRowspan{
+#ejemploTablaRowspan {
   border-collapse: collapse;
 }
 
-#ejemploTablaRowspan td, th{
+#ejemploTablaRowspan td, th {
   border: 1px solid black;
   border-collapse: collapse;
   width: 100px;
 }
 
-#ejemploTablaColspan{
+#ejemploTablaColspan {
   border-collapse: collapse;
 }
 
-#ejemploTablaColspan td, th{
+#ejemploTablaColspan td, th {
   border: 1px solid black;
   border-collapse: collapse;
   width: 100px;
 }
 
-#ejemploTablaBorde{
+#ejemploTablaBorde {
   border: 1px solid black;
 }
 
-#ejemploTablaBorde td{
+#ejemploTablaBorde td {
   border: 1px solid red;
 }
 
-#ejemploTablaBordeCollapse{
+#ejemploTablaBordeCollapse {
   border: 1px solid black;
   border-collapse: collapse;
 }
 
-#ejemploTablaBordeCollapse td{
+#ejemploTablaBordeCollapse td {
   border: 1px solid red;
 }
 
-#elementoEjemploColorFondo{
+#elementoEjemploColorFondo {
   padding-top: 15px;
   padding-bottom: 15px;
   background-color: cyan;
   text-align: center;
 }
 
-#ejemploBorde{
+#ejemploBorde {
   border: 5px solid aquamarine;
   text-align: center;
   font-size: 30px;
@@ -646,7 +637,7 @@ li{
   font-weight: bolder;
 }
 
-#ejemploPadding{
+#ejemploPadding {
   border: 5px solid aquamarine;
   text-align: center;
   font-size: 30px;
@@ -655,7 +646,7 @@ li{
   padding: 30px;
 }
 
-#ejemploMargin{
+#ejemploMargin {
   border: 5px solid aquamarine;
   text-align: center;
   font-size: 30px;
@@ -664,39 +655,39 @@ li{
   margin: 60px;
 }
 
-#textoEjemploAlinear{
+#textoEjemploAlinear {
   text-align: center;
   background-color: inherit;
 }
 
-#textoEjemploTamaño{
-  font-size:200%;
+#textoEjemploTamaño {
+  font-size: 200%;
   background-color: inherit;
 }
 
-#parrafoEjemplo1{
-  color:red;
-  background-color: inherit;
-  margin: 0px;
-}
-
-.parrafoEjemplo2{
-  color:red;
+#parrafoEjemplo1 {
+  color: red;
   background-color: inherit;
   margin: 0px;
 }
 
-#ejemploImagenLink{
+.parrafoEjemplo2 {
+  color: red;
+  background-color: inherit;
+  margin: 0px;
+}
+
+#ejemploImagenLink {
   width: 100px;
 }
 
-.tituloBotonLink{
+.tituloBotonLink {
   background-color: transparent;
   font-size: 30px;
   margin-bottom: 0px;
 }
 
-#ejemploBotonLink:link, #ejemploBotonLink:visited{
+#ejemploBotonLink:link, #ejemploBotonLink:visited {
   background-color: red;
   color: white;
   padding: 10px 20px;
@@ -704,26 +695,26 @@ li{
   text-decoration: none;
 }
 
-#ejemploBotonLink:hover, #ejemploBotonLink:active{
+#ejemploBotonLink:hover, #ejemploBotonLink:active {
   background-color: aqua;
   color: black;
 }
 
-#ejemploFloat1imagen{
-  float:left;
-  width:180px;
-  height:180px;
+#ejemploFloat1imagen {
+  float: left;
+  width: 180px;
+  height: 180px;
 }
 
-#ejemploFloat1texto{
-  background-color:inherit;
+#ejemploFloat1texto {
+  background-color: inherit;
 }
 
-#ejemploDivFloat1{
-  width:350px;
+#ejemploDivFloat1 {
+  width: 350px;
 }
 
-#ejemploDivFloat2{
+#ejemploDivFloat2 {
   width: 500px;
   display: inline-block;
   padding: 13px;
@@ -734,39 +725,50 @@ li{
   border-radius: 20px;
 }
 
-#ejemploFloat2{
+#ejemploFloat2 {
   background-color: red;
   width: 100px;
-  height:100px;
+  height: 100px;
   float: left;
 }
 
-#ejemploFloat3{
+#ejemploFloat3 {
   background-color: green;
   width: 100px;
-  height:100px;
-  float:right;
+  height: 100px;
+  float: right;
 }
 
-#ejemploFloat4{
+#ejemploFloat4 {
   background-color: blue;
   width: 100px;
-  height:100px;
-  float:right;
+  height: 100px;
+  float: right;
 }
 
-.contenido{
+.contenido {
   margin-left: 10px;
   margin-right: 10px;
 }
 
-#ejemploIframe{
+#ejemploIframe {
   width: 800px;
   height: 500px;
-  border: none;
+  border: 1px solid black;
 }
 
-#ejemploLinkTargetIframe, #ejemploIframe{
-    text-decoration: none;
-    font-size: 30px;
+.ejemploLinkTargetIframe {
+  text-decoration: none;
+  font-size: 30px;
+}
+
+#LayoutElements {
+  float: left;
+  margin-top: 30px;
+}
+
+#listaLayoutElements {
+  margin-left: 300px;
+  margin-top: 50px;
+  margin-bottom: 150px;
 }

@@ -14,128 +14,158 @@
   <div class="separacion"></div>
   <h1 id="tituloprincipalhtml">HTML</h1>
 
-<div class="contenido">
-  <section>
-  <h2>!DOCTYPE html</h2>
+  <div class="contenido">
+    <section>
+      <h2>!DOCTYPE html</h2>
 
-  <p>Esta etiqueta representa el tipo de documento y ayuda a los navegadores
-    a visualizar páginas web correctamente. Se debe escribir al principio
-    del documento html.</p>
-  <div class="ejemplo"><p>&lt;!DOCTYPE html></p></div>
-  </section>
-
-
-  <section>
-  <h2>html</h2>
-
-  <p>Esta etiqueta se introduce después de la tag !DOCTYPE html y se
-    cierra al final documento html.</p>
-  <div class="ejemplo"><p>&lt;html>...&lt;/html></p></div>
-
-  <h3>Atributos de html</h3>
-  <h4>lang</h4>
-
-  <p>Sirve para identificar una página html con un idioma específico.</p>
-  <div class="ejemplo"><p>&lt;html lang="es">...&lt;/html></p></div>
+      <p>Esta etiqueta representa el tipo de documento y ayuda a los navegadores
+        a visualizar páginas web correctamente. Se debe escribir al principio
+        del documento html.</p>
+      <div class="ejemplo">
+        <p>&lt;!DOCTYPE html></p>
+      </div>
+    </section>
 
 
-  <h4>dir</h4>
+    <section>
+      <h2>html</h2>
 
-  <p>Indica la dirección del texto. ltr, de izquierda a derecha y rtl, de derecha a izquierda.</p>
-  <div class="ejemplo"><p>&lt;html dir="ltr">...&lt;/html></p></div>
-  </section>
+      <p>Esta etiqueta se introduce después de la tag !DOCTYPE html y se
+        cierra al final documento html.</p>
+      <div class="ejemplo">
+        <p>&lt;html>...&lt;/html></p>
+      </div>
 
+      <h3>Atributos de html</h3>
+      <h4>lang</h4>
 
-  <section>
-  <h2>body</h2>
-
-  <p>Esta etiqueta se utiliza para la parte visible del documento html.</p>
-  <div class="ejemplo"><p>&lt;body>...&lt;/body></p></div>
-  </section>
-
-
-  <section>
-  <h2>h</h2>
-
-  <p>Una etiqueta utilizada para convertir texto en título de cabezera.
-    Los tamaños van de h1-h6.Dependiendo del número, cuando más cerca del "h6", más pequeño.</p>
-  <div class="ejemplo"><p>&lt;h1>...&lt;/h1></p></div>
-  </section>
+      <p>Sirve para identificar una página html con un idioma específico.</p>
+      <div class="ejemplo">
+        <p>&lt;html lang="es">...&lt;/html></p>
+      </div>
 
 
-  <section>
-  <h2>p</h2>
+      <h4>dir</h4>
 
-  <p>Una etiqueta utilizada para escribir un párrafo.</p>
-  <div class="ejemplo"><p>&lt;p>.......&lt;/p></p></div>
-
-  <h3>Atributos de p</h3>
-  <h4>title</h4>
-
-  <p>Si dejas el ratón encima del texto, te saldrá una pequeña descripción.</p>
-  <div class="ejemplo"><p>&lt;p title="World Wide Web">WWW&lt;/p></p></div>
-  <p title="World Wide Web">WWW</p>
-  </section>
+      <p>Indica la dirección del texto. ltr, de izquierda a derecha y rtl, de derecha a izquierda.</p>
+      <div class="ejemplo">
+        <p>&lt;html dir="ltr">...&lt;/html></p>
+      </div>
+    </section>
 
 
-  <section>
-  <h2>a</h2>
+    <section>
+      <h2>body</h2>
 
-  <p>Es una etiqueta utilizada para vínculos a otras páginas web.</p>
-  <div class="ejemplo"><p>&lt;a>...&lt;/a></p></div>
-
-  <h3>Atributos de a</h3>
-  <h4>href</h4>
-  <p>Indica la dirección de la página web.</p>
-  <div class="ejemplo"><p>&lt;a href="https://www.google.com"> Google &lt;/a></p></div>
-  <p>Esto es un enlace: <a href="https://google.com">Google</a>.</p>
-  <h4>target</h4>
-  <p>Las atributos target especifican dónde abrir el documento vinculado.</p>
-  <p>El atributo <q>target</q> puede tener uno de los siguientes valores:</p>
-  <ul>
-    <li>
-      <p><b>_blank</b> - Abre el documento vinculado en una nueva ventana o pestaña.</p>
-    </li>
-    <li>
-      <p><b>_self</b> - Abre el documento vinculado en la misma ventana/pestaña en la que se ha hecho clic (predeterminado para los links).</p>
-    </li>
-    <li>
-      <p><b>_parent</b> - Abre el documento vinculado en el marco padre.</p>
-    </li>
-    <li>
-      <p><b>_top</b> - Abre el documento vinculado en el cuerpo completo de la ventana.</p>
-    </li>
-    <li>
-      <p><b>framename</b> - Abre el documento vinculado en un marco con nombre.</p>
-    </li>
-  </ul>
-
-  <h4>Image as Link</h4>
-  <p>Se usa una imagen como link.</p>
-  <div class="ejemplo"><p>&lt;a href="https://es.wikipedia.org/wiki/HTML5" target="_blank">&nbsp;&nbsp;&lt;img src="img/html5.png" style="width:100px;">&lt;/a></p></div>
-  <a href="https://es.wikipedia.org/wiki/HTML5" target="_blank">
-    <img src="img/html5.png" id="ejemploImagenLink" alt="HTML5">
-  </a>
+      <p>Esta etiqueta se utiliza para la parte visible del documento html.</p>
+      <div class="ejemplo">
+        <p>&lt;body>...&lt;/body></p>
+      </div>
+    </section>
 
 
+    <section>
+      <h2>h</h2>
 
-  <h4>Color link</h4>
-  <p>Por defecto, aparecerá un enlace como este (en todos los navegadores):</p>
-  <p>Un enlace no visitado está subrayado y azul.</p>
-  <div class="ejemplo"><p><a href="https://www.outlook.com">Outlook</a></p></div>
-  <p>Un enlace visitado es subrayado y morado.</p>
-  <div class="ejemplo"><p><a href="https://www.google.com">Google</a></p></div>
-  <p>Un vínculo activo es subrayado y rojo.</p>
-  <div class="ejemplo"><p>Haz click en este <q><a href="html.html">link</a></q> sin soltarlo</p></div>
-  <p>Para cambiar estos estilos y otro más, cambiaremos los apartados link, visited, hover y active.</p>
-  <ul>
-    <li><b>link</b>: como se muestra el link sin haberse visitado y sin tocarlo.</li>
-    <li><b>visited</b>: como se muestra el link una vez visitado.</li>
-    <li><b>active</b>: como se muestra el link cuando se está haciendo click sobre él.</li>
-    <li><b>hover</b>: como se muestra el link cuando está el ratón encima de él pero sin hacer click. </li>
-  </ul>
-  <div class="ejemploPre">
-  <pre>
+      <p>Una etiqueta utilizada para convertir texto en título de cabezera.
+        Los tamaños van de h1-h6.Dependiendo del número, cuando más cerca del "h6", más pequeño.</p>
+      <div class="ejemplo">
+        <p>&lt;h1>...&lt;/h1></p>
+      </div>
+    </section>
+
+
+    <section>
+      <h2>p</h2>
+
+      <p>Una etiqueta utilizada para escribir un párrafo.</p>
+      <div class="ejemplo">
+        <p>&lt;p>.......&lt;/p></p>
+      </div>
+
+      <h3>Atributos de p</h3>
+      <h4>title</h4>
+
+      <p>Si dejas el ratón encima del texto, te saldrá una pequeña descripción.</p>
+      <div class="ejemplo">
+        <p>&lt;p title="World Wide Web">WWW&lt;/p></p>
+      </div>
+      <p title="World Wide Web">WWW</p>
+    </section>
+
+
+    <section>
+      <h2>a</h2>
+
+      <p>Es una etiqueta utilizada para vínculos a otras páginas web.</p>
+      <div class="ejemplo">
+        <p>&lt;a>...&lt;/a></p>
+      </div>
+
+      <h3>Atributos de a</h3>
+      <h4>href</h4>
+      <p>Indica la dirección de la página web.</p>
+      <div class="ejemplo">
+        <p>&lt;a href="https://www.google.com"> Google &lt;/a></p>
+      </div>
+      <p>Esto es un enlace: <a href="https://google.com">Google</a>.</p>
+      <h4>target</h4>
+      <p>Las atributos target especifican dónde abrir el documento vinculado.</p>
+      <p>El atributo <q>target</q> puede tener uno de los siguientes valores:</p>
+      <ul>
+        <li>
+          <p><b>_blank</b> - Abre el documento vinculado en una nueva ventana o pestaña.</p>
+        </li>
+        <li>
+          <p><b>_self</b> - Abre el documento vinculado en la misma ventana/pestaña en la que se ha hecho clic
+            (predeterminado para los links).</p>
+        </li>
+        <li>
+          <p><b>_parent</b> - Abre el documento vinculado en el marco padre.</p>
+        </li>
+        <li>
+          <p><b>_top</b> - Abre el documento vinculado en el cuerpo completo de la ventana.</p>
+        </li>
+        <li>
+          <p><b>framename</b> - Abre el documento vinculado en un marco con nombre.</p>
+        </li>
+      </ul>
+
+      <h4>Image as Link</h4>
+      <p>Se usa una imagen como link.</p>
+      <div class="ejemplo">
+        <p>&lt;a href="https://es.wikipedia.org/wiki/HTML5" target="_blank">&nbsp;&nbsp;&lt;img src="img/html5.png"
+          style="width:100px;">&lt;/a></p>
+      </div>
+      <a href="https://es.wikipedia.org/wiki/HTML5" target="_blank">
+        <img src="img/html5.png" id="ejemploImagenLink" alt="HTML5">
+      </a>
+
+
+
+      <h4>Color link</h4>
+      <p>Por defecto, aparecerá un enlace como este (en todos los navegadores):</p>
+      <p>Un enlace no visitado está subrayado y azul.</p>
+      <div class="ejemplo">
+        <p><a href="https://www.outlook.com">Outlook</a></p>
+      </div>
+      <p>Un enlace visitado es subrayado y morado.</p>
+      <div class="ejemplo">
+        <p><a href="https://www.google.com">Google</a></p>
+      </div>
+      <p>Un vínculo activo es subrayado y rojo.</p>
+      <div class="ejemplo">
+        <p>Haz click en este <q><a href="html.html">link</a></q> sin soltarlo</p>
+      </div>
+      <p>Para cambiar estos estilos y otro más, cambiaremos los apartados link, visited, hover y active.</p>
+      <ul>
+        <li><b>link</b>: como se muestra el link sin haberse visitado y sin tocarlo.</li>
+        <li><b>visited</b>: como se muestra el link una vez visitado.</li>
+        <li><b>active</b>: como se muestra el link cuando se está haciendo click sobre él.</li>
+        <li><b>hover</b>: como se muestra el link cuando está el ratón encima de él pero sin hacer click. </li>
+      </ul>
+      <div class="ejemploPre">
+        <pre>
 &lt;style>
     a:link {
        color: green;
@@ -160,20 +190,23 @@
        background-color: transparent;
        text-decoration: none;
     }
- &lt;/style> </pre></div>
-  <a href="https://www.microsoft.com" target="_blank" id="ejemploEstiloLink">Microsoft</a>
+ &lt;/style> </pre>
+      </div>
+      <a href="https://www.microsoft.com" target="_blank" id="ejemploEstiloLink">Microsoft</a>
 
 
 
 
-  <h4>Button Link</h4>
+      <h4>Button Link</h4>
 
-  <p>Una manera de que un link parezca un botón.</p>
-  <p class="tituloBotonLink">HTML:</p>
-  <div class="ejemplo"><p>&lt;a href="index.html" target="_blank" id="ejemploBotonLink">HOME&lt;/a></p></div>
-  <p class="tituloBotonLink">CSS:</p>
-  <div class="ejemploPre">
-  <pre>
+      <p>Una manera de que un link parezca un botón.</p>
+      <p class="tituloBotonLink">HTML:</p>
+      <div class="ejemplo">
+        <p>&lt;a href="index.html" target="_blank" id="ejemploBotonLink">HOME&lt;/a></p>
+      </div>
+      <p class="tituloBotonLink">CSS:</p>
+      <div class="ejemploPre">
+        <pre>
 #ejemploBotonLink:link, #ejemploBotonLink:visited {
   background-color: red;
   color: white;
@@ -185,76 +218,92 @@
 #ejemploBotonLink:hover, #ejemploBotonLink:active{
   background-color: aqua;
   color: black;
-}</pre></div>
+}</pre>
+      </div>
 
 
-  <a href="index.html" target="_blank" id="ejemploBotonLink">HOME</a>
+      <a href="index.html" target="_blank" id="ejemploBotonLink">HOME</a>
 
 
-  <h4>Bookmarks</h4>
-  <p>Se puede ir mediante un link a un elemento específico de la página o de otras.</p>
-  <ul>
-    <li><b>Misma Página</b>:</li>
-  </ul>
-    <div class="ejemplo"><p>&lt;a href="#menu">IR AL MENÚ&lt;/a></p></div>
-    <a href="#menu">IR AL MENÚ</a>
-  <ul>
-    <li><b>Página Diferente</b>:</li>
-  </ul>
-    <div class="ejemplo"><p>&lt;a href="css.html/#elementoEjemploColorFondo">IR A BACKGROUND-COLOR del CSS&lt;/a></p></div>
-    <a href="css.html/#elementoEjemploColorFondo">IR A BACKGROUND-COLOR del CSS</a>
-  </section>
+      <h4>Bookmarks</h4>
+      <p>Se puede ir mediante un link a un elemento específico de la página o de otras.</p>
+      <ul>
+        <li><b>Misma Página</b>:</li>
+      </ul>
+      <div class="ejemplo">
+        <p>&lt;a href="#menu">IR AL MENÚ&lt;/a></p>
+      </div>
+      <a href="#menu">IR AL MENÚ</a>
+      <ul>
+        <li><b>Página Diferente</b>:</li>
+      </ul>
+      <div class="ejemplo">
+        <p>&lt;a href="css.html/#elementoEjemploColorFondo">IR A BACKGROUND-COLOR del CSS&lt;/a></p>
+      </div>
+      <a href="css.html/#elementoEjemploColorFondo">IR A BACKGROUND-COLOR del CSS</a>
+    </section>
 
-  <section>
-  <h2>img</h2>
+    <section>
+      <h2>img</h2>
 
-  <p>Una etiqueta para mostrar imágenes.</p>
-  <div class="ejemplo"><p>&lt;img></p></div>
+      <p>Una etiqueta para mostrar imágenes.</p>
+      <div class="ejemplo">
+        <p>&lt;img></p>
+      </div>
 
 
-  <h3>Atributos de img</h3>
-  <h4>src</h4>
+      <h3>Atributos de img</h3>
+      <h4>src</h4>
 
-  <p>Indica la ruta de la imagen.</p>
-  <div class="ejemplo"><p>&lt;img src="img/html5.png"></p></div>
+      <p>Indica la ruta de la imagen.</p>
+      <div class="ejemplo">
+        <p>&lt;img src="img/html5.png"></p>
+      </div>
 
-  <h4>alt</h4>
+      <h4>alt</h4>
 
-  <p>Texto alternativo si no se ve la imagen.También los lectores de pantalla lo leen para gente sin visión.</p>
-  <div class="ejemplo"><p>&lt;img alt="Imagen de HTML5"></p></div>
+      <p>Texto alternativo si no se ve la imagen.También los lectores de pantalla lo leen para gente sin visión.</p>
+      <div class="ejemplo">
+        <p>&lt;img alt="Imagen de HTML5"></p>
+      </div>
 
-  <h4>width</h4>
+      <h4>width</h4>
 
-  <p>Anchura de la imagen.</p>
-  <div class="ejemplo"><p>&lt;img width="180px"></p></div>
+      <p>Anchura de la imagen.</p>
+      <div class="ejemplo">
+        <p>&lt;img width="180px"></p>
+      </div>
 
-  <h4>height</h4>
+      <h4>height</h4>
 
-  <p>Altura de la imagen.</p>
-  <div class="ejemplo"><p>&lt;img height="180px"></p></div>
+      <p>Altura de la imagen.</p>
+      <div class="ejemplo">
+        <p>&lt;img height="180px"></p>
+      </div>
 
-  <h4>float</h4>
-  <p>Utilizar la propiedad CSS float para dejar flotar la imagen a la derecha o a la izquierda de un texto</p>
-  <p>Se puede usar con bloques como div y span</p>
+      <h4>float</h4>
+      <p>Utilizar la propiedad CSS float para dejar flotar la imagen a la derecha o a la izquierda de un texto</p>
+      <p>Se puede usar con bloques como div y span</p>
 
-  <div class="ejemplo" id="ejemploDivFloat1">
-    <img src="img/html5.png" id="ejemploFloat1imagen" alt="HTML5">
-    <p id="ejemploFloat1texto">Un texto de ejemplo</p>
-  </div>
-  <h5>HTML</h5>
-  <div class="ejemploPre">
-  <pre>&lt;div class="ejemplo" id="ejemploDivFloat2">
+      <div class="ejemplo" id="ejemploDivFloat1">
+        <img src="img/html5.png" id="ejemploFloat1imagen" alt="HTML5">
+        <p id="ejemploFloat1texto">Un texto de ejemplo</p>
+      </div>
+      <h5>HTML</h5>
+      <div class="ejemploPre">
+        <pre>&lt;div class="ejemplo" id="ejemploDivFloat2">
     &lt;p>Texto ejemplo&lt;/p>
     &lt;div id="ejemploFloat2">&lt;/div>
     &lt;p>Texto ejemplo&lt;/p>
     &lt;div id="ejemploFloat3">&lt;/div>
     &lt;p>Texto ejemplo&lt;/p>
     &lt;div id="ejemploFloat4">&lt;/div>
-  &lt;/div></pre></div>
+  &lt;/div></pre>
+      </div>
 
-  <h5>CSS</h5>
-  <div class="ejemploPre">
-  <pre class="">#ejemploDivFloat2{
+      <h5>CSS</h5>
+      <div class="ejemploPre">
+        <pre class="">#ejemploDivFloat2{
     width: 500px;
   }
 
@@ -277,436 +326,516 @@
     width: 100px;
     height:100px;
     float:right;
-  }</pre></div>
+  }</pre>
+      </div>
 
 
-  <div id="ejemploDivFloat2">
-    <p>Texto ejemplo</p>
-    <div id="ejemploFloat2"></div>
-    <p>Texto ejemplo</p>
-    <div id="ejemploFloat3"></div>
-    <p>Texto ejemplo</p>
-    <div id="ejemploFloat4"></div>
-  </div>
+      <div id="ejemploDivFloat2">
+        <p>Texto ejemplo</p>
+        <div id="ejemploFloat2"></div>
+        <p>Texto ejemplo</p>
+        <div id="ejemploFloat3"></div>
+        <p>Texto ejemplo</p>
+        <div id="ejemploFloat4"></div>
+      </div>
 
-  <h4>map</h4>
-  <p>Se utiliza para, con unas coordenadas, crear un link a una página o lugar de la misma.</p>
+      <h4>map</h4>
+      <p>Se utiliza para, con unas coordenadas, crear un link a una página o lugar de la misma.</p>
 
-  <p>Declaramos un mapa con:</p>
-  <div class="ejemplo"><p>&lt;map name="workmap"></p></div>
-  <p>Se le asigna a una imagen:</p>
-  <div class="ejemplo"><p>&lt;img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379"></p></div>
-  <h5>area</h5>
-  <h6>shape</h6>
-  <p>Hay diferentes formas:</p>
-  <ul>
-    <li><b>rect</b>: un área rectangular.</li>
-    <li><b>circle</b>: un área circular.</li>
-    <li><b>poly</b>: un área de polígono.</li>
-    <li><b>default</b>: ocupa toda la imagen.</li>
-  </ul>
-  <h6>coords</h6>
-  <p>Con las coordenadas indicamos el área que ocupa cada forma.</p>
-  <div class="ejemploPre">
-  <pre>&lt;img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+      <p>Declaramos un mapa con:</p>
+      <div class="ejemplo">
+        <p>&lt;map name="workmap"></p>
+      </div>
+      <p>Se le asigna a una imagen:</p>
+      <div class="ejemplo">
+        <p>&lt;img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379"></p>
+      </div>
+      <h5>area</h5>
+      <h6>shape</h6>
+      <p>Hay diferentes formas:</p>
+      <ul>
+        <li><b>rect</b>: un área rectangular.</li>
+        <li><b>circle</b>: un área circular.</li>
+        <li><b>poly</b>: un área de polígono.</li>
+        <li><b>default</b>: ocupa toda la imagen.</li>
+      </ul>
+      <h6>coords</h6>
+      <p>Con las coordenadas indicamos el área que ocupa cada forma.</p>
+      <div class="ejemploPre">
+        <pre>&lt;img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
     &lt;map name="workmap">
     &lt;area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
     &lt;area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
-    &lt;area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm"></pre></div>
-  <img src="img/workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
-  <map name="workmap">
-    <area shape="rect" coords="34,44,270,350" alt="Ordenador" href="https://www.w3schools.com/html/computer.htm" target="_blank">
-    <area shape="rect" coords="290,172,333,250" alt="Móvil" href="https://www.w3schools.com/html/phone.htm" target="_blank">
-    <area shape="circle" coords="337,300,44" alt="Taza de Café" href="https://www.w3schools.com/html/coffee.htm" target="_blank">
-  </map>
-  </section>
+    &lt;area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm"></pre>
+      </div>
+      <img src="img/workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+      <map name="workmap">
+        <area shape="rect" coords="34,44,270,350" alt="Ordenador" href="https://www.w3schools.com/html/computer.htm"
+          target="_blank">
+        <area shape="rect" coords="290,172,333,250" alt="Móvil" href="https://www.w3schools.com/html/phone.htm"
+          target="_blank">
+        <area shape="circle" coords="337,300,44" alt="Taza de Café" href="https://www.w3schools.com/html/coffee.htm"
+          target="_blank">
+      </map>
+    </section>
 
 
-  <section>
-  <h2>button</h2>
+    <section>
+      <h2>button</h2>
 
-  <p>Una etiqueta para insertar botones.</p>
-  <div class="ejemplo"><p>&lt;button>BOTÓN&lt;/button></p></div>
+      <p>Una etiqueta para insertar botones.</p>
+      <div class="ejemplo">
+        <p>&lt;button>BOTÓN&lt;/button></p>
+      </div>
 
-  <button>BOTÓN </button>
-  </section>
+      <button>BOTÓN </button>
+    </section>
 
 
 
-  <section>
-  <h2>ul y ol</h2>
+    <section>
+      <h2>ul y ol</h2>
 
-  <h3>ul</h3>
+      <h3>ul</h3>
 
-  <p>Una etiqueta para crear listas con viñetas desordenadas.</p>
-  <div class="ejemplo"><p>&lt;ul>...&lt;/ul></p></div>
+      <p>Una etiqueta para crear listas con viñetas desordenadas.</p>
+      <div class="ejemplo">
+        <p>&lt;ul>...&lt;/ul></p>
+      </div>
 
-  <h4>list-style-type</h4>
-  <p>Se puede cambiar o quitar los marcadores de las listas desordenadas.</p>
-  <h5>disc</h5>
-  <p>Círculo relleno de color negro, usado por defecto.</p>
-  <div class="ejemploPre">
-  <pre>
+      <h4>list-style-type</h4>
+      <p>Se puede cambiar o quitar los marcadores de las listas desordenadas.</p>
+      <h5>disc</h5>
+      <p>Círculo relleno de color negro, usado por defecto.</p>
+      <div class="ejemploPre">
+        <pre>
 &lt;ul style="list-style-type:disc;">
   &lt;li>Café&lt;/li>
   &lt;li>Té&lt;/li>
   &lt;li>Leche&lt;/li>
-&lt;/ul></pre></div>
-  <ul style="list-style-type:disc;">
-    <li>Café</li>
-    <li>Té</li>
-    <li>Leche</li>
-  </ul>
+&lt;/ul></pre>
+      </div>
+      <ul style="list-style-type:disc;">
+        <li>Café</li>
+        <li>Té</li>
+        <li>Leche</li>
+      </ul>
 
 
-  <h5>circle</h5>
-  <p>Círculo negro vacío.</p>
-  <div class="ejemploPre">
-  <pre>
+      <h5>circle</h5>
+      <p>Círculo negro vacío.</p>
+      <div class="ejemploPre">
+        <pre>
 &lt;ul style="list-style-type:circle;">
   &lt;li>Café&lt;/li>
   &lt;li>Té&lt;/li>
   &lt;li>Leche&lt;/li>
 &lt;/ul>
-</pre></div>
-  <ul style="list-style-type:circle;">
-    <li>Café</li>
-    <li>Té</li>
-    <li>Leche</li>
-  </ul>
+</pre>
+      </div>
+      <ul style="list-style-type:circle;">
+        <li>Café</li>
+        <li>Té</li>
+        <li>Leche</li>
+      </ul>
 
 
-  <h5>square</h5>
-  <p>Cuadrados rellenos negros.</p>
-  <div class="ejemploPre">
-  <pre>
+      <h5>square</h5>
+      <p>Cuadrados rellenos negros.</p>
+      <div class="ejemploPre">
+        <pre>
 &lt;ul style="list-style-type:square;">
   &lt;li>Café&lt;/li>
   &lt;li>Té&lt;/li>
   &lt;li>Leche&lt;/li>
 &lt;/ul>
-</pre></div>
-  <ul style="list-style-type:square;">
-    <li>Café</li>
-    <li>Té</li>
-    <li>Leche</li>
-  </ul>
+</pre>
+      </div>
+      <ul style="list-style-type:square;">
+        <li>Café</li>
+        <li>Té</li>
+        <li>Leche</li>
+      </ul>
 
 
-  <h5>none</h5>
-  <p>No pone nada.</p>
-  <div class="ejemploPre">
-  <pre class="">
+      <h5>none</h5>
+      <p>No pone nada.</p>
+      <div class="ejemploPre">
+        <pre class="">
 &lt;ul style="list-style-type:none;">
   &lt;li>Café&lt;/li>
   &lt;li>Té&lt;/li>
   &lt;li>Leche&lt;/li>
 &lt;/ul>
-</pre></div>
-  <ul style="list-style-type:none;">
-    <li>Café</li>
-    <li>Té</li>
-    <li>Leche</li>
-  </ul>
+</pre>
+      </div>
+      <ul style="list-style-type:none;">
+        <li>Café</li>
+        <li>Té</li>
+        <li>Leche</li>
+      </ul>
 
 
 
-  <h3>ol</h3>
+      <h3>ol</h3>
 
-  <p>Una etiqueta para crear listas con viñetas ordenadas.</p>
-  <div class="ejemplo"><p>&lt;ol>...&lt;/ol></p></div>
-
-
-
-  <h3>Elementos de ul y ol</h3>
-  <h4>li</h4>
-
-  <p>Se usa para crear un elemento de una lista.</p>
-  <div class="ejemplo"><p>&lt;ul>
-    &nbsp;&nbsp;&lt;li>HTML&lt;/li>
-    &nbsp;&nbsp;&lt;li>CSS&lt;/li>
-    &lt;/ul></p></div>
-  <ul>
-    <li>HTML</li>
-    <li>CSS</li>
-  </ul>
-  <div class="ejemplo"><p>&lt;ol>
-    &nbsp;&nbsp;&lt;/li>Primero&lt;/li>
-    &nbsp;&nbsp;&lt;/li>Segundo&lt;/li>
-    &lt;/ol></p></div>
-  <ol>
-    <li>Primero</li>
-    <li>Segundo</li>
-  </ol>
-  </section>
+      <p>Una etiqueta para crear listas con viñetas ordenadas.</p>
+      <div class="ejemplo">
+        <p>&lt;ol>...&lt;/ol></p>
+      </div>
 
 
-  <section>
-  <h2>br</h2>
 
-  <p>Esta etiqueta sirve para introducir un salto de línea.</p>
-  <p>Puede ser insertado dentro de un párrafo.</p>
-  <div class="ejemplo"><p>&lt;br></p></div>
-  </section>
+      <h3>Elementos de ul y ol</h3>
+      <h4>li</h4>
+
+      <p>Se usa para crear un elemento de una lista.</p>
+      <div class="ejemplo">
+        <p>&lt;ul>
+          &nbsp;&nbsp;&lt;li>HTML&lt;/li>
+          &nbsp;&nbsp;&lt;li>CSS&lt;/li>
+          &lt;/ul></p>
+      </div>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+      </ul>
+      <div class="ejemplo">
+        <p>&lt;ol>
+          &nbsp;&nbsp;&lt;/li>Primero&lt;/li>
+          &nbsp;&nbsp;&lt;/li>Segundo&lt;/li>
+          &lt;/ol></p>
+      </div>
+      <ol>
+        <li>Primero</li>
+        <li>Segundo</li>
+      </ol>
+    </section>
 
 
-  <section>
-  <h2>hr</h2>
+    <section>
+      <h2>br</h2>
 
-  <p>Coloca una línea en esa línea de página.</p>
-  <div class="ejemplo"><p>&lt;hr></p></div>
-  <hr>
-  </section>
-
-
-  <section>
-  <h2>Comentarios</h2>
-
-  <p>Los comentarios se ocultan al mostrar la página web.</p>
-  <div class="ejemplo"><p>&lt;!--Comentarios--></p></div>
-  <!--Esto es un comentario-->
-  </section>
+      <p>Esta etiqueta sirve para introducir un salto de línea.</p>
+      <p>Puede ser insertado dentro de un párrafo.</p>
+      <div class="ejemplo">
+        <p>&lt;br></p>
+      </div>
+    </section>
 
 
-  <section>
-  <h2>head</h2>
+    <section>
+      <h2>hr</h2>
 
-  <p>Una etiqueta que se utiliza para incluir un título para el
-    documento, scripts, estilos, meta-información, etc.</p>
-  <div class="ejemplo"><p>&lt;head>...&lt;/head></p></div>
-  <h3>Atributos de head</h3>
-  <h4>meta charset</h4>
-  <p>Indica la codificación del documento.</p>
-  <div class="ejemplo"><p>&lt;head>&lt;meta charset="utf-8">&lt;/head></p></div>
-  <h4>title</h4>
-  <p>Con esta etiqueta pondremos un título a la pestaña de la página web.</p>
-  <div class="ejemplo"><p>&lt;head>&lt;title>Página Valentín&lt;/title>&lt;/head></p></div>
-  <h4>link</h4>
-  <p>Enlace a un archivo externo.</p>
-  <div class="ejemplo"><p>&lt;head>&lt;link rel="stylesheet" href="hoja_de_estilos.css">&lt;/head></p></div>
-  <div class="ejemplo"><p>&lt;head>&lt;link href="https://fonts.googleapis.com/css?family="TIPO FUENTE"&display=swap" rel="stylesheet">&lt;/head></p></div>
-  <div class="ejemplo"><p>&lt;head>&lt;link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">&lt;/head></p></div>
-  </section>
+      <p>Coloca una línea en esa línea de página.</p>
+      <div class="ejemplo">
+        <p>&lt;hr></p>
+      </div>
+      <hr>
+    </section>
 
-  <section>
-  <h2>Formato de Texto</h2>
 
-  <h3>pre</h3>
+    <section>
+      <h2>Comentarios</h2>
 
-  <p>Se utiliza para mostar texto en una fuente de anchura fija y mantiene los
-    espacios y los saltos de línea."</p>
-  <p>Se puede utilizar en un archivo json para formatear la información si
-    esta estuviera desordenada."</p>
-  <div class="ejemplo"><p>&lt;pre>...&lt;/pre></p></div>
-  <pre>     Esto      está escrito
+      <p>Los comentarios se ocultan al mostrar la página web.</p>
+      <div class="ejemplo">
+        <p>&lt;!--Comentarios--></p>
+      </div>
+      <!--Esto es un comentario-->
+    </section>
+
+
+    <section>
+      <h2>head</h2>
+
+      <p>Una etiqueta que se utiliza para incluir un título para el
+        documento, scripts, estilos, meta-información, etc.</p>
+      <div class="ejemplo">
+        <p>&lt;head>...&lt;/head></p>
+      </div>
+      <h3>Atributos de head</h3>
+      <h4>meta charset</h4>
+      <p>Indica la codificación del documento.</p>
+      <div class="ejemplo">
+        <p>&lt;head>&lt;meta charset="utf-8">&lt;/head></p>
+      </div>
+      <h4>title</h4>
+      <p>Con esta etiqueta pondremos un título a la pestaña de la página web.</p>
+      <div class="ejemplo">
+        <p>&lt;head>&lt;title>Página Valentín&lt;/title>&lt;/head></p>
+      </div>
+      <h4>link</h4>
+      <p>Enlace a un archivo externo.</p>
+      <div class="ejemplo">
+        <p>&lt;head>&lt;link rel="stylesheet" href="hoja_de_estilos.css">&lt;/head></p>
+      </div>
+      <div class="ejemplo">
+        <p>&lt;head>&lt;link href="https://fonts.googleapis.com/css?family="TIPO FUENTE"&display=swap"
+          rel="stylesheet">&lt;/head></p>
+      </div>
+      <div class="ejemplo">
+        <p>&lt;head>&lt;link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">&lt;/head></p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Formato de Texto</h2>
+
+      <h3>pre</h3>
+
+      <p>Se utiliza para mostar texto en una fuente de anchura fija y mantiene los
+        espacios y los saltos de línea."</p>
+      <p>Se puede utilizar en un archivo json para formatear la información si
+        esta estuviera desordenada."</p>
+      <div class="ejemplo">
+        <p>&lt;pre>...&lt;/pre></p>
+      </div>
+      <pre>     Esto      está escrito
                    de forma muy    desordenada gracias al elemento pre.
                  </pre>
 
 
-  <h3>b</h3>
-  <p>Usado para poner un texto en negrita.</p>
-  <div class="ejemplo"><p>&lt;p>&lt;b>TEXTO&lt;/b>&lt;/p></p></div>
-  <p><b>Texto en negrita</b></p>
+      <h3>b</h3>
+      <p>Usado para poner un texto en negrita.</p>
+      <div class="ejemplo">
+        <p>&lt;p>&lt;b>TEXTO&lt;/b>&lt;/p></p>
+      </div>
+      <p><b>Texto en negrita</b></p>
 
 
 
-  <h3>strong</h3>
+      <h3>strong</h3>
 
-  <p>Usado para poner un texto en negrita, pero tiene mayor importancia que b.</p>
-  <div class="ejemplo"><p>&lt;p>&lt;strong>TEXTO&lt;/strong>&lt;/p></p></div>
-  <p><strong>Texto en negrita con strong</strong></p>
+      <p>Usado para poner un texto en negrita, pero tiene mayor importancia que b.</p>
+      <div class="ejemplo">
+        <p>&lt;p>&lt;strong>TEXTO&lt;/strong>&lt;/p></p>
+      </div>
+      <p><strong>Texto en negrita con strong</strong></p>
 
 
 
-  <h3>i</h3>
+      <h3>i</h3>
 
-  <p>Usado para poner un texto en cursiva.</p>
-  <div class="ejemplo"><p>&lt;p>&lt;i>TEXTO&lt;/i>&lt;/p></p></div>
-  <p><i>Texto en cursiva</i></p>
+      <p>Usado para poner un texto en cursiva.</p>
+      <div class="ejemplo">
+        <p>&lt;p>&lt;i>TEXTO&lt;/i>&lt;/p></p>
+      </div>
+      <p><i>Texto en cursiva</i></p>
 
 
 
-  <h3>em</h3>
+      <h3>em</h3>
 
-  <p>Usado para poner un texto en cursiva, con importancia semántica.</p>
-  <div class="ejemplo"><p>&lt;p>&lt;em>TEXTO&lt;/em>&lt;/p></p></div>
-  <p><em>Texto en cursiva con importancia semántica</em></p>
+      <p>Usado para poner un texto en cursiva, con importancia semántica.</p>
+      <div class="ejemplo">
+        <p>&lt;p>&lt;em>TEXTO&lt;/em>&lt;/p></p>
+      </div>
+      <p><em>Texto en cursiva con importancia semántica</em></p>
 
 
 
-  <h3>small</h3>
+      <h3>small</h3>
 
-  <p>Usado para poner un texto en pequeño respecto al demás texto.</p>
-  <div class="ejemplo"><p>&lt;p>&lt;small>TEXTO&lt;/small>&lt;/p></p></div>
-  <p>Soy un <small>texto pequeño</small></p>
+      <p>Usado para poner un texto en pequeño respecto al demás texto.</p>
+      <div class="ejemplo">
+        <p>&lt;p>&lt;small>TEXTO&lt;/small>&lt;/p></p>
+      </div>
+      <p>Soy un <small>texto pequeño</small></p>
 
 
 
-  <h3>mark</h3>
+      <h3>mark</h3>
 
-  <p>Usado para poner un texto en fosforito, es decir, marcarlo.</p>
-  <div class="ejemplo"><p>&lt;p>&lt;mark>TEXTO&lt;/mark>&lt;/p></p></div>
-  <p>Texto <mark>MARCADO</mark></p>
+      <p>Usado para poner un texto en fosforito, es decir, marcarlo.</p>
+      <div class="ejemplo">
+        <p>&lt;p>&lt;mark>TEXTO&lt;/mark>&lt;/p></p>
+      </div>
+      <p>Texto <mark>MARCADO</mark></p>
 
 
 
-  <h3>del</h3>
+      <h3>del</h3>
 
-  <p>Con este elemento se tacha un texto.</p>
-  <div class="ejemplo"><p>&lt;p>&lt;del>TEXTO&lt;/del>&lt;/p></p></div>
-  <p><del>Texto tachado</del></p>
+      <p>Con este elemento se tacha un texto.</p>
+      <div class="ejemplo">
+        <p>&lt;p>&lt;del>TEXTO&lt;/del>&lt;/p></p>
+      </div>
+      <p><del>Texto tachado</del></p>
 
 
 
-  <h3>ins</h3>
+      <h3>ins</h3>
 
-  <p>Usado para subarayan un texto.</p>
-  <div class="ejemplo"><p>&lt;p>&lt;ins>TEXTO&lt;/ins>&lt;/p></p></div>
-  <p><ins>Texto subrayado</ins></p>
+      <p>Usado para subarayan un texto.</p>
+      <div class="ejemplo">
+        <p>&lt;p>&lt;ins>TEXTO&lt;/ins>&lt;/p></p>
+      </div>
+      <p><ins>Texto subrayado</ins></p>
 
 
 
-  <h3>sub</h3>
+      <h3>sub</h3>
 
-  <p>Usado para poner un texto en formato subíndice.</p>
-  <div class="ejemplo"><p>&lt;p>&lt;sub>TEXTO&lt;/sub>&lt;/p></p></div>
-  <p>El texto de la derecha está en: <sub>subíndice</sub></p>
+      <p>Usado para poner un texto en formato subíndice.</p>
+      <div class="ejemplo">
+        <p>&lt;p>&lt;sub>TEXTO&lt;/sub>&lt;/p></p>
+      </div>
+      <p>El texto de la derecha está en: <sub>subíndice</sub></p>
 
 
 
-  <h3>sup</h3>
+      <h3>sup</h3>
 
-  <p>Usado para poner un texto en formato superíndice.</p>
-  <div class="ejemplo"><p>&lt;p>&lt;sup>TEXTO&lt;/sup>&lt;/p></p></div>
-  <p>El texto de la derecha está en: <sup>superíndice</sup></p>
+      <p>Usado para poner un texto en formato superíndice.</p>
+      <div class="ejemplo">
+        <p>&lt;p>&lt;sup>TEXTO&lt;/sup>&lt;/p></p>
+      </div>
+      <p>El texto de la derecha está en: <sup>superíndice</sup></p>
 
 
 
-  <h3>q</h3>
+      <h3>q</h3>
 
-  <p>Con este elemento se cita un texto.</p>
-  <div class="ejemplo"><p>&lt;p>&lt;q>TEXTO&lt;/q>&lt;/p></p></div>
-  <p>El texto de la derecha está citado: <q>CITA</q></p>
-
-
-
-  <h3>blockquote</h3>
-
-  <p>Elemento utilizado para citar en bloque, los navegadores le ponen sangría
-    a los elementos blockquote.</p>
-  <div class="ejemplo"><p>&lt;p>&lt;blockquote>TEXTO&lt;/blockquote>&lt;/p></p></div>
-  <p>El texto a continuación es una citación en bloque:</p><blockquote>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae
-      risus eget dolor bibendum mattis in bibendum dui. Praesent faucibus justo
-      vel aliquam dapibus. Nunc facilisis venenatis egestas. Maecenas elit
-      dolor, pharetra vitae euismod ac, tempor id nisl. Interdum et malesuada
-      fames ac ante ipsum primis in faucibus. Lorem ipsum dolor sit amet,
-      consectetur adipiscing elit. Pellentesque quis sem arcu. In eros tortor,
-      tincidunt eget mauris ac, placerat egestas lectus. Phasellus fermentum
-      ligula sit amet magna gravida commodo. Phasellus suscipit vestibulum
-      orci, consectetur pulvinar odio elementum et. Vivamus laoreet
-      faucibus lacus vel tristique. Etiam faucibus eu arcu eget iaculis.
-
-      Vivamus luctus bibendum volutpat. Mauris at tellus eget enim semper
-      faucibus at tempus purus. Proin et lectus ut nisi suscipit sagittis non
-      ac turpis.Pellentesque et orci enim. Morbi tempus dapibus bibendum. Sed
-      hendrerit sit amet purus quis ullamcorper. Curabitur et dolor ut libero
-      dignissim sollicitudin at sed felis. Sed gravida eget est a luctus. Ut
-      gravida mi id accumsan viverra.
-    </blockquote>
-
-
-  <h3>abbr</h3>
-
-  <p>Este elemento abrevia una palabra en otra. Si dejas el ratón encima
-    de la abreviación, podrás ver el texto completo de la abreviación ya que
-    se utiliza un "title" para este poder usar este elemento.</p>
-  <div class="ejemplo"><p>&lt;p>&lt;abbr title="Título">TEXTO&lt;/abbr>&lt;/p></p></div>
-  <p>Deja tu ratón encima del texto rojo para saber el significado de sus
-    siglas: <abbr id="abreviaturaEjemploabbr" title="Hyper-Text Markup Language">HTML
-    </abbr></p>
-
-
-
-  <h3>address</h3>
-
-  <p>Con este elemento se muestra información sobre el autor de un artíuclo
-    o documento. Se suele mostrar en cursiva y la mayoría de los navegadores
-    añaden un salto de línea antes y después de este elemento.</p>
-  <div class="ejemplo"><p>&lt;p>&nbsp;&nbsp;&lt;address>&nbsp;&nbsp;TEXTO&nbsp;&nbsp;&lt;/address>&lt;/p></p></div>
-  <address>
-    Escrito por <q>Valentín Castravete.</q>
-    Visita mi página web: <q>valentincastravete.tk</q>
-    Si necesitas contactar conmigo, escribe a este correo:
-    <q>valentincastravete@gmail.com</q>
-  </address>
-
-
-
-  <h3>cite</h3>
-
-  <p>Hace referencia a una fuente o al autor de un texto citado.
-    Los navegadores muestran estos elementos
-    en cursiva.</p>
-  <div class="ejemplo"><p>&lt;p>&lt;cite>TEXTO&lt;/cite>&lt;/p></p></div>
-  <p>Este documento está escrito por <cite>Valentín Castravete</cite>.</p>
-
-
-
-  <h3>bdo</h3>
-
-  <p>Este elemento indica la orientación del texto, izquierda a derecha o al
-    revés.</p>
-  <div class="ejemplo"><p>&lt;p>&lt;bdo dir="ltr">TEXTO&lt;/bdo>&lt;/p></p></div>
-  <p><bdo dir="ltr">Este texto curiosamente es igual escrito de izquierda a derecha que al
-      revés: <b><q>luz azul</q></b></bdo></p>
-  <p><bdo dir="rtl">Este texto curiosamente es igual escrito de izquierda a derecha que al
-      revés: <b><q>luz azul</q></b></bdo></p>
-      </section>
-
-
-  <section>
-  <h2>table</h2>
-  <p>Elemento para crear tablas con celdas.</p>
-
-  <h3>Elementos de table</h3>
-
-  <h4>tr</h4>
-  <p>Elemento que representa una fila de la tabla.</p>
-  <div class="ejemploPre">
-  <pre class="">
+      <p>Con este elemento se cita un texto.</p>
+      <div class="ejemplo">
+        <p>&lt;p>&lt;q>TEXTO&lt;/q>&lt;/p></p>
+      </div>
+      <p>El texto de la derecha está citado: <q>CITA</q></p>
+
+
+
+      <h3>blockquote</h3>
+
+      <p>Elemento utilizado para citar en bloque, los navegadores le ponen sangría
+        a los elementos blockquote.</p>
+      <div class="ejemplo">
+        <p>&lt;p>&lt;blockquote>TEXTO&lt;/blockquote>&lt;/p></p>
+      </div>
+      <p>El texto a continuación es una citación en bloque:</p>
+      <blockquote>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae
+        risus eget dolor bibendum mattis in bibendum dui. Praesent faucibus justo
+        vel aliquam dapibus. Nunc facilisis venenatis egestas. Maecenas elit
+        dolor, pharetra vitae euismod ac, tempor id nisl. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit. Pellentesque quis sem arcu. In eros tortor,
+        tincidunt eget mauris ac, placerat egestas lectus. Phasellus fermentum
+        ligula sit amet magna gravida commodo. Phasellus suscipit vestibulum
+        orci, consectetur pulvinar odio elementum et. Vivamus laoreet
+        faucibus lacus vel tristique. Etiam faucibus eu arcu eget iaculis.
+
+        Vivamus luctus bibendum volutpat. Mauris at tellus eget enim semper
+        faucibus at tempus purus. Proin et lectus ut nisi suscipit sagittis non
+        ac turpis.Pellentesque et orci enim. Morbi tempus dapibus bibendum. Sed
+        hendrerit sit amet purus quis ullamcorper. Curabitur et dolor ut libero
+        dignissim sollicitudin at sed felis. Sed gravida eget est a luctus. Ut
+        gravida mi id accumsan viverra.
+      </blockquote>
+
+
+      <h3>abbr</h3>
+
+      <p>Este elemento abrevia una palabra en otra. Si dejas el ratón encima
+        de la abreviación, podrás ver el texto completo de la abreviación ya que
+        se utiliza un "title" para este poder usar este elemento.</p>
+      <div class="ejemplo">
+        <p>&lt;p>&lt;abbr title="Título">TEXTO&lt;/abbr>&lt;/p></p>
+      </div>
+      <p>Deja tu ratón encima del texto rojo para saber el significado de sus
+        siglas: <abbr id="abreviaturaEjemploabbr" title="Hyper-Text Markup Language">HTML
+        </abbr></p>
+
+
+
+      <h3>address</h3>
+
+      <p>Con este elemento se muestra información sobre el autor de un artíuclo
+        o documento. Se suele mostrar en cursiva y la mayoría de los navegadores
+        añaden un salto de línea antes y después de este elemento.</p>
+      <div class="ejemplo">
+        <p>&lt;p>&nbsp;&nbsp;&lt;address>&nbsp;&nbsp;TEXTO&nbsp;&nbsp;&lt;/address>&lt;/p></p>
+      </div>
+      <address>
+        Escrito por <q>Valentín Castravete.</q>
+        Visita mi página web: <q>valentincastravete.tk</q>
+        Si necesitas contactar conmigo, escribe a este correo:
+        <q>valentincastravete@gmail.com</q>
+      </address>
+
+
+
+      <h3>cite</h3>
+
+      <p>Hace referencia a una fuente o al autor de un texto citado.
+        Los navegadores muestran estos elementos
+        en cursiva.</p>
+      <div class="ejemplo">
+        <p>&lt;p>&lt;cite>TEXTO&lt;/cite>&lt;/p></p>
+      </div>
+      <p>Este documento está escrito por <cite>Valentín Castravete</cite>.</p>
+
+
+
+      <h3>bdo</h3>
+
+      <p>Este elemento indica la orientación del texto, izquierda a derecha o al
+        revés.</p>
+      <div class="ejemplo">
+        <p>&lt;p>&lt;bdo dir="ltr">TEXTO&lt;/bdo>&lt;/p></p>
+      </div>
+      <p><bdo dir="ltr">Este texto curiosamente es igual escrito de izquierda a derecha que al
+          revés: <b><q>luz azul</q></b></bdo></p>
+      <p><bdo dir="rtl">Este texto curiosamente es igual escrito de izquierda a derecha que al
+          revés: <b><q>luz azul</q></b></bdo></p>
+    </section>
+
+
+    <section>
+      <h2>table</h2>
+      <p>Elemento para crear tablas con celdas.</p>
+
+      <h3>Elementos de table</h3>
+
+      <h4>tr</h4>
+      <p>Elemento que representa una fila de la tabla.</p>
+      <div class="ejemploPre">
+        <pre class="">
 &lt;table>
   &lt;tr>
   &lt;/tr>
-&lt;/table></pre></div>
+&lt;/table></pre>
+      </div>
 
 
-  <h4>th</h4>
-  <p>Elemento que representa una celda de encabezado de la tabla.</p>
-  <div class="ejemploPre">
-  <pre>
+      <h4>th</h4>
+      <p>Elemento que representa una celda de encabezado de la tabla.</p>
+      <div class="ejemploPre">
+        <pre>
 &lt;table>
   &lt;tr>
     &lt;th>...&lt;/h>
   &lt;/tr>
-&lt;/table></pre></div>
+&lt;/table></pre>
+      </div>
 
 
-  <h4>td</h4>
-  <p>Elemento que representa una celda en una columna de la tabla.</p>
-  <div class="ejemploPre">
-  <pre>
+      <h4>td</h4>
+      <p>Elemento que representa una celda en una columna de la tabla.</p>
+      <div class="ejemploPre">
+        <pre>
 &lt;table>
   &lt;tr>
     &lt;td>...&lt;/td>
   &lt;/tr>
-&lt;/table></pre></div>
+&lt;/table></pre>
+      </div>
 
-  <h4>caption</h4>
-  <p>Título de la tabla</p>
-  <h6>HTML</h6>
-  <div class="ejemploPre">
-  <pre>
+      <h4>caption</h4>
+      <p>Título de la tabla</p>
+      <h6>HTML</h6>
+      <div class="ejemploPre">
+        <pre>
 &lt;table>
   &lt;caption>Título&lt;/caption>
   &lt;tr>
@@ -717,10 +846,11 @@
     &lt;td>Sí&lt;/td>
     &lt;td>No&lt;/td>
   &lt;/tr>
-&lt;/table></pre></div>
-  <h6>CSS</h6>
-  <div class="ejemploPre">
-  <pre>
+&lt;/table></pre>
+      </div>
+      <h6>CSS</h6>
+      <div class="ejemploPre">
+        <pre>
 #ejemploTabla{
   border-collapse: collapse;
 }
@@ -729,27 +859,28 @@
   border: 1px solid black;
   border-collapse: collapse;
   width: 100px;
-}</pre></div>
-  <table id="ejemploTabla">
-    <caption>Título</caption>
-    <tr>
-      <th>Hola</th>
-      <th>Adiós</th>
-    </tr>
-    <tr>
-      <td>Sí</td>
-      <td>No</td>
-    </tr>
-  </table>
+}</pre>
+      </div>
+      <table id="ejemploTabla">
+        <caption>Título</caption>
+        <tr>
+          <th>Hola</th>
+          <th>Adiós</th>
+        </tr>
+        <tr>
+          <td>Sí</td>
+          <td>No</td>
+        </tr>
+      </table>
 
 
-  <h3>Atributos de th y td</h3>
+      <h3>Atributos de th y td</h3>
 
-  <h4>colspan</h4>
-  <p>Junta varias celdas en 1 en horizontal.</p>
-  <h6>HTML</h6>
-  <div class="ejemploPre">
-  <pre>
+      <h4>colspan</h4>
+      <p>Junta varias celdas en 1 en horizontal.</p>
+      <h6>HTML</h6>
+      <div class="ejemploPre">
+        <pre>
 &lt;table>
   &lt;tr>
     &lt;th colspan="2">Hola&lt;/th>
@@ -758,10 +889,11 @@
     &lt;td>Sí&lt;/td>
     &lt;td>No&lt;/td>
   &lt;/tr>
-&lt;/table></pre></div>
-  <h6>CSS</h6>
-  <div class="ejemploPre">
-  <pre>
+&lt;/table></pre>
+      </div>
+      <h6>CSS</h6>
+      <div class="ejemploPre">
+        <pre>
 #ejemploTablaColspan{
   border-collapse: collapse;
 }
@@ -770,23 +902,24 @@
   border: 1px solid black;
   border-collapse: collapse;
   width: 100px;
-}</pre></div>
-  <table id="ejemploTablaColspan">
-    <caption>Título</caption>
-    <tr>
-      <th colspan="2">Hola</th>
-    </tr>
-    <tr>
-      <td>Sí</td>
-      <td>No</td>
-    </tr>
-  </table>
+}</pre>
+      </div>
+      <table id="ejemploTablaColspan">
+        <caption>Título</caption>
+        <tr>
+          <th colspan="2">Hola</th>
+        </tr>
+        <tr>
+          <td>Sí</td>
+          <td>No</td>
+        </tr>
+      </table>
 
-  <h4>rowspan</h4>
-  <p>Junta varias celdas en 1 en vertical.</p>
-  <h6>HTML</h6>
-  <div class="ejemploPre">
-  <pre>
+      <h4>rowspan</h4>
+      <p>Junta varias celdas en 1 en vertical.</p>
+      <h6>HTML</h6>
+      <div class="ejemploPre">
+        <pre>
 &lt;table>
   &lt;caption>Título&lt;/caption>
   &lt;tr>
@@ -796,10 +929,11 @@
   &lt;tr>
     &lt;td>No&lt;/td>
   &lt;/tr>
-&lt;/table></pre></div>
-  <h6>CSS</h6>
-  <div class="ejemploPre">
-  <pre>
+&lt;/table></pre>
+      </div>
+      <h6>CSS</h6>
+      <div class="ejemploPre">
+        <pre>
 #ejemploTablaRowspan{
   border-collapse: collapse;
 }
@@ -808,68 +942,72 @@
   border: 1px solid black;
   border-collapse: collapse;
   width: 100px;
-}</pre></div>
-  <table id="ejemploTablaRowspan">
-    <caption>Título</caption>
-    <tr>
-      <th rowspan="2">Hola</th>
-      <th>Adiós</th>
-    </tr>
-    <tr>
-      <td>No</td>
-    </tr>
-  </table>
+}</pre>
+      </div>
+      <table id="ejemploTablaRowspan">
+        <caption>Título</caption>
+        <tr>
+          <th rowspan="2">Hola</th>
+          <th>Adiós</th>
+        </tr>
+        <tr>
+          <td>No</td>
+        </tr>
+      </table>
 
 
 
-  <h3>Atributos de table</h3>
+      <h3>Atributos de table</h3>
 
-  <h4>border</h4>
-  <p>Sirve para modificar los bordes de las celdas o de la tabla, por defecto no tienen borde.</p>
-  <h6>HTML</h6>
-  <div class="ejemploPre">
-  <pre>
+      <h4>border</h4>
+      <p>Sirve para modificar los bordes de las celdas o de la tabla, por defecto no tienen borde.</p>
+      <h6>HTML</h6>
+      <div class="ejemploPre">
+        <pre>
 &lt;table>
   &lt;tr>
     &lt;th>Tabla&lt;/h>
     &lt;th>Ejemplo&lt;/h>
     &lt;th>Borde&lt;/h>
   &lt;/tr>
-&lt;/table></pre></div>
-  <h6>CSS</h6>
-  <div class="ejemploPre">
-  <pre>
+&lt;/table></pre>
+      </div>
+      <h6>CSS</h6>
+      <div class="ejemploPre">
+        <pre>
 #ejemploTablaBorde{
   border: 1px solid black;
 }
 
 #ejemploTablaBorde td{
   border: 1px solid red;
-}</pre></div>
+}</pre>
+      </div>
 
-  <table id="ejemploTablaBorde">
-    <tr>
-      <td>Tabla</td>
-      <td>Ejemplo</td>
-      <td>Borde</td>
-    </tr>
-  </table>
+      <table id="ejemploTablaBorde">
+        <tr>
+          <td>Tabla</td>
+          <td>Ejemplo</td>
+          <td>Borde</td>
+        </tr>
+      </table>
 
-  <h4>border-collapse</h4>
-  <p>Sirve para que se superpongan los bordes y no creen un espacio entre ellos.</p>
-  <h6>HTML</h6>
-  <div class="ejemploPre">
-  <pre>
+      <h4>border-collapse</h4>
+      <p>Sirve para que se superpongan los bordes y no creen un espacio entre ellos.</p>
+      <h6>HTML</h6>
+      <div class="ejemploPre">
+        <pre>
 &lt;table>
   &lt;tr>
     &lt;th>Tabla&lt;/h>
     &lt;th>Ejemplo&lt;/h>
     &lt;th>Borde&lt;/h>
   &lt;/tr>
-&lt;/table></pre></div>
-  <h6>CSS</h6>
-  <div class="ejemploPre">
-  <pre>
+&lt;/table></pre>
+      </div>
+      <h6>CSS</h6>
+      <div class="ejemploPre">
+        <pre>
 #ejemploTablaBorde{
   border: 1px solid black;
   border-collapse: collapse;
@@ -877,30 +1015,32 @@
 
 #ejemploTablaBorde td{
   border: 1px solid red;
-}</pre></div>
+}</pre>
+      </div>
 
-  <table id="ejemploTablaBordeCollapse">
-    <tr>
-      <td>Tabla</td>
-      <td>Ejemplo</td>
-      <td>Borde</td>
-    </tr>
-  </table>
+      <table id="ejemploTablaBordeCollapse">
+        <tr>
+          <td>Tabla</td>
+          <td>Ejemplo</td>
+          <td>Borde</td>
+        </tr>
+      </table>
 
-  <h4>padding</h4>
-  <p>Añade espacio entre los bordes y el texto de cada celda.</p>
+      <h4>padding</h4>
+      <p>Añade espacio entre los bordes y el texto de cada celda.</p>
 
-  <h4>border-spacing</h4>
-  <p>Añade espacio entre los bordes.</p>
+      <h4>border-spacing</h4>
+      <p>Añade espacio entre los bordes.</p>
 
 
 
-  <h3>Estilos para table</h3>
-  <p>Asignandole una id única a la tabla, puedes editar su estilo de la siguiente manera.</p>
-  <p>Con tr:nth-chile(even) y tr:nth-chile(odd) puedes editar los estilos de las filas pares e impares por separado.</p>
-  <h6>HTML</h6>
-  <div class="ejemploPre">
-  <pre>
+      <h3>Estilos para table</h3>
+      <p>Asignandole una id única a la tabla, puedes editar su estilo de la siguiente manera.</p>
+      <p>Con tr:nth-chile(even) y tr:nth-chile(odd) puedes editar los estilos de las filas pares e impares por separado.
+      </p>
+      <h6>HTML</h6>
+      <div class="ejemploPre">
+        <pre>
 &lt;table id="ejemploTablaEstilo">
   &lt;caption>Título&lt;/caption>
   &lt;tr>
@@ -919,10 +1059,11 @@
     &lt;td>Par&lt;/td>
     &lt;td>Impar&lt;/td>
   &lt;/tr>
-&lt;/table></pre></div>
-  <h6>CSS</h6>
-  <div class="ejemploPre">
-  <pre>
+&lt;/table></pre>
+      </div>
+      <h6>CSS</h6>
+      <div class="ejemploPre">
+        <pre>
 #ejemploTablaEstilo tr:nth-child(even){
     background-color: #ddd;
 }
@@ -945,259 +1086,533 @@
     border-collapse: collapse;
     width: 100px;
     text-align: center;
-}</pre></div>
+}</pre>
+      </div>
 
-  <table id="ejemploTablaEstilo">
-    <caption>Título</caption>
-    <tr>
-      <th>Hola</th>
-      <th>Adiós</th>
-    </tr>
-    <tr>
-      <td>Sí</td>
-      <td>No</td>
-    </tr>
-    <tr>
-      <td>Uno</td>
-      <td>Dos</td>
-    </tr>
-    <tr>
-      <td>Par</td>
-      <td>Impar</td>
-    </tr>
-  </table>
-  </section>
+      <table id="ejemploTablaEstilo">
+        <caption>Título</caption>
+        <tr>
+          <th>Hola</th>
+          <th>Adiós</th>
+        </tr>
+        <tr>
+          <td>Sí</td>
+          <td>No</td>
+        </tr>
+        <tr>
+          <td>Uno</td>
+          <td>Dos</td>
+        </tr>
+        <tr>
+          <td>Par</td>
+          <td>Impar</td>
+        </tr>
+      </table>
+    </section>
 
-<div class="separacion"></div>
-  <h3>Mi Horario</h3>
-  <table id="MiHorario">
-    <tr>
-      <th class="MiHorarioHoras">Horas</th>
-      <th class="MiHorarioDiaSemana">Lunes</th>
-      <th class="MiHorarioDiaSemana">Martes</th>
-      <th class="MiHorarioDiaSemana">Miércoles</th>
-      <th class="MiHorarioDiaSemana">Jueves</th>
-      <th class="MiHorarioDiaSemana">Viernes</th>
-    </tr>
-    <tr>
-      <td class="MiHorarioHoras">16:1517:05</td>
-      <td rowspan="2" class="MiHorarioBasDat">Bases de Datos</td>
-      <td rowspan="2" class="MiHorarioProgr">Programación</td>
-      <td rowspan="2" class="MiHorarioSisInf">Sistemas Informáticos</td>
-      <td rowspan="2" class="MiHorarioProgr">Programación</td>
-      <td rowspan="2" class="MiHorarioProgr">Programación</td>
-    </tr>
-    <tr>
-      <td class="MiHorarioHoras">17:1018:00</td>
-    </tr>
-    <tr>
-      <td class="MiHorarioHoras">18:0518:55</td>
-      <td class="MiHorarioProgr">Programación</td>
-      <td class="MiHorarioBasDat">Bases de Datos</td>
-      <td class="MiHorarioLengMar">Lenguaje de Marcas</td>
-      <td class="MiHorarioSisInf">Sistemas Informáticos</td>
-      <td class="MiHorarioForOriLab">Formación y Orientación Laboral</td>
-    </tr>
-    <tr>
-      <td class="MiHorarioHoras">18:5519:15</td>
-      <td id="recreo" colspan="5">RECREO</td>
-    </tr>
-    <tr>
-      <td class="MiHorarioHoras">19:2020:10</td>
-      <td class="MiHorarioProgr">Programación</td>
-      <td class="MiHorarioBasDat">Bases de Datos</td>
-      <td rowspan="2" class="MiHorarioBasDat">Bases de Datos</td>
-      <td class="MiHorarioSisInf">Sistemas Informáticos</td>
-      <td class="MiHorarioForOriLab">Formación y Orientación Laboral</td>
-    </tr>
-    <tr>
-      <td class="MiHorarioHoras">20:1521:05</td>
-      <td class="MiHorarioForOriLab">Formación y Orientación Laboral</td>
-      <td class="MiHorarioSisInf">Sistemas Informáticos</td>
-      <td rowspan="2" class="MiHorarioEntDes">Entornos de Desarrollo</td>
-      <td rowspan="2" class="MiHorarioLengMar">Lenguaje de Marcas</td>
-    </tr>
-    <tr>
-      <td class="MiHorarioHoras">21:1022:00</td>
-      <td class="MiHorarioIng">Inglés Técnico</td>
-      <td class="MiHorarioIng">Inglés Técnico</td>
-      <td class="MiHorarioEntDes">Entornos de Desarrollo</td>
-    </tr>
-  </table>
-<div class="separacion"></div>
-  <h3>Ejercicio de Tabla</h3>
-  <table id="EjercicioTabla1">
-    <tr>
-      <td></td>
-      <td rowspan="2" id="Parte1EjercicioTabla1">HOLA
-      <td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td id="Parte2EjercicioTabla1"><bdo dir="rtl">ADIÓS</bdo></td>
-      <td rowspan="2">
-        <p id="Parte3Texto1EjercicioTabla1">PEDRO EL GUAPO</p>
-      </td>
-      <td id="Parte4EjercicioTabla1">CARACOLA</td>
-      <td></td>
-      <td id="Parte5EjercicioTabla1">
-        <p id="Parte5Texto1EjercicioTabla1">R</p>
-      </td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-      <td colspan="3" id="Parte6EjercicioTabla1">HTML</td>
-    </tr>
-    <tr>
-      <td colspan="2" rowspan="2" id="Parte7EjercicioTabla1"> <img src="img/logoLOL.png" alt="Logo de League Of Legends" id="Parte7Imagen1EjercicioTabla1"></td>
-      <td></td>
-      <td rowspan="3" id="Parte8EjercicioTabla1">
-        <i class="fa-stack fa-lg">
-          <i class="fa fa-trash-o fa-stack-2x" id="basuraIcono" aria-hidden="true"></i>
-          <i class="fa fa-instagram fa-stack-1x" id="instagramIcono" aria-hidden="true"></i>
-        </i>
-      </td>
-      <td></td>
-      <td id="Parte9EjercicioTabla1"></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-  </table>
-  <div class="separacion"></div>
-  <table id="EjercicioTabla2">
-    <tr>
-      <td rowspan="9" id="Celda1EjercicioTabla2"></td>
-      <td id="Celda2EjercicioTabla2">
-        <h1 id="titulo1Celda2EjercicioTabla2">CUANDO EL GRAJO...</h1>
-      </td>
-      <td rowspan="9" id="Celda3EjercicioTabla2"></td>
-    </tr>
-    <tr>
-      <td class="separadorCeldasEjercicioTabla2"></td>
-    </tr>
-    <tr>
-      <td>
-        <p class="texto1Celda2EjercicioTabla2">&emsp;&emsp;&emsp;
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum
-          lorem in ligula euismod dignissim. Suspendisse nec dapibus orci. Proin aliquam
-          nunc quis vehicula placerat. Pellentesque dapibus est eu est mattis, eu rhoncus
-          arcu tincidunt. Suspendisse fermentum eros non risus interdum, eu sagittis velit
-          commodo. Nulla tempus id diam eu scelerisque. Proin cursus ullamcorper nisi,
-          non posuere turpis tempor ut. Orci varius natoque penatibus et magnis dis
-          parturient montes, nascetur ridiculus mus. Nunc commodo libero ac suscipit
-          aliquet. Morbi nunc elit, placerat id ipsum eget, consectetur ultricies leo.
-          Nulla at aliquam nunc. Nullam tristique ipsum maximus massa tincidunt euismod.
-          Proin auctor suscipit rhoncus.
+    <div class="separacion"></div>
+    <h3>Mi Horario</h3>
+    <table id="MiHorario">
+      <tr>
+        <th class="MiHorarioHoras">Horas</th>
+        <th class="MiHorarioDiaSemana">Lunes</th>
+        <th class="MiHorarioDiaSemana">Martes</th>
+        <th class="MiHorarioDiaSemana">Miércoles</th>
+        <th class="MiHorarioDiaSemana">Jueves</th>
+        <th class="MiHorarioDiaSemana">Viernes</th>
+      </tr>
+      <tr>
+        <td class="MiHorarioHoras">16:1517:05</td>
+        <td rowspan="2" class="MiHorarioBasDat">Bases de Datos</td>
+        <td rowspan="2" class="MiHorarioProgr">Programación</td>
+        <td rowspan="2" class="MiHorarioSisInf">Sistemas Informáticos</td>
+        <td rowspan="2" class="MiHorarioProgr">Programación</td>
+        <td rowspan="2" class="MiHorarioProgr">Programación</td>
+      </tr>
+      <tr>
+        <td class="MiHorarioHoras">17:1018:00</td>
+      </tr>
+      <tr>
+        <td class="MiHorarioHoras">18:0518:55</td>
+        <td class="MiHorarioProgr">Programación</td>
+        <td class="MiHorarioBasDat">Bases de Datos</td>
+        <td class="MiHorarioLengMar">Lenguaje de Marcas</td>
+        <td class="MiHorarioSisInf">Sistemas Informáticos</td>
+        <td class="MiHorarioForOriLab">Formación y Orientación Laboral</td>
+      </tr>
+      <tr>
+        <td class="MiHorarioHoras">18:5519:15</td>
+        <td id="recreo" colspan="5">RECREO</td>
+      </tr>
+      <tr>
+        <td class="MiHorarioHoras">19:2020:10</td>
+        <td class="MiHorarioProgr">Programación</td>
+        <td class="MiHorarioBasDat">Bases de Datos</td>
+        <td rowspan="2" class="MiHorarioBasDat">Bases de Datos</td>
+        <td class="MiHorarioSisInf">Sistemas Informáticos</td>
+        <td class="MiHorarioForOriLab">Formación y Orientación Laboral</td>
+      </tr>
+      <tr>
+        <td class="MiHorarioHoras">20:1521:05</td>
+        <td class="MiHorarioForOriLab">Formación y Orientación Laboral</td>
+        <td class="MiHorarioSisInf">Sistemas Informáticos</td>
+        <td rowspan="2" class="MiHorarioEntDes">Entornos de Desarrollo</td>
+        <td rowspan="2" class="MiHorarioLengMar">Lenguaje de Marcas</td>
+      </tr>
+      <tr>
+        <td class="MiHorarioHoras">21:1022:00</td>
+        <td class="MiHorarioIng">Inglés Técnico</td>
+        <td class="MiHorarioIng">Inglés Técnico</td>
+        <td class="MiHorarioEntDes">Entornos de Desarrollo</td>
+      </tr>
+    </table>
+    <div class="separacion"></div>
+    <h3>Ejercicio de Tabla</h3>
+    <table id="EjercicioTabla1">
+      <tr>
+        <td></td>
+        <td rowspan="2" id="Parte1EjercicioTabla1">HOLA
+        <td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td id="Parte2EjercicioTabla1"><bdo dir="rtl">ADIÓS</bdo></td>
+        <td rowspan="2">
+          <p id="Parte3Texto1EjercicioTabla1">PEDRO EL GUAPO</p>
+        </td>
+        <td id="Parte4EjercicioTabla1">CARACOLA</td>
+        <td></td>
+        <td id="Parte5EjercicioTabla1">
+          <p id="Parte5Texto1EjercicioTabla1">R</p>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td colspan="3" id="Parte6EjercicioTabla1">HTML</td>
+      </tr>
+      <tr>
+        <td colspan="2" rowspan="2" id="Parte7EjercicioTabla1"> <img src="img/logoLOL.png"
+            alt="Logo de League Of Legends" id="Parte7Imagen1EjercicioTabla1"></td>
+        <td></td>
+        <td rowspan="3" id="Parte8EjercicioTabla1">
+          <i class="fa-stack fa-lg">
+            <i class="fa fa-trash-o fa-stack-2x" id="basuraIcono" aria-hidden="true"></i>
+            <i class="fa fa-instagram fa-stack-1x" id="instagramIcono" aria-hidden="true"></i>
+          </i>
+        </td>
+        <td></td>
+        <td id="Parte9EjercicioTabla1"></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+    <div class="separacion"></div>
+    <table id="EjercicioTabla2">
+      <tr>
+        <td rowspan="9" id="Celda1EjercicioTabla2"></td>
+        <td id="Celda2EjercicioTabla2">
+          <h1 id="titulo1Celda2EjercicioTabla2">CUANDO EL GRAJO...</h1>
+        </td>
+        <td rowspan="9" id="Celda3EjercicioTabla2"></td>
+      </tr>
+      <tr>
+        <td class="separadorCeldasEjercicioTabla2"></td>
+      </tr>
+      <tr>
+        <td>
+          <p class="texto1Celda2EjercicioTabla2">&emsp;&emsp;&emsp;
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum
+            lorem in ligula euismod dignissim. Suspendisse nec dapibus orci. Proin aliquam
+            nunc quis vehicula placerat. Pellentesque dapibus est eu est mattis, eu rhoncus
+            arcu tincidunt. Suspendisse fermentum eros non risus interdum, eu sagittis velit
+            commodo. Nulla tempus id diam eu scelerisque. Proin cursus ullamcorper nisi,
+            non posuere turpis tempor ut. Orci varius natoque penatibus et magnis dis
+            parturient montes, nascetur ridiculus mus. Nunc commodo libero ac suscipit
+            aliquet. Morbi nunc elit, placerat id ipsum eget, consectetur ultricies leo.
+            Nulla at aliquam nunc. Nullam tristique ipsum maximus massa tincidunt euismod.
+            Proin auctor suscipit rhoncus.
 
-          Mauris semper nunc nec orci malesuada, in porta erat porttitor. Praesent nec
-          pretium erat. In sodales egestas turpis a convallis. Proin varius, mi ac efficitur
-          tempor, turpis ex vestibulum erat, vel semper justo ipsum in arcu. Nulla vitae
-          dolor vehicula, sodales orci vel, vulputate orci. Sed eleifend dui urna, a maximus
-          velit efficitur vel. Donec cursus massa ac turpis porttitor ornare sit amet in
-          risus. Integer vestibulum ligula arcu, id euismod urna tincidunt at. </p>
-      </td>
-    </tr>
-    <tr>
-      <td class="separadorCeldasEjercicioTabla2"></td>
-    </tr>
-    <tr>
-      <td>
-        <p class="texto1Celda2EjercicioTabla2">&emsp;&emsp;&emsp;Vuela bajo...
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum
-          lorem in ligula euismod dignissim. Suspendisse nec dapibus orci. Proin aliquam
-          nunc quis vehicula placerat. Pellentesque dapibus est eu est mattis, eu rhoncus
-          arcu tincidunt. Suspendisse fermentum eros non risus interdum, eu sagittis velit
-          commodo. Nulla tempus id diam eu scelerisque. Proin cursus ullamcorper nisi,
-          non posuere turpis tempor ut. Orci varius natoque penatibus et magnis dis
-          parturient montes, nascetur ridiculus mus. Nunc commodo libero ac suscipit
-          aliquet. Morbi nunc elit, placerat id ipsum eget, consectetur ultricies leo.
-          Nulla at aliquam nunc. Nullam tristique ipsum maximus massa tincidunt euismod.
-          Proin auctor suscipit rhoncus.
+            Mauris semper nunc nec orci malesuada, in porta erat porttitor. Praesent nec
+            pretium erat. In sodales egestas turpis a convallis. Proin varius, mi ac efficitur
+            tempor, turpis ex vestibulum erat, vel semper justo ipsum in arcu. Nulla vitae
+            dolor vehicula, sodales orci vel, vulputate orci. Sed eleifend dui urna, a maximus
+            velit efficitur vel. Donec cursus massa ac turpis porttitor ornare sit amet in
+            risus. Integer vestibulum ligula arcu, id euismod urna tincidunt at. </p>
+        </td>
+      </tr>
+      <tr>
+        <td class="separadorCeldasEjercicioTabla2"></td>
+      </tr>
+      <tr>
+        <td>
+          <p class="texto1Celda2EjercicioTabla2">&emsp;&emsp;&emsp;Vuela bajo...
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum
+            lorem in ligula euismod dignissim. Suspendisse nec dapibus orci. Proin aliquam
+            nunc quis vehicula placerat. Pellentesque dapibus est eu est mattis, eu rhoncus
+            arcu tincidunt. Suspendisse fermentum eros non risus interdum, eu sagittis velit
+            commodo. Nulla tempus id diam eu scelerisque. Proin cursus ullamcorper nisi,
+            non posuere turpis tempor ut. Orci varius natoque penatibus et magnis dis
+            parturient montes, nascetur ridiculus mus. Nunc commodo libero ac suscipit
+            aliquet. Morbi nunc elit, placerat id ipsum eget, consectetur ultricies leo.
+            Nulla at aliquam nunc. Nullam tristique ipsum maximus massa tincidunt euismod.
+            Proin auctor suscipit rhoncus.
 
-          Mauris semper nunc nec orci malesuada, in porta erat porttitor. Praesent nec
-          pretium erat. In sodales egestas turpis a convallis. Proin varius, mi ac efficitur
-          tempor, turpis ex vestibulum erat, vel semper justo ipsum in arcu. Nulla vitae
-          dolor vehicula, sodales orci vel, vulputate orci. Sed eleifend dui urna, a maximus
-          velit efficitur vel. Donec cursus massa ac turpis porttitor ornare sit amet in
-          risus. Integer vestibulum ligula arcu, id euismod urna tincidunt at. </p>
-      </td>
-    </tr>
-    <tr>
-      <td class="separadorCeldasEjercicioTabla2"></td>
-    </tr>
-    <tr>
-      <td><img src="img/paisaje1.webp" alt="Paisaje" id="imagen1Celda2EjercicioTabla2">
-        <p id="texto2Celda2EjercicioTabla2">Un paisaje vectorial dibujado.</p>
-      </td>
-    </tr>
-    <tr>
-      <td class="separadorCeldasEjercicioTabla2"></td>
-    </tr>
-    <tr>
-      <td>
-        <p class="texto1Celda2EjercicioTabla2">&emsp;&emsp;&emsp;
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum
-          lorem in ligula euismod dignissim. Suspendisse nec dapibus orci. Proin aliquam
-          nunc quis vehicula placerat. Pellentesque dapibus est eu est mattis, eu rhoncus
-          arcu tincidunt. Suspendisse fermentum eros non risus interdum, eu sagittis velit
-          commodo. Nulla tempus id diam eu scelerisque. Proin cursus ullamcorper nisi,
-          non posuere turpis tempor ut. Orci varius natoque penatibus et magnis dis
-          parturient montes, nascetur ridiculus mus. Nunc commodo libero ac suscipit
-          aliquet. Morbi nunc elit, placerat id ipsum eget, consectetur ultricies leo.
-          Nulla at aliquam nunc. Nullam tristique ipsum maximus massa tincidunt euismod.
-          Proin auctor suscipit rhoncus.
+            Mauris semper nunc nec orci malesuada, in porta erat porttitor. Praesent nec
+            pretium erat. In sodales egestas turpis a convallis. Proin varius, mi ac efficitur
+            tempor, turpis ex vestibulum erat, vel semper justo ipsum in arcu. Nulla vitae
+            dolor vehicula, sodales orci vel, vulputate orci. Sed eleifend dui urna, a maximus
+            velit efficitur vel. Donec cursus massa ac turpis porttitor ornare sit amet in
+            risus. Integer vestibulum ligula arcu, id euismod urna tincidunt at. </p>
+        </td>
+      </tr>
+      <tr>
+        <td class="separadorCeldasEjercicioTabla2"></td>
+      </tr>
+      <tr>
+        <td><img src="img/paisaje1.webp" alt="Paisaje" id="imagen1Celda2EjercicioTabla2">
+          <p id="texto2Celda2EjercicioTabla2">Un paisaje vectorial dibujado.</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="separadorCeldasEjercicioTabla2"></td>
+      </tr>
+      <tr>
+        <td>
+          <p class="texto1Celda2EjercicioTabla2">&emsp;&emsp;&emsp;
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum
+            lorem in ligula euismod dignissim. Suspendisse nec dapibus orci. Proin aliquam
+            nunc quis vehicula placerat. Pellentesque dapibus est eu est mattis, eu rhoncus
+            arcu tincidunt. Suspendisse fermentum eros non risus interdum, eu sagittis velit
+            commodo. Nulla tempus id diam eu scelerisque. Proin cursus ullamcorper nisi,
+            non posuere turpis tempor ut. Orci varius natoque penatibus et magnis dis
+            parturient montes, nascetur ridiculus mus. Nunc commodo libero ac suscipit
+            aliquet. Morbi nunc elit, placerat id ipsum eget, consectetur ultricies leo.
+            Nulla at aliquam nunc. Nullam tristique ipsum maximus massa tincidunt euismod.
+            Proin auctor suscipit rhoncus.
 
-          Mauris semper nunc nec orci malesuada, in porta erat porttitor. Praesent nec
-          pretium erat. In sodales egestas turpis a convallis. Proin varius, mi ac efficitur
-          tempor, turpis ex vestibulum erat, vel semper justo ipsum in arcu. Nulla vitae
-          dolor vehicula, sodales orci vel, vulputate orci. Sed eleifend dui urna, a maximus
-          velit efficitur vel. Donec cursus massa ac turpis porttitor ornare sit amet in
-          risus. Integer vestibulum ligula arcu, id euismod urna tincidunt at. </p>
-      </td>
-    </tr>
-  </table>
-<div class="separacion"></div>
-  <h2>Exámen 1ª Evaluación</h2>
-  <div class="examenes">
-    <a class="linkexamen"  id="linkSinCorregir" href="examen1_valentin_castravete/index_1_examen.html" target="_blank"><i class="fa fa-file-text" aria-hidden="true"></i> Sin Corregir</a>
-    <a class="linkexamen" id="linkCorregido" href="examen1_valentin_castravete/index_1_examen_corregido.html" target="_blank"><i class="fa fa-file-text" aria-hidden="true"></i> Corregido</a>
+            Mauris semper nunc nec orci malesuada, in porta erat porttitor. Praesent nec
+            pretium erat. In sodales egestas turpis a convallis. Proin varius, mi ac efficitur
+            tempor, turpis ex vestibulum erat, vel semper justo ipsum in arcu. Nulla vitae
+            dolor vehicula, sodales orci vel, vulputate orci. Sed eleifend dui urna, a maximus
+            velit efficitur vel. Donec cursus massa ac turpis porttitor ornare sit amet in
+            risus. Integer vestibulum ligula arcu, id euismod urna tincidunt at. </p>
+        </td>
+      </tr>
+    </table>
+    <div class="separacion"></div>
+    <section>
+      <h2>Exámen 1ª Evaluación</h2>
+      <div class="examenes">
+        <a class="linkexamen" id="linkSinCorregir" href="examen1_valentin_castravete/index_1_examen.html"
+          target="_blank"><i class="fa fa-file-text" aria-hidden="true"></i> Sin Corregir</a>
+        <a class="linkexamen" id="linkCorregido" href="examen1_valentin_castravete/index_1_examen_corregido.html"
+          target="_blank"><i class="fa fa-file-text" aria-hidden="true"></i> Corregido</a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Block and Inline Elements</h2>
+      <h3>div</h3>
+      <p>Un elemento el cuál ocupa todo el ancho de una nueva línea por defecto. Se le pueden aplicar estilos.</p>
+      <p>Equivale a poner un estilo display:block</p>
+      <div class="ejemplo">
+        <p>&lt;div>&lt;/div></p>
+      </div>
+
+      <h3>span</h3>
+      <p>Un elemento el cuál ocupa el ancho necesario dependindo del contenido y en la misma línea en la que se ponga.
+        Se
+        le pueden aplicar estilos.</p>
+      <p>Equivale a poner un estilo display:inline.</p>
+      <p>Para ocultar un elemento se debe usar display:none</p>
+      <div class="ejemplo">
+        <p>&lt;span>&lt;/span></p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Iframe</h2>
+      <p>Se utiliza para mostrar una página web dentro de tu página web.</p>
+      <h3>name</h3>
+      <p>Si usamos el atributo, podremos usar el iframe como un objetivo de un link, el cuál modificará el contenido del
+        iframe al enlace cuando se hace click encima de él.</p>
+      <div class="ejemplo">
+        <p>&lt;a href="http://sergiobarriodual.000webhostapp.com/index.html" target="ejemploIframe"
+          id="ejemploLinkTargetIframe">&lt;/a><br>&lt;iframe src="https://www.larioja.com/" id="ejemploIframe"
+          name="ejemploIframe">&lt;/iframe></p>
+      </div>
+      <div>
+        <a href="http://sergiobarriodual.000webhostapp.com/index.html" target="ejemploIframe"
+          class="ejemploLinkTargetIframe">Ir a la página de Sergio Barrio</a>
+      </div>
+      <div>
+        <a href="blanco.html" target="ejemploIframe" class="ejemploLinkTargetIframe">Dejar en blanco el iframe</a>
+      </div>
+      <br>
+      <iframe id="ejemploIframe" name="ejemploIframe"></iframe>
+    </section>
+
+    <section>
+      <h2>Rutas de Ficheros</h2>
+      <p>Las rutas de archivos son usados cuando se enlazan a un archivos externos como:</p>
+      <ul>
+        <li>Páginas Web</li>
+        <li>Imágenes</li>
+        <li>Hojas de Estilo</li>
+        <li>JavaScripts</li>
+      </ul>
+
+      <p>Hay 2 tipos de rutas posibles a ficheros.</p>
+      <h4>Absoluta</h4>
+      <p>Es una ruta utilizada de manera que se escribe la ruta del fichero completa desde la unidad.</p>
+      <div class="ejemplo">
+        <p>src="C:\Windows\Users\usuario\html\img\icono.png"</p>
+      </div>
+      <h4>Relativa</h4>
+      <p>Es una ruta utilizada de manera que se escribe la ruta del fichero partiendo de la ruta en la que se encuentra
+        el
+        fichero desde el cuál se está haciendo referencia al fichero destino.</p>
+      <div class="ejemplo">
+        <p>src="../img/icono.png"</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Layouts</h2>
+      <p>Una página web se divide en diferentes zonas.</p>
+      <img src="img/img_sem_elements.gif" alt="Layout Elements" id="LayoutElements">
+      <ul id="listaLayoutElements">
+        <li><b>header</b> - Define una cabezera para un documento o una seccion.</li><br>
+        <li><b>nav</b> - Define un contenedor para enlaces de navegación.</li><br>
+        <li><b>section</b> - Define una seccion en un documento.</li><br>
+        <li><b>article</b> - Define un artículo autónomo independiente.</li><br>
+        <li><b>aside</b> - Define el contenido aparte del contenido (como una barra lateral)</li><br>
+        <li><b>footer</b> - Define un pie de página para un documento o una sección.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Computer Code</h2>
+      <h3>code</h3>
+      <p>Define un código de programación.</p>
+      <p> &lt;code>
+        x = 5;
+        y = 6;
+        z = x + y;
+        &lt;/code> </p>
+      <div class="ejemplo">
+        <p> <code>
+      x = 5;
+      y = 6;
+      z = x + y;
+      </code> </p>
+      </div>
+      <h3>kbd</h3>
+      <p>Define una entrada de teclado.</p>
+      <p>Save the document by pressing &lt;kbd>Ctrl + S&lt;/kbd></p>
+      <div class="ejemplo">
+        <p>Save the document by pressing <kbd>Ctrl + S</kbd></p>
+      </div>
+      <h3>samp</h3>
+      <p>Define una salida del ordenador.</p>
+      <p>If you input wrong value, the program will return &lt;samp>Error!&lt;/samp></p>
+      <div class="ejemplo">
+        <p>If you input wrong value, the program will return <samp>Error!</samp></p>
+      </div>
+      <h3>var</h3>
+      <p>Define una variable</p>
+      <p>Einstein wrote: &lt;var>E&lt;/var> = &lt;var>mc&lt;/var>&lt;sup>2&lt;/sup>.</p>
+      <div class="ejemplo">
+        <p>Einstein wrote: <var>E</var> = <var>mc</var><sup>2</sup>.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Símbolos</h2>
+      <p>Se pueden mostrar símbolos presentes y no presentes en un telado normal, tales como &sum;</p>
+      <p>Cada símbolo tiene un número y un nombre el cúal los identifica.</p>
+      <div class="ejemplo">
+        <p>La sintaxis para el número es &#38;#numeros;</p>
+      </div>
+      <div class="ejemplo">
+        <p>La sintaxis para el nombre es &#38;nombre;</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>URL Enconde</h2>
+      <p>Una <abbr title="Uniform Resource Locator">URL</abbr> identifica un documento u otro tipo de datos en una web
+      </p>
+      <p>Su sintaxis es <strong>scheme://prefix.domain:port/path/filename</strong>
+      </p>
+      <ul>
+        <li><b>scheme</b> - Define el tipo de servicio de Internet (los más comunes son http y https)</li><br>
+        <li><b>prefix</b> - Define el prefijo del dominio (por defecto para http es www)</li><br>
+        <li><b>domain</b> - Defines el nombre de dominio de Internet (como w3schools.com)</li><br>
+        <li><b>port</b> - Define el número del puerto en el cliente (por defecto para http es 80)</li><br>
+        <li><b>path</b> - Define una ruta en el servidor (si se omite: la ruta raíz del sitio)</li><br>
+        <li><b>filename</b> - Define el nombre de un documento o recurso.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>XHTML</h2>
+      <p>El <abbr title="EXtensible HyperText Markup Language">XHTML</abbr> sirve para corregir el HTML mal escrito.</p>
+    </section>
+
+    <section>
+      <h2>Formularios</h2>
+      <p>Sirven para recoger datos introducidos por el usuario.</p>
+
+      <h3>Elementos de los formularios</h3>
+      <h4>input</h4>
+      <p>Es el elemento más importante de los formularios.</p>
+      <h5>type</h5>
+      <p>Indica de que forma podrá el usuario introducir la información.</p>
+
+
+      <h6>text</h6>
+      <p>Mediante una caja de texto</p>
+      <div class="ejemploPre">
+        <pre>
+&lt;form>
+      &lt;label for="fname">First name:&lt;/label>&lt;br>
+      &lt;input type="text" id="fname" name="fname">&lt;br>
+      &lt;label for="lname">Last name:&lt;/label>&lt;br>
+      &lt;input type="text" id="lname" name="lname">
+&lt;/form> </pre>
+      </div>
+      <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname">
+      </form>
+
+
+      <h6>password</h6>
+      <p>Permite ocultar los caracteres escritos sustituyéndolos por asteriscos a la vista del usuario.</p>
+      <div class="ejemploPre">
+        <pre>
+&lt;form>
+      &lt;label for="contraseñaEjemplo">Contraseña&lt;/label>
+      &lt;input type="password" name="contraseñaEjemplo" id="contraseñaEjemplo">
+&lt;/form></pre>
+      </div>
+      <form>
+        <label for="contraseñaEjemplo">Contraseña</label>
+        <input type="password" name="contraseñaEjemplo" id="contraseñaEjemplo">
+      </form>
+
+
+      <h6>radio</h6>
+      <p>Mediante botones tipo radio.</p>
+      <div class="ejemploPre">
+        <pre>
+&lt;form>
+      &lt;input type="radio" id="male" name="gender" value="male">
+      &lt;label for="male">Male&lt;/label>&lt;br>
+      &lt;input type="radio" id="female" name="gender" value="female">
+      &lt;label for="female">Female&lt;/label>&lt;br>
+      &lt;input type="radio" id="other" name="gender" value="other">
+      &lt;label for="other">Other&lt;/label>
+&lt;/form></pre>
+      </div>
+      <form>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+      </form>
+
+
+      <h6>checkbox</h6>
+      <p>Mediante botones tipo checkbox.</p>
+
+      <div class="ejemploPre">
+        <pre>
+&lt;form>
+      &lt;input type="checkbox" id="coche" name="mediotransporte" value="coche">
+      &lt;label for="coche">Coche&lt;/label>&lt;br>
+      &lt;input type="checkbox" id="bicicleta" name="mediotransporte" value="bicicleta">
+      &lt;label for="bicicleta">Bicicleta&lt;/label>&lt;br>
+      &lt;input type="checkbox" id="autobus" name="mediotransporte" value="autobus">
+      &lt;label for="autobus">Autobús&lt;/label>
+&lt;/form></pre>
+      </div>
+
+      <form>
+        <input type="checkbox" id="coche" name="mediotransporte" value="coche">
+        <label for="coche">Coche</label><br>
+        <input type="checkbox" id="bicicleta" name="mediotransporte" value="bicicleta">
+        <label for="bicicleta">Bicicleta</label><br>
+        <input type="checkbox" id="autobus" name="mediotransporte" value="autobus">
+        <label for="autobus">Autobús</label>
+      </form>
+
+
+      <h6>submit</h6>
+      <p>Envía la información de los campos a rellenar o botones a seleccionar a un form-handler, que es una página en
+        el
+        servidor con un script que procesa la información.</p>
+      <p>La ruta al archivo form-handler se indica con el atributo
+        action en el elemento form.</p>
+      <div class="ejemploPre">
+        <pre>
+&lt;form action="/action_page.php">
+      &lt;label for="fname">First name:&lt;/label>&lt;br>
+      &lt;input type="text" id="fname" name="fname" value="John">&lt;br>
+      &lt;label for="lname">Last name:&lt;/label>&lt;br>
+      &lt;input type="text" id="lname" name="lname" value="Doe">&lt;br>&lt;br>
+      &lt;input type="submit" value="Submit">
+&lt;/form></pre>
+      </div>
+      <form>
+        <label for="fname1">First name:</label><br>
+        <input type="text" id="fname1" name="fname1" value="John"><br>
+        <label for="lname2">Last name:</label><br>
+        <input type="text" id="lname2" name="lname2" value="Doe"><br><br>
+        <input type="submit" value="Submit">
+      </form>
+
+
+
+      <h6>button</h6>
+      <p>Botón el cuál le das una acción que hacer.</p>
+      <div class="ejemploPre">
+        <pre>
+&lt;form>
+      &lt;type="button" onclick="alert('¡¡Aviso!!')"  value="Botón">&lt;br>
+&lt;/form></pre>
+      </div>
+      <form>
+        <input type="button" onclick="alert('¡¡Aviso!!')" value="Botón"><br>
+      </form>
+
+
+      <h4>label</h4>
+      <p>Es una etiqueta que los lectores de pantallas lo leen, además ayuda en los botones radio ya que si haces click
+        sobre la etiqueta, el boton radio se activará.</p>
+      <p>El atributo for es la relación con el input que tiene mediante la id de este.</p>
+    </section>
+
+
   </div>
-
-  <h2>Block and Inline Elements</h2>
-  <h3>div</h3>
-  <p>Un elemento el cuál ocupa todo el ancho de una nueva línea por defecto. Se le pueden aplicar estilos.</p>
-  <div class="ejemplo"><p>&lt;div>&lt;/div></p></div>
-
-  <h3>span</h3>
-  <p>Un elemento el cuál ocupa el ancho necesario dependindo del contenido y en la misma línea en la que se ponga.  Se le pueden aplicar estilos.</p>
-  <div class="ejemplo"><p>&lt;span>&lt;/span></p></div>
-  </div>
-
-  <h2>Iframe</h2>
-  <p>Se utiliza para mostrar una página web dentro de tu página web.</p>
-  <h3>name</h3>
-  <p>Si usamos el atributo, podremos usar el iframe como un objetivo de un link, el cuál modificará el contenido del iframe al enlace cuando se hace click encima de él.</p>
-  <div class="ejemplo"><p>&lt;a href="http://sergiobarriodual.000webhostapp.com/index.html" target="ejemploIframe"  id="ejemploLinkTargetIframe">&lt;/a><br>&lt;iframe src="https://www.larioja.com/" id="ejemploIframe" name="ejemploIframe">&lt;/iframe></p></div>
-  <div><a href="http://sergiobarriodual.000webhostapp.com/index.html" target="ejemploIframe" id="ejemploLinkTargetIframe">Ir a la página de Sergio Barrio</a></div>
-  <br>
-  <iframe src="" id="ejemploIframe" name="ejemploIframe"></iframe>
-
-  <h2>File Paths</h2>
-  <p></p>
-
   <footer>
     <iframe src="footer.html" name="footer" class="botIframe"></iframe>
   </footer>
