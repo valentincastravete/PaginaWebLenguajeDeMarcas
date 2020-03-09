@@ -1,0 +1,129 @@
+body {
+  background-color: #cccccc;
+  font-family: Arial;
+  margin: 0;
+}
+
+h1 {
+  font-size: 62.5px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#primerTexto {
+  font-size: 32px;
+  text-align: center;
+  margin-top: -15px;
+  padding-top: 10px;
+  padding-bottom: 80px;
+  margin-left: 250px;
+  margin-right: 250px;
+  border: 3px solid #7d6536;
+  background-color: #ffd580;
+}
+
+#textoArribaIzquierda {
+  font-size: 32px;
+  position: fixed;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 30px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin-left: 125px;
+  margin-top: 280px;
+  margin-right: 1100px;
+  margin-bottom: 380px;
+  border: 5px solid #d6d643;
+  background-color: #ffff80;
+}
+
+#textoArribaIzquierda:hover{
+  z-index: 2;
+}
+
+#textoArribaDerecha {
+  font-size: 32px;
+  text-align: right;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin-left: 1120px;
+  margin-right: 125px;
+  margin-top: 280px;
+  margin-bottom: 380px;
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-right: 10px;
+  border: 5px solid #9fc6c6;
+  background-color: #cff;
+}
+
+#textoArribaDerecha:hover{
+  z-index: 2;
+}
+
+#textoCentro {
+  font-size: 32px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin-left: 650px;
+  margin-right: 610px;
+  margin-top: 430px;
+  margin-bottom: 230px;
+  padding-left: 10px;
+  padding-top: 10px;
+  border: 5px solid #367d36;
+  background-color: #80ff80;
+  z-index: 1;
+}
+
+#textoAbajoIzquierda {
+  font-size: 32px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin-left: 125px;
+  margin-top: 650px;
+  margin-right: 1100px;
+  margin-bottom: 40px;
+  padding-left: 10px;
+  padding-top: 10px;
+  border: 5px solid #bea7be;
+  background-color: #ffe6ff;
+}
+
+#textoAbajoIzquierda:hover{
+  z-index: 1;
+}
+
+#textoAbajoDerecha {
+  font-size: 32px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin-left: 1120px;
+  margin-right: 125px;
+  margin-top: 650px;
+  margin-bottom: 40px;
+  text-align: right;
+  padding-top: 10px;
+  padding-right: 10px;
+  border: 5px solid #846262;
+  background-color: #ffb3b3;
+}
+
+#textoAbajoDerecha:hover{
+  z-index: 1;
+}

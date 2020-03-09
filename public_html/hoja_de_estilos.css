@@ -155,6 +155,30 @@ iframe[name="menu"] {
   margin-right: 30%;
 }
 
+#linkEjercicio1 {
+  color: black;
+  float: left;
+  margin-left: 30%;
+}
+
+#linkEjercicio1:hover {
+  color: white;
+  float: left;
+  margin-left: 30%;
+}
+
+#linkEjercicioMurphy {
+  color: black;
+  float: right;
+  margin-right: 30%;
+}
+
+#linkEjercicioMurphy:hover {
+  color: white;
+  float: right;
+  margin-right: 30%;
+}
+
 .examenes {
   height: 60px;
 }
