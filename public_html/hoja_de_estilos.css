@@ -119,64 +119,22 @@ iframe[name="menu"] {
   width: 100%;
 }
 
-.linkexamen:link, .linkexamen {
+.linkEjercicios {
   font-size: 30px;
   text-decoration: none;
   padding: 10px;
+  color: black;
+  float: left;
+  margin-left: 25%;
 }
 
-.linkexamen:hover {
+.linkEjercicios:hover {
+  color: white;
+  float: left;
+  margin-left: 25%;
   text-decoration: none;
   background-color: #FF9448;
   padding: 10px;
-}
-
-#linkSinCorregir {
-  color: black;
-  float: left;
-  margin-left: 30%;
-}
-
-#linkSinCorregir:hover {
-  color: white;
-  float: left;
-  margin-left: 30%;
-}
-
-#linkCorregido {
-  color: black;
-  float: right;
-  margin-right: 30%;
-}
-
-#linkCorregido:hover {
-  color: white;
-  float: right;
-  margin-right: 30%;
-}
-
-#linkEjercicio1 {
-  color: black;
-  float: left;
-  margin-left: 30%;
-}
-
-#linkEjercicio1:hover {
-  color: white;
-  float: left;
-  margin-left: 30%;
-}
-
-#linkEjercicioMurphy {
-  color: black;
-  float: right;
-  margin-right: 30%;
-}
-
-#linkEjercicioMurphy:hover {
-  color: white;
-  float: right;
-  margin-right: 30%;
 }
 
 .examenes {
