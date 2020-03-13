@@ -1,148 +1,74 @@
-@font-face {
-  font-family: Starjedi;
-  src: url('ejercicio star wars/fuentes/Starjedi.ttf');
-}
-
-body {
-  background-image: url("ejercicio star wars/multimedia/fondo1.jpeg");
-  background-size: 1440px 922px;
-  background-repeat: no-repeat;
-  background-color: #222222;
-  margin: 0;
-  width: 1440px;
-  height: 922px;
-}
-
-#titulo {
-  margin-left: 2%;
-  margin-right: 4.3%;
-  margin-top: 2.6%;
-  background-image: url("ejercicio star wars/multimedia/stars.jpg");
-  text-align: center;
-  border: 5px solid #cf111d;
-}
-
-#textoTitulo {
-  margin: 0;
-  margin-bottom: 10px;
-  font-family: Starjedi;
-  color: yellow;
-  font-size: 33px;
-}
-
-#primerParrafo {
-  margin-left: 2%;
-  margin-right: 4.3%;
-  margin-top: 0.4%;
-  border: 5px solid #cf111d;
-  background-image: url("ejercicio star wars/multimedia/lava.png");
-  background-size: cover;
-}
-
-#textoPrimerParrafo {
-  padding: 0;
-  margin: 0;
-  font-family: Candara;
-  font-size: 17.6px;
-  line-height: 1.1;
-  text-align: justify;
+#menu{
+  width: 100%;
+  position: fixed;
+  height: 75px;
+  margin: 0px;
+  padding: 0px;
+  font-size: 65px;
   color: white;
+  font-weight: bolder;
+  background-color: hsl(235.4, 20.3%, 25.1%);
 }
 
-#dosDivFuera {
-  margin-left: 2%;
-  margin-right: 4.3%;
-  margin-top: 0.9%;
+#separacion{
+  height: 75px;
 }
 
-#contenedorTexto {
-  border: 5px solid #cf111d;
-  width: 21.4%;
-  background-image: url("ejercicio star wars/multimedia/stars.jpg");
-  text-align: center;
-  color: yellow;
-  font-family: Candara;
-  font-size: 19px;
-  line-height: 1.1;
-  float: left;
+body{
+  margin: 0px;
+  font-family: arial;
+  background-color: #e0e1eb;
 }
 
-#texto1 {
-  padding-left: 5%;
-  padding-right: 5%;
+#separacion1{
+    height: 53px;
+    padding: 0px;
+    margin: 0px;
 }
 
-#texto2 {
-  padding-left: 4%;
-  padding-right: 4%;
+.titulo1{
+    margin-left: 10%;
+    padding: 0px;
+    height: 75px;
+    width: 80%;
+    font-size: 65px;
+    color: white;
+    font-weight: bolder;
+    background-color: hsl(235.4, 20.3%, 25.1%);
+    text-align: center;
 }
 
-#texto3 {
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-bottom: 2%;
-  margin-bottom: 0;
-}
-
-#dosDivDentro {
-  float: right;
-  border: 5px solid #cf111d;
-  width: 75.7%;
-  height: 459.867px;
-  background-image: url("ejercicio star wars/multimedia/lava.png");
-  background-size: cover;
-}
-
-#tabla {
-  float: left;
-  padding-top: 0.5%;
-  padding-left: 3%;
+.titulos{
+  margin-left: 20%;
+  padding: 0px;
+  height: 45px;
+  width: 59%;
+  font-size: 40px;
   color: white;
-}
-
-#tabla td {
-  border: 2px solid white;
-}
-
-#tituloTabla {
-  font-family: Starjedi;
-  font-size: 25px;
-  color: white;
+  background-color: #29a333;
   text-align: left;
-  margin-bottom: -5px;
+  padding-left: 1%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 
-#fotos {
-  margin-top: 1.8%;
-  margin-left: 45%;
-}
-
-#chosenOne {
-  margin-bottom: 2%;
-}
-
-#recaudacion {
-  margin-left: 2%;
-  margin-right: 4.3%;
-  margin-top: 34.5%;
-  border: 5px solid #cf111d;
-  background-image: url("ejercicio star wars/multimedia/lava.png");
-  background-size: cover;
-}
-
-#tituloRecaudacion {
-  font-family: Starjedi;
-  color: white;
-  font-size: 22px;
-}
-
-#textoRecaudacion {
-  padding: 0;
-  margin: 0;
-  margin-bottom: 0.3%;
-  font-family: Candara;
-  font-size: 17.3px;
-  line-height: 1.1;
+.textos{
+  margin-left: 20%;
+  font-size: 2rem;
+  width: 58%;
+  font-weight: 400;
+  color: black;
+  background-color: white;
+  padding-bottom: 2%;
+  padding-top: 1px;
+  padding-left: 1%;
+  padding-right: 1%;
   text-align: justify;
-  color: white;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.parrafos{
+  margin: 0;
+  padding-top: 1%;
 }
