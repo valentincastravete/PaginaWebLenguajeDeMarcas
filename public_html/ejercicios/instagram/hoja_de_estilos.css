@@ -1,74 +1,341 @@
-#menu{
-  width: 100%;
-  position: fixed;
-  height: 75px;
-  margin: 0px;
-  padding: 0px;
-  font-size: 65px;
-  color: white;
-  font-weight: bolder;
-  background-color: hsl(235.4, 20.3%, 25.1%);
-}
-
-#separacion{
-  height: 75px;
-}
-
-body{
-  margin: 0px;
-  font-family: arial;
-  background-color: #e0e1eb;
-}
-
-#separacion1{
-    height: 53px;
-    padding: 0px;
-    margin: 0px;
-}
-
-.titulo1{
-    margin-left: 10%;
-    padding: 0px;
-    height: 75px;
-    width: 80%;
-    font-size: 65px;
-    color: white;
-    font-weight: bolder;
-    background-color: hsl(235.4, 20.3%, 25.1%);
-    text-align: center;
-}
-
-.titulos{
-  margin-left: 20%;
-  padding: 0px;
-  height: 45px;
-  width: 59%;
-  font-size: 40px;
-  color: white;
-  background-color: #29a333;
-  text-align: left;
-  padding-left: 1%;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
-}
-
-.textos{
-  margin-left: 20%;
-  font-size: 2rem;
-  width: 58%;
-  font-weight: 400;
-  color: black;
-  background-color: white;
-  padding-bottom: 2%;
-  padding-top: 1px;
-  padding-left: 1%;
-  padding-right: 1%;
-  text-align: justify;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-}
-
-.parrafos{
+body {
   margin: 0;
-  padding-top: 1%;
+  width: 1440px;
+  height: 768px;
+  font-family: "Segoe UI";
+  background-color: #212121;
+}
+
+#busqueda {
+  height: 6.55%;
+  padding-top: 1.75%;
+  border-bottom: 1px solid #dbdbdb;
+  background-color: #ffffff;
+}
+
+#iconoInstagram {
+  font-size: 28px;
+  margin-left: 17.55%;
+  float: left;
+  margin-right: 0.5%;
+}
+
+#separacionIconoLogo {
+  width: 0px;
+  height: 28px;
+  margin: 0;
+  margin-left: 292.8px;
+  position: absolute;
+  border-left: 1px solid black;
+}
+
+#logoInstagram {
+  margin-left: 1.7%;
+  width: 110px;
+  margin-top: -0.1%;
+}
+
+#cajaBusqueda {
+  border-radius: 3px;
+  border: 1px solid #dbdbdb;
+  background-color: #fafafa;
+  float: right;
+  width: 213px;
+  margin-right: 42.49%;
+  height: 26px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+#textoCajaBusqueda {
+  display: inline;
+  padding-top: 2%;
+  color: #b3b3b3;
+  letter-spacing: -0.039em;
+  font-size: 14px;
+  padding-left: 6px;
+  padding-right: 11px;
+  padding-bottom: 5px;
+}
+
+#iconoBusqueda {
+  display: inline;
+  color: #b3b3b3;
+  font-size: 10.5px;
+  padding-right: 1px;
+  padding-bottom: 0.47px;
+}
+
+#fondo {
+  background-color: #fafafa;
+  padding-top: 38px;
+  padding-left: 311.7px;
+  height: 85.1%;
+}
+
+#instagram {
+  background-color: #ffffff;
+  width: 814px;
+  border: 1px solid #dbdbdb;
+  height: 598px;
+}
+
+#foto {
+  width: 479px;
+  height: 598px;
+  position: absolute;
+}
+
+#comentarios {
+  height: 598px;
+  width: 335px;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 479px;
+}
+
+.iconoRosalia {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+#iconoEHistoria {
+  margin-top: 11%;
+  margin-left: 10%;
+  position: absolute;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.historias {
+  position: absolute;
+}
+
+#nombreArriba {
+  position: absolute;
+  margin-top: 5.95%;
+  margin-left: 19.5%;
+}
+
+#verificadoArriba {
+  position: absolute;
+  margin-top: 6.8%;
+  margin-left: 37.8%;
+  width: 12px;
+}
+
+#puntoMedio {
+  position: absolute;
+  margin-top: 5.95%;
+  margin-left: 42.5%;
+}
+
+#seguir {
+  position: absolute;
+  margin-top: 5.95%;
+  margin-left: 45.5%;
+  color: #3897f0;
+}
+
+#localizacion {
+  position: absolute;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 11.3%;
+  margin-left: 19.5%;
+  width: 300px;
+}
+
+#tresPuntos {
+  position: absolute;
+  margin-top: 8.8%;
+  margin-left: 90.7%;
+  width: 14px;
+}
+
+#cuentaRosalia {
+  border-bottom: 1px solid #f0f0f0;
+  height: 71px;
+}
+
+#iconoEHistoria2 {
+  margin-top: 11.8%;
+  margin-left: 10%;
+  position: absolute;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+#nombreAbajo {
+  position: absolute;
+  margin-top: 7%;
+  margin-left: 20%;
+}
+
+#verificadoAbajo {
+  position: absolute;
+  margin-top: 7.8%;
+  margin-left: 38%;
+  width: 12px;
+}
+
+#fraseArriba {
+  position: absolute;
+  margin-top: 7%;
+  margin-left: 42.8%;
+  width: 200px;
+  font-weight: 400;
+}
+
+#fraseAbajo {
+  position: absolute;
+  margin-top: 12.5%;
+  margin-left: 20%;
+  width: 300px;
+  font-weight: 400;
+}
+
+#haceCuantoRosalia {
+  position: absolute;
+  margin-top: 21.5%;
+  font-size: 12px;
+  color: #a0a0a0;
+  margin-left: 20%;
+  font-weight: 400;
+}
+
+#plus {
+  position: absolute;
+  margin-top: 33.5%;
+  margin-left: 49%;
+  width: 23px;
+}
+
+#iconoJenny {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 50%;
+  margin-left: 5.3%;
+}
+
+#nombreJenny {
+  position: absolute;
+  margin-top: 50%;
+  margin-left: 20%;
+}
+
+#fraseJenny {
+  position: absolute;
+  margin-top: 50%;
+  margin-left: 39%;
+}
+
+#haceCuantoJenny {
+  position: absolute;
+  margin-top: 59.2%;
+  font-size: 12px;
+  color: #a0a0a0;
+  margin-left: 20%;
+  font-weight: 400;
+}
+
+#responder {
+  position: absolute;
+  margin-top: 59.2%;
+  color: #a0a0a0;
+  font-size: 12px;
+  margin-left: 33%;
+}
+
+#separacionAbajo1 {
+  position: absolute;
+  margin-top: 112.5%;
+  width: 335px;
+  border-top: 1px solid #f0f0f0;
+}
+
+#corazon {
+  position: absolute;
+  margin-top: 116.5%;
+  margin-left: 5.2%;
+  width: 24px;
+  height: 23px;
+}
+
+#bocadillo {
+  position: absolute;
+  margin-top: 116.5%;
+  margin-left: 17%;
+  width: 23px;
+}
+
+#avion {
+  position: absolute;
+  margin-top: 116.5%;
+  margin-left: 29%;
+  width: 23px;
+}
+
+#marcador {
+  position: absolute;
+  margin-top: 116%;
+  margin-left: 87.8%;
+  width: 29px;
+  height: 26px;
+}
+
+#megusta {
+  position: absolute;
+  margin-top: 125.5%;
+  margin-left: 5.2%;
+}
+
+#fecha {
+  position: absolute;
+  margin-top: 133.2%;
+  color: #a0a0a0;
+  font-size: 10.2px;
+  margin-left: 5.2%;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+#separacionAbajo2 {
+  position: absolute;
+  margin-top: 140.5%;
+  width: 335px;
+  border-top: 1px solid #f0f0f0;
+}
+
+#iniciaSesion {
+  position: absolute;
+  margin-top: 143.5%;
+  color: #003569;
+  margin-left: 5.2%;
+  font-weight: 400;
+}
+
+#penulTexto {
+  position: absolute;
+  margin-top: 143.5%;
+  color: #a0a0a0;
+  margin-left: 28%;
+  font-weight: 400;
+}
+
+#ultTexto {
+  position: absolute;
+  margin-top: 148.8%;
+  color: #a0a0a0;
+  margin-left: 5.2%;
+  font-weight: 400;
 }
