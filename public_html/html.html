@@ -1315,21 +1315,21 @@
     <div class="separacion"></div>
     <section>
       <h2>Exámen 1ª Evaluación</h2>
-      <div class="examenes">
-        <a class="linkEjercicios" href="examen1_valentin_castravete/index_1_examen.html"
-          target="_blank"><i class="fa fa-file-text" aria-hidden="true"></i> Sin Corregir</a>
-        <a class="linkEjercicios" href="examen1_valentin_castravete/index_1_examen_corregido.html"
-          target="_blank"><i class="fa fa-file-text" aria-hidden="true"></i> Corregido</a>
+      <div class="ejercicios">
+        <a class="linkEjercicios" href="examen1_valentin_castravete/index_1_examen.html" target="_blank"><i
+            class="fa fa-file-text" aria-hidden="true"></i> Sin Corregir</a>
+        <a class="linkEjercicios" href="examen1_valentin_castravete/index_1_examen_corregido.html" target="_blank"><i
+            class="fa fa-file-text" aria-hidden="true"></i> Corregido</a>
       </div>
     </section>
 
     <section>
       <h2>Ejercicios Exámen 1ª Evaluación</h2>
-      <div class="examenes">
-        <a class="linkEjercicios" href="ejercicios/1/index.html"
-          target="_blank"><i class="fa fa-file-text" aria-hidden="true"></i> Ejercicio 1</a>
-        <a class="linkEjercicios" href="ejercicios/murphy/index.html"
-          target="_blank"><i class="fa fa-file-text" aria-hidden="true"></i> Leyes de Murphy</a>
+      <div class="ejercicios">
+        <a class="linkEjercicios" href="ejercicios/1/index.html" target="_blank"><i class="fa fa-file-text"
+            aria-hidden="true"></i> Ejercicio 1</a>
+        <a class="linkEjercicios" href="ejercicios/murphy/index.html" target="_blank"><i class="fa fa-file-text"
+            aria-hidden="true"></i> Leyes de Murphy</a>
       </div>
     </section>
 
@@ -1623,14 +1623,54 @@
 
     <section>
       <h2>Ejercicios 2ª Evaluación</h2>
-      <div class="examenes">
-        <a class="linkEjercicios" href="ejercicios/starwars/index.html"
-          target="_blank"><i class="fa fa-file-text" aria-hidden="true"></i> Star Wars</a>
-        <a class="linkEjercicios" href="ejercicios/instagram/index.html"
-          target="_blank"><i class="fa fa-file-text" aria-hidden="true"></i> Instagram</a>
+      <div class="ejercicios">
+        <a class="linkEjercicios" href="ejercicios/starwars/index.html" target="_blank"><i class="fa fa-file-text"
+            aria-hidden="true"></i> Star Wars</a>
+        <a class="linkEjercicios" href="ejercicios/instagram/index.html" target="_blank"><i class="fa fa-file-text"
+            aria-hidden="true"></i> Instagram</a>
+      </div>
+      <div>
+        <a class="linkEjercicios" href="ejercicios/formularios/index.html" target="_blank"><i class="fa fa-file-text"
+            aria-hidden="true"></i> Formularios</a>
       </div>
     </section>
+    <br><br>
 
+    <section>
+      <h2>JavaScript</h2>
+      <p>Es un lenguaje utilizado para el dinamismo e interactividad de una página web.</p>
+      <p>Se puede usar dentro del propio archivo html utilizando la etiqueta script.</p>
+      <div class="ejemplo">
+        <p>&lt;script> código &lt;/script></p>
+      </div>
+      <p>También se puede usando un enlace a un archivo js. Poniendo en la etiqueta script el enlace con el atributo
+        src.</p>
+      <div class="ejemplo">
+        <p class="ejemplo">&lt;script src=""></p>
+      </div>
+      <p>Con el comando console.log() podemos imprimir mensajes por la consola de las herramientas de desarrollo.</p>
+      <div class="ejemploPre">
+        <pre>&lt;script>
+  console.log("Hola");
+&lt;/script></pre>
+      </div>
+      <p>Para enviar un mensaje de alerta mediante una caja de texto al usuario se usa el comando alert.</p>
+      <div class="ejemploPre">
+        <pre>&lt;script>
+    window.alert("Mensaje");
+&lt;/script></pre>
+      </div>
+      <p>Para declarar variables no se necesita indicar que tipo de variable es.</p><br>
+      <p>Para acceder a un elemento del documento html, podemos usar el método "document.getElementById(id)".</p>
+      <p>Una vez accedido al elemento lo igualamos al dato que queramos introducir en el.</p>
+      <div class="ejemploPre">
+        <pre>&lt;p id="demo">&lt;/p>
+
+&lt;script>
+  document.getElementById("demo").innerHTML = 5 + 6;
+&lt;/script></pre>
+      </div>
+    </section>
   </div>
   <footer>
     <iframe src="footer.html" name="footer" class="botIframe"></iframe>

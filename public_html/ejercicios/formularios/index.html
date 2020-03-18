@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <title>Formularios</title>
+  <link rel='stylesheet' type='text/css' media='screen' href='hoja_de_estilos.css'>
+</head>
+<!-- Un formulario que tiene:
+	    - Todos los controles que hemos visto, inpout text, input password, input text area, input date, 
+	      email, radio button, checkbox.
+	    - El formulario sirve para vender algo a alguien, es decir, que tienes que elegir varias opciones, dar datos personales,
+	      ser bonito, relacionado con un producto de consumo cualquiera-->
+
+<body>
+  <h1>Hamburgersas</h1>
+  <h2>Hamburguesa</h2>
+  <p>Indique que quiere incluir en su hamburguesa:</p>
+  <form>
+    <input type="checkbox" id="pan" name="pan" value="Pan">
+    <label for="`pan"> Pan</label><br><br>
+    <input type="checkbox" id="carne" name="carne" value="Carne">
+    <label for="carne"> Carne</label><br><br>
+    <input type="checkbox" id="queso" name="queso" value="Queso">
+    <label for="queso"> Queso</label><br><br>
+    <input type="checkbox" id="tomate" name="tomate" value="Tomate">
+    <label for="tomate"> Tomate</label><br><br>
+    <input type="checkbox" id="lechuga" name="lechuga" value="Lechuga">
+    <label for="lechuga"> Lechuga</label><br><br>
+    <input type="checkbox" id="pepinillo" name="pepinillo" value="Pepinillo">
+    <label for="pepinillo"> Pepinillo</label><br><br>
+    <input type="checkbox" id="mayonesa" name="mayonesa" value="Mayonesa">
+    <label for="mayonesa"> Mayonesa</label><br><br>
+    <input type="checkbox" id="ketchup" name="ketchup" value="Ketchup">
+    <label for="ketchup"> Ketchup</label>
+  </form>
+
+  <h2>Bebida</h2>
+  <p>Indique la bebida con la que quiere acompañar a su hamburguesa:</p>
+  <form>
+    <input type="radio" name="bebidas" id="cocacola" value="cocacola">
+    <label for="cocacola">Coca-Cola</label><br><br>
+    <input type="radio" name="bebidas" id="kasnaranja" value="kasnaranja">
+    <label for="kasnaranja">Kas de Naranja</label><br><br>
+    <input type="radio" name="bebidas" id="kaslimon" value="kaslimon">
+    <label for="kaslimon">Kas de Limón</label><br><br>
+    <input type="radio" name="bebidas" id="sinbebida" value="sinbebida">
+    <label for="sinbebida">Sin Bebida</label><br>
+  </form>
+
+  <h2>Patatas</h2>
+  <p>Indique el tamaño de las patatas con la que quiere acompañar a su hamburguesa:</p>
+  <form>
+    <input type="radio" name="patatas" id="small" value="small">
+    <label for="small">Pequeñas</label><br><br>
+    <input type="radio" name="bebidas" id="medium" value="medium">
+    <label for="medium">Medianas</label><br><br>
+    <input type="radio" name="bebidas" id="large" value="large">
+    <label for="large">Grandes</label><br><br>
+    <input type="radio" name="bebidas" id="sinpatatas" value="sinpatatas">
+    <label for="sinpatatas">Sin Patatas</label><br>
+  </form>
+
+  <h2>Datos Personales</h2>
+  <form>
+    <label for="nombre">Nombre</label>
+    <pre>&#09;</pre>
+    <pre>&#09;</pre>
+    <pre>&#09;</pre>
+    <input type="text" name="nombre" id="nombre"><br><br>
+    <label for="password">Contraseña</label>
+    <pre>&#09;</pre>
+    <pre>&#09;</pre>
+    <input type="password" name="password" id="password"><br><br>
+    <label for="telefono">Teléfono</label>
+    <pre>&#09;</pre>
+    <pre>&#09;</pre>
+    <pre>&#09;</pre>
+    <input type="text" id="telefono" name="telefono"><br><br>
+    <label for="birthday">Fecha de nacimiento</label>
+    <pre>&#09;</pre>
+    <input type="date" id="birthday" name="birthday"><br><br>
+    <label for="email">Correo electrónico</label>
+    <pre>&#09;</pre>
+    <pre>&#09;</pre>
+    <input type="email" id="email" name="email">
+  </form>
+
+  <h2>Realizar Pedido</h2>
+  <form>
+    <input type="submit" id="enviar" value="Enviar">
+  </form>
+</body>
+
+</html>
