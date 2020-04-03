@@ -1,10 +1,11 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset='utf-8'>
     <title>Youtube</title>
     <link rel='stylesheet' type='text/css' media='screen' href='hoja_de_estilos.css'>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -12,7 +13,7 @@
         <img src="img/menu.png" alt="menu" class="barras">
         <img src="img/youtube.png" alt="youtube" class="iconoYT">
         <div class="cajaBusqueda">
-            <div class="cajaBusquedaTexto">despacito</div>
+            <input class="cajaBusquedaTexto" type="text" placeholder="Buscar">
             <div class="cajaBusquedaImagen">
                 <img src="img/buscar.png" alt="buscar" class="iconoBuscar">
             </div>
@@ -23,27 +24,119 @@
         <img src="img/emilio.png" alt="E" class="emilio">
     </div>
     <div class="videos">
-        <iframe width="966" height="543.367" src="https://www.youtube.com/embed/jH0_Lu69FHg" frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <div class="descripcionVideoPrincipal">
-            <p class="etiquetas"></p>
-            <p class="nombreVideoPrincipal">Artio, Las Joust antes duraban poco... xDD - Warchi - Smite Joust S7</p>
-            <p class="visualizacionesYFecha">18.506 visualizaciones • 26 mar. 2020</p>
-            <img src="img/megustacompartirguardar.png" alt="Botones" class="botones">
-        </div>
-        <div class="descripcionVideo">
-            <div class="logoWarchi">
-                <a href="https://www.youtube.com/channel/UCtslOJMv86Pi3sms_pyRx7Q">
-                    <img src="img/warchi.png" alt="Warchi" class="iconoWarchi"></a>
+        <div class="principal">
+            <iframe width="966" height="543.367" src="https://www.youtube.com/embed/jH0_Lu69FHg" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+                name="videoPrincipal"></iframe>
+            <div class="descripcionVideoPrincipal">
+                <p class="etiquetas"></p>
+                <p class="nombreVideoPrincipal">Artio, Las Joust antes duraban poco... xDD - Warchi - Smite Joust S7</p>
+                <p class="visualizacionesYFecha">18.506 visualizaciones • 26 mar. 2020</p>
+                <img src="img/megustacompartirguardar.png" alt="Botones" class="botones">
             </div>
-            <a class="nombreYoutuber" href="https://www.youtube.com/channel/UCtslOJMv86Pi3sms_pyRx7Q">Warchiwar</a>
-            <img src="img/verificado.png" alt="Verificado" class="verificado">
-            <button class="suscribirse">SUSCRIBIRSE</button>
-            <p class="suscriptores">191.000 suscriptores</p>
-            <p class="descripcion">Link Creador de Contenido para comprar Gemas: <a
-                    href="https://link.xsolla.com/MP3OVNju">https://link.xsolla.com/MP3OVNju</a></p>
-            <p class="descripcion">Sígueme en Twitch: <a
-                    href="http://www.twitch.tv/warchiwar">http://www.twitch.tv/warchiwar</a></p>
+            <div class="descripcionVideo">
+                <div class="logoWarchi">
+                    <a href="https://www.youtube.com/channel/UCtslOJMv86Pi3sms_pyRx7Q">
+                        <img src="img/warchi.png" alt="Warchi" class="iconoWarchi"></a>
+                </div>
+                <a class="nombreYoutuber" href="https://www.youtube.com/channel/UCtslOJMv86Pi3sms_pyRx7Q">Warchiwar</a>
+                <img src="img/verificado.png" alt="Verificado" class="verificado">
+                <button class="suscribirse">SUSCRIBIRSE</button>
+                <p class="suscriptores">191.000 suscriptores</p>
+                <p class="descripcion">Link Creador de Contenido para comprar Gemas: <a
+                        href="https://link.xsolla.com/MP3OVNju">https://link.xsolla.com/MP3OVNju</a></p>
+                <p class="descripcion">Sígueme en Twitch: <a
+                        href="http://www.twitch.tv/warchiwar">http://www.twitch.tv/warchiwar</a></p>
+            </div>
+        </div>
+        <div class="videosLaterales">
+            <div class="opciones">
+                <p class="siguiente">Siguiente</p>
+                <p class="reproduccion">REPRODUCCIÓN AUTOMÁTICA</p>
+                <img src="img/toggle.png" alt="Si/No" class="toggle">
+            </div>
+            <div class="videoLateral">
+                <a href="https://www.youtube.com/embed/xY2Pz4ojyNM" target="videoPrincipal">
+                    <img src="img/primerVideo.jpg" alt="Vídeo">
+                </a>
+                <div class="descripcionVideoLateral">
+                    <p class="nombreVideoLateral">Directo de chill! - Warchi - Directos</p>
+                    <p class="nombreYoutuberVideoLateral">Warchiwar</p>
+                    <img src="img/verificado.png" alt="Verificado">
+                    <p class="visualizaciones">157.948 visualizaciones&nbsp;•</p>
+                    <p class="tiempo">Emitido Hace 1 año</p>
+                </div>
+            </div>
+            <p id="separacionVideoLateral"></p>
+            <div class="videoLateral">
+                <a href="https://www.youtube.com/embed/_OoCbEHtHUA" target="videoPrincipal">
+                    <img src="img/segundoVideo.jpg" alt="Vídeo">
+                </a>
+                <div class="descripcionVideoLateral">
+                    <p class="nombreVideoLateral">Vulcan, Partidas cortas son lo que mola :D! - Warchi - Smite...</p>
+                    <p class="nombreYoutuberVideoLateral">Warchiwar</p>
+                    <img src="img/verificado.png" alt="Verificado">
+                    <p class="visualizaciones">51.062 visualizaciones&nbsp;•</p>
+                    <p class="tiempo">Hace 1 mes</p>
+                </div>
+            </div>
+            <div class="videoLateral">
+                <a href="https://www.youtube.com/embed/jH0_Lu69FHg?list=RDCMUCtslOJMv86Pi3sms_pyRx7Q"
+                    target="videoPrincipal">
+                    <img src="img/mix.jpg" alt="Vídeo">
+                </a>
+                <div class="descripcionVideoLateral">
+                    <p class="nombreVideoLateral">Mix - Warchiwar</p>
+                    <p>YouTube</p>
+                </div>
+            </div>
+            <div class="videoLateral">
+                <a href="https://www.youtube.com/embed/p8Ar5t620v0" target="videoPrincipal">
+                    <img src="img/cuartoVideo.jpg" alt="Vídeo">
+                </a>
+                <div class="descripcionVideoLateral">
+                    <p class="nombreVideoLateral">Directo dominguero de tranquileo ;) - Warchi - Directos</p>
+                    <p class="nombreYoutuberVideoLateral">Warchiwar</p>
+                    <img src="img/verificado.png" alt="Verificado">
+                    <p class="visualizaciones">108.855 visualizaciones&nbsp;•</p>
+                    <p class="tiempo">Emitido Hace 7 meses</p>
+                </div>
+            </div>
+            <div class="videoLateral">
+                <a href="https://www.youtube.com/embed/zt3c7rqHEWI" target="videoPrincipal">
+                    <img src="img/quintoVideo.jpg" alt="Vídeo">
+                </a>
+                <div class="descripcionVideoLateral">
+                    <p class="nombreVideoLateral">MIS DIOSES FAVORITOS POR ROL EN SMITE</p>
+                    <p class="nombreYoutuberVideoLateral">Ferre</p>
+                    <p class="visualizaciones">40.481 visualizaciones&nbsp;•</p>
+                    <p class="tiempo">Hace 5 meses</p>
+                </div>
+            </div>
+            <div class="videoLateral">
+                <a href="https://www.youtube.com/embed/uySL_1Ij9v0" target="videoPrincipal">
+                    <img src="img/sextoVideo.jpg" alt="Vídeo">
+                </a>
+                <div class="descripcionVideoLateral">
+                    <p class="nombreVideoLateral">Nu Wa, Combo y pa casa :D - Warchi - Smite Joust S7</p>
+                    <p class="nombreYoutuberVideoLateral">Warchiwar</p>
+                    <img src="img/verificado.png" alt="Verificado">
+                    <p class="visualizaciones">25.081 visualizaciones&nbsp;•</p>
+                    <p class="tiempo">Hace 2 semanas</p>
+                </div>
+            </div>
+            <div class="videoLateral">
+                <a href="https://www.youtube.com/embed/7pYiBkxvkxc" target="videoPrincipal">
+                    <img src="img/septimoVideo.jpg" alt="Vídeo">
+                </a>
+                <div class="descripcionVideoLateral">
+                    <p class="nombreVideoLateral">Kuzenbo, Los ADCs siempre son molestos.... - Warchi -...</p>
+                    <p class="nombreYoutuberVideoLateral">Warchiwar</p>
+                    <img src="img/verificado.png" alt="Verificado">
+                    <p class="visualizaciones">29.995 visualizaciones&nbsp;•</p>
+                    <p class="tiempo">Hace 1 semana</p>
+                </div>
+            </div>
         </div>
     </div>
 </body>
