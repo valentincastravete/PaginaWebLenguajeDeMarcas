@@ -120,9 +120,13 @@ li, ul {
 
 #scroll{
     overflow:scroll;
-    width: 50%;
-    text-align: center;
+    color: white;
+    width: 100%;
+    text-align: justify;
     height: 300px;
+    font-family: Arial;
+    font-weight: 800;
+    font-size: 15px;
 }
 
 nav, nav a{
@@ -141,10 +145,13 @@ header{
 }
 
 footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
-    color: #ffb31a;
+    background-color: white
 }
 
-footer a{
-    color: #c88a0f;
+#tabla td, #tabla, #tabla th, caption{
+    color: white;
+    border: 1px solid white;
 }
